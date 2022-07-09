@@ -107,8 +107,8 @@
 	}
 	
 	focus = {
-		id = POL_wsparcie_zza_granicy
-		icon = GFX_focus_POL_wsparcie_zza_granicy
+		id = POL_minister_wojciechowski
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
 		prerequisite = { focus = POL_grupa_technikow_budowlanych }
 		prerequisite = { focus = POL_panstwowe_narzedzia }
 		x = 10
@@ -328,129 +328,10 @@
 		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
 		prerequisite = { focus = POL_redystrybucja_dobr focus = POL_zwrocenie_wlasnosci }
 		prerequisite = { focus = POL_przydzielenie_burmistrzow focus = POL_wynagrodzenia_robotnicze }
+		prerequisite = { focus = POL_nowa_waluta }
 		x = 0
 		y = 2
 		relative_position_id = POL_propaganda_jednosci
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = POL_wsparcie_usa
-		icon = GFX_focus_POL_wsparcie_usa
-		prerequisite = { focus = POL_wsparcie_zza_granicy }
-		x = 3
-		y = 1
-		relative_position_id = POL_wsparcie_zza_granicy
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = POL_wsparcie_rosji
-		icon = GFX_focus_POL_wsparcie_rosji
-		prerequisite = { focus = POL_wsparcie_zza_granicy }
-		x = -1
-		y = 1
-		relative_position_id = POL_wsparcie_zza_granicy
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = POL_wsparcie_unii
-		icon = GFX_focus_POL_wsparcie_unii
-		prerequisite = { focus = POL_wsparcie_zza_granicy }
-		x = 1
-		y = 1
-		relative_position_id = POL_wsparcie_zza_granicy
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		
-		completion_reward = {
-			
-		}
-	}
-	
-	focus = {
-		id = POL_wsparcie_onz
-		icon = GFX_focus_POL_wsparcie_onz
-		prerequisite = { focus = POL_wsparcie_zza_granicy }
-		x = -3
-		y = 1
-		relative_position_id = POL_wsparcie_zza_granicy
 
 		cost = 5
 
@@ -597,7 +478,7 @@
 	}
 	
 	focus = {
-		id = POL_sektor_prywatny
+		id = POL_zagraniczne_inwestycje
 		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
 		prerequisite = { focus = POL_bankier_starej_gwardii }
 		x = 1
@@ -629,7 +510,7 @@
 	focus = {
 		id = POL_wywlaszczenie_bialoleckich_dobr
 		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
-		prerequisite = { focus = POL_akcja_szukania_pracy focus = POL_sektor_prywatny }
+		prerequisite = { focus = POL_akcja_szukania_pracy focus = POL_zagraniczne_inwestycje }
 		prerequisite = { focus = POL_kwestia_podatkow }
 		mutually_exclusive = { focus = POL_otwarcie_handlu_z_warszawa }
 		x = -1
@@ -661,7 +542,7 @@
 	focus = {
 		id = POL_otwarcie_handlu_z_warszawa
 		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
-		prerequisite = { focus = POL_akcja_szukania_pracy focus = POL_sektor_prywatny }
+		prerequisite = { focus = POL_akcja_szukania_pracy focus = POL_zagraniczne_inwestycje }
 		prerequisite = { focus = POL_kwestia_podatkow }
 		x = 1
 		y = 1
@@ -721,7 +602,7 @@
 	}
 	
 	focus = {
-		id = POL_otwarcie_podstawowego_handlu
+		id = POL_bony_zywnosciowe
 		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
 		prerequisite = { focus = POL_akcja_szukania_pracy }
 		x = 0
@@ -751,12 +632,12 @@
 	}
 	
 	focus = {
-		id = POL_otwarcie_wzmozonego_handlu
+		id = POL_nieopodatkowany_handel
 		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
-		prerequisite = { focus = POL_sektor_prywatny }
+		prerequisite = { focus = POL_zagraniczne_inwestycje }
 		x = 0
 		y = 2
-		relative_position_id = POL_sektor_prywatny
+		relative_position_id = POL_zagraniczne_inwestycje
 
 		cost = 5
 
@@ -781,12 +662,12 @@
 	}
 	
 	focus = {
-		id = POL_agencja_przeciwdzialajaca_korupcji
+		id = POL_budowa_zakladow_przemyslowych
 		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
-		prerequisite = { focus = POL_otwarcie_podstawowego_handlu }
+		prerequisite = { focus = POL_bony_zywnosciowe }
 		x = 1
 		y = 1
-		relative_position_id = POL_otwarcie_podstawowego_handlu
+		relative_position_id = POL_bony_zywnosciowe
 
 		cost = 5
 
@@ -811,12 +692,12 @@
 	}
 	
 	focus = {
-		id = POL_prywatyzacja_sektora_panstwowego
+		id = POL_inwestycje_w_sektor_prywatny
 		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
-		prerequisite = { focus = POL_otwarcie_wzmozonego_handlu }
+		prerequisite = { focus = POL_nieopodatkowany_handel }
 		x = -1
 		y = 1
-		relative_position_id = POL_otwarcie_wzmozonego_handlu
+		relative_position_id = POL_nieopodatkowany_handel
 
 		cost = 5
 
@@ -843,11 +724,11 @@
 	focus = {
 		id = POL_rewilitaryzacja_budzetu
 		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
-		prerequisite = { focus = POL_agencja_przeciwdzialajaca_korupcji focus = POL_prywatyzacja_sektora_panstwowego }
+		prerequisite = { focus = POL_budowa_zakladow_przemyslowych focus = POL_inwestycje_w_sektor_prywatny }
 		prerequisite = { focus = POL_obligacje_skarbowe }
 		x = 1
 		y = 1
-		relative_position_id = POL_agencja_przeciwdzialajaca_korupcji
+		relative_position_id = POL_budowa_zakladow_przemyslowych
 
 		cost = 5
 
@@ -875,7 +756,7 @@
 		id = POL_rozpoczecie_reform
 		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
 		#prerequisite = { focus = }
-		x = 5
+		x = 3
 		y = 1
 		relative_position_id = POL_zakonczenie_odbudowy
 
@@ -1055,7 +936,7 @@
 	}
 	
 	focus = {
-		id = POL_reforma_placeholder
+		id = POL_wsparcie_najbiedniejszych
 		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
 		prerequisite = { focus = POL_rozpoczecie_reform }
 		x = 5
@@ -1087,7 +968,7 @@
 	focus = {
 		id = POL_zakonczenie_stabilizacji
 		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
-		prerequisite = { focus = POL_nowy_plan_zagospodarowania_przestrzennego_warszawy focus = POL_polityka_medalowa focus = POL_bezpieczenstwo_gabinetowe focus = POL_krrit focus = POL_uprzywilejowani_wojskowi focus = POL_reforma_placeholder }
+		prerequisite = { focus = POL_nowy_plan_zagospodarowania_przestrzennego_warszawy focus = POL_polityka_medalowa focus = POL_bezpieczenstwo_gabinetowe focus = POL_krrit focus = POL_uprzywilejowani_wojskowi focus = POL_reforma_placeholder focus = POL_wsparcie_najbiedniejszych }
 		x = 0
 		y = 2
 		relative_position_id = POL_rozpoczecie_reform
@@ -1111,6 +992,216 @@
 		
 		completion_reward = {
 			custom_effect_tooltip = "UWAGA_FOCUS_TREE"
+		}
+	}
+	
+	focus = {
+		id = POL_rozpoczecie_dialogu
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_minister_wojciechowski }
+		x = -2
+		y = 1
+		relative_position_id = POL_minister_wojciechowski
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_stary_przyjaciel
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_minister_wojciechowski }
+		x = 2
+		y = 1
+		relative_position_id = POL_minister_wojciechowski
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_gwarant_bezpieczenstwa
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_rozpoczecie_dialogu focus = POL_stary_przyjaciel }
+		x = -3
+		y = 2
+		relative_position_id = POL_minister_wojciechowski
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_wkupmy_sie_w_ich_laski
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_rozpoczecie_dialogu focus = POL_stary_przyjaciel }
+		x = -1
+		y = 2
+		relative_position_id = POL_minister_wojciechowski
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_ominiecie_sankcji
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_rozpoczecie_dialogu focus = POL_stary_przyjaciel }
+		x = 1
+		y = 2
+		relative_position_id = POL_minister_wojciechowski
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_partner_strategiczny
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_rozpoczecie_dialogu focus = POL_stary_przyjaciel }
+		x = 3
+		y = 2
+		relative_position_id = POL_minister_wojciechowski
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_nowa_waluta
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_propaganda_jednosci }
+		x = 0
+		y = 1
+		relative_position_id = POL_propaganda_jednosci
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
 		}
 	}
 	

@@ -185,14 +185,21 @@ bookmarks = {
 				ideas = {
 				}
 				focuses = {
+				
 				}
 			}
 			"POL"={
 				history = "POL_GATHERING_STORM_DESC"
 				ideology = pcw_ideology
 				ideas = {
+					pol_niepopularny_rezim
+					pol_gruzy_warszawy
+					pol_budzet_w_ruinie
 				}
 				focuses = {
+					POL_praska_ofensywa
+					POL_zajecie_fotelu_naczelnika
+					POL_II_zebranie_sztabu_generalnego
 				}
 			}
 			"---" = { history = "OTHER_GATHERING_STORM_DESC" }

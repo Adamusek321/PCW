@@ -193,4 +193,28 @@ spriteTypes = {
 		name = "GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy"
 		texturefile = 	"gfx/interface/goals/focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy.dds"
 	}
+	SpriteType = {
+		name = "GFX_focus_POL_wawerskie_przedmiescia"
+		texturefile = 	"gfx/interface/goals/focus_POL_wawerskie_przedmiescia.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_praska_ofensywa"
+		texturefile = 	"gfx/interface/goals/focus_POL_praska_ofensywa.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_kolej_na_bialoleke"
+		texturefile = 	"gfx/interface/goals/focus_POL_kolej_na_bialoleke.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_zoliborski_plan"
+		texturefile = 	"gfx/interface/goals/focus_POL_zoliborski_plan.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_centrum_wroga"
+		texturefile = 	"gfx/interface/goals/focus_POL_centrum_wroga.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_zdobycie_wilanowa"
+		texturefile = 	"gfx/interface/goals/focus_POL_zdobycie_wilanowa.dds"
+	}
 }

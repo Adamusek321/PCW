@@ -277,7 +277,7 @@
 	
 	focus = {
 		id = POL_wawerskie_przedmiescia
-		icon = GFX_focus_POL_zajecie_fotelu_naczelnika
+		icon = GFX_focus_POL_wawerskie_przedmiescia
 		prerequisite = { focus = POL_marsz_na_warszawe }
 		x = -3
 		y = 1
@@ -310,7 +310,7 @@
 	
 	focus = {
 		id = POL_praska_ofensywa
-		icon = GFX_focus_POL_zajecie_fotelu_naczelnika
+		icon = GFX_focus_POL_praska_ofensywa
 		prerequisite = { focus = POL_marsz_na_warszawe }
 		x = 0
 		y = 1
@@ -342,7 +342,7 @@
 	}
 	focus = {
 		id = POL_kolej_na_bialoleke
-		icon = GFX_focus_POL_zajecie_fotelu_naczelnika
+		icon = GFX_focus_POL_kolej_na_bialoleke
 		prerequisite = { focus = POL_marsz_na_warszawe }
 		x = 3
 		y = 1
@@ -406,7 +406,9 @@
 	focus = {
 		id = POL_skok_przez_wisle
 		icon = GFX_focus_POL_skok_przez_wisle
-		prerequisite = { focus = POL_wawerskie_przedmiescia focus = POL_praska_ofensywa focus = POL_kolej_na_bialoleke }
+		prerequisite = { focus = POL_wawerskie_przedmiescia }
+		prerequisite = { focus = POL_praska_ofensywa }
+		prerequisite = { focus = POL_kolej_na_bialoleke }
 		x = -2
 		y = 1
 		relative_position_id = POL_praska_ofensywa
@@ -566,9 +568,9 @@
 	
 	focus = {
 		id = POL_zoliborski_plan
-		icon = GFX_focus_POL_zajecie_fotelu_naczelnika
+		icon = GFX_focus_POL_zoliborski_plan
 		prerequisite = { focus = POL_zajecie_mostow }
-		x = -2
+		x = 2
 		y = 1
 		relative_position_id = POL_zajecie_mostow
 
@@ -596,7 +598,7 @@
 	
 	focus = {
 		id = POL_centrum_wroga
-		icon = GFX_focus_POL_zajecie_fotelu_naczelnika
+		icon = GFX_focus_POL_centrum_wroga
 		prerequisite = { focus = POL_zajecie_mostow }
 		x = 0
 		y = 1
@@ -626,9 +628,9 @@
 	
 	focus = {
 		id = POL_zdobycie_wilanowa
-		icon = GFX_focus_POL_zajecie_fotelu_naczelnika
+		icon = GFX_focus_POL_zdobycie_wilanowa
 		prerequisite = { focus = POL_zajecie_mostow }
-		x = 2
+		x = -2
 		y = 1
 		relative_position_id = POL_zajecie_mostow
 

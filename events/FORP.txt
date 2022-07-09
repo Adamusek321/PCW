@@ -15,6 +15,7 @@ country_event = {
 	
 	option = {
 		name = forp.1.a
+		custom_effect_tooltip = "ANDRZEJCZAK_FIRST_LIDER"
 		hidden_effect = {
 			create_country_leader = {
 				name = "Rajmund Andrzejczak"
@@ -55,7 +56,10 @@ country_event = {
 	
 	option = {
 		name = forp.3.a
-		add_ideas = { pol_rada_narodowa }
+		custom_effect_tooltip = "RADA_NARODOWA_DUAL_LIDER"
+		hidden_effect = {
+			add_ideas = { pol_rada_narodowa }
+		}
 	}
 }
 
@@ -70,7 +74,12 @@ country_event = {
 	
 	option = {
 		name = forp.4.a
+		custom_effect_tooltip = "MALE_ZWIEKSZENIE_POPULARNOSCI"
 		hidden_effect = {
+			add_popularity = {
+				ideology = nacjonalizm
+				popularity = 0.02
+			}
 			load_focus_tree = forp_focus_stab
 		}
 	}
