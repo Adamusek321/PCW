@@ -997,30 +997,7 @@ guiTypes = {
 			format = "UPPER_LEFT"
 		}
 			
-		containerWindowType = {
-			name = "political_pie_chart"
-			position = { x= 185 y = 40 }
-			size = { width=100 height=100 }
-			clipping = no
-
-			iconType = {
-				name = "chart"
-				spriteType = "GFX_political_chart_small"
-				position = { x = 20 y = -3 }
-			}
-			
-			iconType ={
-				name ="pol_view_bg"
-				spriteType = "GFX_small_pol_piechart_overlay"
-				position = { x= -5 y = -5 }
-			}
-			
-			iconType ={
-				name ="piechart_frame"
-				spriteType = "GFX_small_pol_piechart_frame"
-				position = { x= -11 y = -11 }
-			}				
-		}	
+		
 		
 		containerWindowType = {
 			name = "info"				
