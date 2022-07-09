@@ -76,10 +76,10 @@ country_event = {
 		name = forp.4.a
 		custom_effect_tooltip = "MALE_ZWIEKSZENIE_POPULARNOSCI"
 		hidden_effect = {
-			add_popularity = {
-				ideology = nacjonalizm
-				popularity = 0.02
-			}
+			#add_popularity = {
+			#	ideology = nacjonalizm
+			#	popularity = 0.02
+			#}
 			load_focus_tree = forp_focus_stab
 		}
 	}

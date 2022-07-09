@@ -968,7 +968,7 @@
 	focus = {
 		id = POL_zakonczenie_stabilizacji
 		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
-		prerequisite = { focus = POL_nowy_plan_zagospodarowania_przestrzennego_warszawy focus = POL_polityka_medalowa focus = POL_bezpieczenstwo_gabinetowe focus = POL_krrit focus = POL_uprzywilejowani_wojskowi focus = POL_reforma_placeholder focus = POL_wsparcie_najbiedniejszych }
+		prerequisite = { focus = POL_nowy_plan_zagospodarowania_przestrzennego_warszawy focus = POL_polityka_medalowa focus = POL_bezpieczenstwo_gabinetowe focus = POL_krrit focus = POL_uprzywilejowani_wojskowi focus = POL_wsparcie_najbiedniejszych }
 		x = 0
 		y = 2
 		relative_position_id = POL_rozpoczecie_reform
