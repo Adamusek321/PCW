@@ -1,0 +1,31 @@
+capital = 1458
+
+oob = "standard_templates"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = pcw_ideology
+	last_election = "2021.2.20"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	pcw_ideology = 100
+}
+
+create_country_leader = {
+	name = "Barbara Nowacka"
+	desc = " "
+	picture = "gfx/leaders/IPO/Portrait_Inicjatywa_Polska_Barbara_Nowacka.dds"
+	expire = "2100.1.1"
+	ideology = socjalliberalizm
+	#traits = {
+	#	
+	#}
+}

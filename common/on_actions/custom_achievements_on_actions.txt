@@ -1,0 +1,12 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			every_country = {
+				add_to_array = { #Burgundian Inheritance
+					achievement_array = 1
+				}
+			}
+		}
+		
+}

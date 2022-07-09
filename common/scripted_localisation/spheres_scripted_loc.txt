@@ -1,0 +1,68 @@
+defined_text = {
+    name = GetSphereName    
+	text = {
+		trigger = {
+			has_country_flag = zp_leader
+		}
+        localization_key = SPHERE_ZP_LEADER
+	}
+	text = {
+		trigger = {
+			has_country_flag = zp_member
+		}
+        localization_key = SPHERE_ZP_MEMBER
+	}
+	text = {
+		trigger = {
+			has_country_flag = zp_puppet
+		}
+        localization_key = SPHERE_ZP_PUPPET
+	}
+}
+
+defined_text = {
+    name = GetSphereDesc
+	text = {
+		trigger = {
+			has_country_flag = Rzp_leader
+		}
+        localization_key = SPHERE_ZP_LEADER_desc
+	}
+	text = {
+		trigger = {
+			has_country_flag = zp_member
+		}
+        localization_key = SPHERE_ZP_MEMBER_desc
+	}
+	text = {
+		trigger = {
+			has_country_flag = zp_puppet
+		}
+        localization_key = SPHERE_ZP_PUPPET_desc
+	}
+}
+
+defined_text = {
+    name = GetSphereIcon
+	text = {
+		trigger = {
+			has_country_flag = zp_leader
+		}
+		localization_key = "GFX_sphere_zp_leader"
+	}
+	text = {
+		trigger = {
+			has_country_flag = zp_member
+		}
+		localization_key = "GFX_sphere_zp_member"
+	}
+	text = {
+		trigger = {
+			has_country_flag = zp_puppet
+		}
+		localization_key = "GFX_sphere_zp_puppet"
+	}
+	text = {
+		localization_key = "GFX_sphere_blank"
+	}
+}

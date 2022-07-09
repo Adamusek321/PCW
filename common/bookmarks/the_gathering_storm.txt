@@ -1,0 +1,389 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 2021.8.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "POL"
+		default = yes
+#1
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+#2			
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+#3			
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+#4			
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+#5			
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+#6			
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+#7			
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+#8			
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+#9			
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"WAR"={
+				history = ""
+				ideology = pcw_ideology
+				ideas = {
+				}
+				focuses = {
+				}
+			}
+			"POL"={
+				history = "POL_GATHERING_STORM_DESC"
+				ideology = pcw_ideology
+				ideas = {
+				}
+				focuses = {
+				}
+			}
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+#10			
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+#11			
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+#12			
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+#13			
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+#14			
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+#15			
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+#16			
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+#17			
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+#18	
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
+		
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

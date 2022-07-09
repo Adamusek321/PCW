@@ -1,0 +1,49 @@
+capital = 1536
+
+oob = "WAR_2021"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = pcw_ideology
+	last_election = "2018.11.4"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	pcw_ideology = 100
+}
+
+add_ideas = low_economic_mobilisation
+add_ideas = free_trade
+add_ideas = extensive_conscription
+
+create_country_leader = {
+	name = "Rafał Trzaskowski"
+	desc = " "
+	picture = "gfx/leaders/WAR/Portrait_Warsaw_Rafal_Trzaskowski.dds"
+	expire = "2100.1.1"
+	ideology = socjalliberalizm
+	#traits = {
+	#	
+	#}
+}
+
+create_country_leader = {
+	name = "Andrzej Duda"
+	desc = " "
+	picture = "gfx/leaders/WAR/Portrait_Warszawa_Andrzej_Duda.dds"
+	expire = "2100.1.1"
+	ideology = narodowy_konserwatyzm
+	#traits = {
+	#	
+	#}
+}

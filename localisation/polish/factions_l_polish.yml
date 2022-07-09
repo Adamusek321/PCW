@@ -1,0 +1,11 @@
+﻿l_polish:
+ FACTION_LEADER:0 "Przywódca frakcji: §Y$COUNTRY$§!"
+ FACTION_MEMBER:0 "Członek frakcji: §Y$COUNTRY$§!"
+ FACTION_CREATED_UNDER_MASTER_TITLE:0 "Dołącza do frakcji suwerena"
+ FACTION_CREATED_UNDER_MASTER_MESSAGE:0 "Wraz z naszym suwerenem dołączamy do frakcji: $FACTION|H$."
+ FACTION_NAME_IDEOLOGY_DEFAULT:0 "Ideologia frakcji: $IDEOLOGY$"
+ koalicja_obywatelska_faction:0 "Koalicja Obywatelska"
+ konfederacja_faction:0 "Konfederacja"
+ zjednoczona_prawica_faction:0 "Zjednoczona Prawica"
+ koalicja_polska_faction:0 "Koalicja Polska"
+ lewica_faction:0 "Lewica"

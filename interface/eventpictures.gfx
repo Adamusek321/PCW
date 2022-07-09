@@ -1,0 +1,32 @@
+spriteTypes = {
+	
+	##GENERIC STUFF##
+	
+	spriteType = {
+		name = "GFX_report_event_001"
+		texturefile = "gfx/event_pictures/report_event_001.dds"
+	}
+	
+	##MOD STUFF##
+	
+	spriteType = {
+		name = "GFX_report_event_forp_001"
+		texturefile = "gfx/event_pictures/report_event_forp_001.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_forp_002"
+		texturefile = "gfx/event_pictures/report_event_forp_002.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_forp_003"
+		texturefile = "gfx/event_pictures/report_event_forp_003.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_forp_004"
+		texturefile = "gfx/event_pictures/report_event_forp_004.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_forp_005"
+		texturefile = "gfx/event_pictures/report_event_forp_005.dds"
+	}
+}

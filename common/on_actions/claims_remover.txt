@@ -1,0 +1,18 @@
+on_actions = {
+
+	on_annex = {
+		effect = {
+			PREV = {
+				every_state = {
+					if = {
+						limit = {
+							is_claimed_by = FROM
+						}
+						remove_claim_by = FROM					
+					}
+				}
+			}
+		}
+	}
+	
+}

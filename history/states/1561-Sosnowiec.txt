@@ -1,0 +1,19 @@
+state={
+	id=1561
+	name="STATE_1561"
+	provinces={
+		16740 
+	}
+	history={
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+		}
+
+		owner = SLA
+		add_core_of = SLA
+	}
+	manpower=204500
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

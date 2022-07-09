@@ -1,0 +1,62 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_pol_elitarne_dowodztwo"
+		texturefile = "gfx/interface/ideas/idea_pol_elitarne_dowodztwo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pol_medialna_propaganda"
+		texturefile = "gfx/interface/ideas/idea_pol_medialna_propaganda.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pol_niepopularny_rezim"
+		texturefile = "gfx/interface/ideas/idea_pol_niepopularny_rezim.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pol_skorumpowani_oficerowie"
+		texturefile = "gfx/interface/ideas/idea_pol_skorumpowani_oficerowie.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pol_uprzywilejowani_wojskowi"
+		texturefile = "gfx/interface/ideas/idea_pol_uprzywilejowani_wojskowi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pol_wojskowy_terror"
+		texturefile = "gfx/interface/ideas/idea_pol_wojskowy_terror.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_czlonek_ue"
+		texturefile = "gfx/interface/ideas/idea_czlonek_ue.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_czlonek_nato"
+		texturefile = "gfx/interface/ideas/idea_czlonek_nato.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pol_rada_narodowa"
+		texturefile = "gfx/interface/ideas/idea_pol_rada_narodowa.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pol_warszawski_opor"
+		texturefile = "gfx/interface/ideas/idea_pol_warszawski_opor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pol_panstwowy_fundusz_rozbudowy"
+		texturefile = "gfx/interface/ideas/idea_pol_panstwowy_fundusz_rozbudowy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pol_anarchia_na_ulicach"
+		texturefile = "gfx/interface/ideas/idea_pol_anarchia_na_ulicach.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pol_gruzy_warszawy"
+		texturefile = "gfx/interface/ideas/idea_pol_gruzy_warszawy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pol_nielojalna_armia"
+		texturefile = "gfx/interface/ideas/idea_pol_nielojalna_armia.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pol_budzet_w_ruinie"
+		texturefile = "gfx/interface/ideas/idea_pol_budzet_w_ruinie.dds"
+	}
+}

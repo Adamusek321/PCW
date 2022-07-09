@@ -1,0 +1,109 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			set_variable = {
+				var = global.stabilizing_cooldown_time_sluggish
+				value = 10
+			}
+			set_variable = {
+				var = global.stabilizing_cooldown_time_extremely_slow
+				value = 8
+			}
+			set_variable = {
+				var = global.stabilizing_cooldown_time_very_slow
+				value = 6
+			}
+			set_variable = {
+				var = global.stabilizing_cooldown_time_slow
+				value = 4
+			}
+			set_variable = {
+				var = global.stabilizing_cooldown_time_normal
+				value = 2
+			}
+			set_variable = {
+				var = global.stabilizing_cooldown_time_fast
+				value = 1
+			}
+			set_variable = {
+				var = global.stabilizing_cooldown_time_instant
+				value = 0
+			}
+		}
+	}
+	on_weekly = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = { check_variable = { ROOT.stabilizing_cooldown > 0 } }
+				}
+				PREV = { subtract_from_variable = { ROOT.stabilizing_cooldown = 1.0 } }
+			}
+		}
+	}
+	
+	on_weekly = {
+		effect = {
+			if = {
+				limit = {
+					AND = {
+					ROOT = { any_owned_state = { compliance > 80 } }
+					OR = {
+						THIS = {is_core_of = PIS}
+						THIS = {is_core_of = KOR}
+						THIS = {is_core_of = WAR}
+						THIS = {is_core_of = POL}
+						THIS = {is_core_of = PRP}
+						THIS = {is_core_of = PRZ}
+						THIS = {is_core_of = PL2}
+						THIS = {is_core_of = KWN}
+						THIS = {is_core_of = PSL}
+						THIS = {is_core_of = UED}
+						THIS = {is_core_of = RNR}
+						THIS = {is_core_of = GDA}
+						THIS = {is_core_of = IPO}
+						THIS = {is_core_of = SPL}
+						THIS = {is_core_of = POB}
+						THIS = {is_core_of = K15}
+						THIS = {is_core_of = NOW}
+						THIS = {is_core_of = SLA}
+						THIS = {is_core_of = NLE}
+						THIS = {is_core_of = ZIE}
+						THIS = {is_core_of = LRA}
+						THIS = {is_core_of = PPS}
+					}
+					#dopisać nowe polskie tagi po dodaniu
+					}
+				}
+				THIS = {
+					remove_core_of = PIS
+					remove_core_of = KOR
+					remove_core_of = WAR
+					remove_core_of = POL
+					remove_core_of = PRP
+					remove_core_of = PRZ
+					remove_core_of = PL2
+					remove_core_of = KWN
+					remove_core_of = PSL
+					remove_core_of = UED
+					remove_core_of = RNR
+					remove_core_of = GDA
+					remove_core_of = IPO
+					remove_core_of = SPL
+					remove_core_of = POB
+					remove_core_of = K15
+					remove_core_of = NOW
+					remove_core_of = SLA
+					remove_core_of = NLE
+					remove_core_of = ZIE
+					remove_core_of = LRA
+					remove_core_of = PPS
+					#dopisać nowe polskie tagi po dodaniu
+					add_core_of = ROOT
+				}
+			}
+		}
+	}
+	
+}

@@ -1,0 +1,1103 @@
+﻿focus_tree = {
+	id = forp_focus_start
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = POL
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 100 y = 1600 }
+	
+	##Małe drzewko startowe organizacji kraju##
+	
+	focus = {
+		id = POL_zajecie_fotelu_naczelnika
+		icon = GFX_focus_POL_zajecie_fotelu_naczelnika
+		#prerequisite =
+		x = 12
+		y = 0
+		#relative_position_id = 
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = "ROZPOCZECIE_STABILIZACJI_KARJU"
+				always = yes
+			}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "RAJMUND_ANDRZEJCZAK_NACZELNIKIEM"
+			hidden_effect = {
+				country_event = { days = 1 id = forp.1 }
+			}
+		}
+	}
+	focus = {
+		id = POL_ustanowienie_malej_konstytucji_forp
+		icon = GFX_focus_POL_ustanowienie_malej_konstytucji_forp
+		prerequisite = { focus = POL_zajecie_fotelu_naczelnika }
+		x = -1
+		y = 1
+		relative_position_id = POL_zajecie_fotelu_naczelnika
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "MALA_KONSTYTUCJA_2021"
+			hidden_effect = {
+				country_event = { days = 1 id = forp.2 }
+			}
+		}
+	}
+	
+	focus = {
+		id = POL_sformowanie_rady_narodowej_rp
+		icon = GFX_focus_POL_sformowanie_rady_narodowej_rp
+		prerequisite = { focus = POL_zajecie_fotelu_naczelnika }
+		x = 1
+		y = 1
+		relative_position_id = POL_zajecie_fotelu_naczelnika
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "SFORMOWANIE_RADY_NARODOWEJ_RP"
+			hidden_effect = {
+				country_event = { days = 1 id = forp.3 }
+			}
+		}
+	}
+	
+	focus = {
+		id = POL_przemowienie_do_warszawiakow
+		icon = GFX_focus_POL_przemowienie_do_warszawiakow
+		prerequisite = { focus = POL_ustanowienie_malej_konstytucji_forp }
+		prerequisite = { focus = POL_sformowanie_rady_narodowej_rp }
+		x = 0
+		y = 2
+		relative_position_id =  POL_zajecie_fotelu_naczelnika
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "PRZEMOWIENIE_DO_WARSZAWIAKOW"
+			custom_effect_tooltip = "UWAGA_FOCUS_TREE"
+			hidden_effect = {
+				country_event = { days = 1 id = forp.4 }
+			}
+		}
+	}
+	
+	##Drzewko wczesnych wydarzen - lorowe##
+	
+	focus = {
+		id = POL_I_zebranie_sztabu_generalnego
+		icon = GFX_focus_POL_I_zebranie_sztabu_generalnego
+		#prerequisite =
+		x = 7
+		y = 0
+		#relative_position_id = 
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "I_ZEBRANIE_SZTABU_GENERALNEGO"
+		}
+	}
+	
+	focus = {
+		id = POL_planowanie_operacji_W
+		icon = GFX_focus_POL_planowanie_operacji_W
+		prerequisite = { focus = POL_I_zebranie_sztabu_generalnego }
+		x = -1
+		y = 1
+		relative_position_id = POL_I_zebranie_sztabu_generalnego
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "PLANOWANIE_OPERACJI_W"
+		}
+	}
+	
+	focus = {
+		id = POL_zebranie_zolnierzy_z_calego_kraju
+		icon = GFX_focus_POL_zebranie_zolnierzy_z_calego_kraju
+		prerequisite = { focus = POL_I_zebranie_sztabu_generalnego }
+		x = 1
+		y = 1
+		relative_position_id = POL_I_zebranie_sztabu_generalnego
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "ZEBRANIE_ZOLNIERZY_Z_CALEGO_KRAJU"
+		}
+	}
+	
+	focus = {
+		id = POL_marsz_na_warszawe
+		icon = GFX_focus_POL_marsz_na_warszawe
+		prerequisite = { focus = POL_planowanie_operacji_W }
+		prerequisite = { focus = POL_zebranie_zolnierzy_z_calego_kraju }
+		x = -1
+		y = 1
+		relative_position_id = POL_zebranie_zolnierzy_z_calego_kraju
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_army_manpower = {
+			size > 120000
+			}
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "MARSZ_NA_WARSZAWE"
+		}
+	}
+	
+	focus = {
+		id = POL_wawerskie_przedmiescia
+		icon = GFX_focus_POL_zajecie_fotelu_naczelnika
+		prerequisite = { focus = POL_marsz_na_warszawe }
+		x = -3
+		y = 1
+		relative_position_id = POL_marsz_na_warszawe
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = "OFENSYWA_ZAKONCZONA"
+				always = no
+			}
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "WAWERSKIE_PRZEDMIESCIA"
+		}
+	}
+	
+	focus = {
+		id = POL_praska_ofensywa
+		icon = GFX_focus_POL_zajecie_fotelu_naczelnika
+		prerequisite = { focus = POL_marsz_na_warszawe }
+		x = 0
+		y = 1
+		relative_position_id = POL_marsz_na_warszawe
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = "OFENSYWA_ZAKONCZONA"
+				always = no
+			}
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "PRASKA_OFENSYWA"
+		}
+	}
+	focus = {
+		id = POL_kolej_na_bialoleke
+		icon = GFX_focus_POL_zajecie_fotelu_naczelnika
+		prerequisite = { focus = POL_marsz_na_warszawe }
+		x = 3
+		y = 1
+		relative_position_id = POL_marsz_na_warszawe
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = "OFENSYWA_ZAKONCZONA"
+				always = no
+			}
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "KOLEJ_NA_BIALOLEKE"
+		}
+	}
+	
+	focus = {
+		id = POL_centrum_dowodzenia
+		icon = GFX_focus_POL_centrum_dowodzenia
+		prerequisite = { focus = POL_wawerskie_przedmiescia focus = POL_praska_ofensywa focus = POL_kolej_na_bialoleke }
+		x = -4
+		y = 1
+		relative_position_id = POL_praska_ofensywa
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			controls_state = 1535
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "CENTRUM_DOWODZENIA"
+		}
+	}
+	
+	focus = {
+		id = POL_skok_przez_wisle
+		icon = GFX_focus_POL_skok_przez_wisle
+		prerequisite = { focus = POL_wawerskie_przedmiescia focus = POL_praska_ofensywa focus = POL_kolej_na_bialoleke }
+		x = -2
+		y = 1
+		relative_position_id = POL_praska_ofensywa
+		
+		mutually_exclusive = { focus = POL_wymuszony_pokoj focus = POL_pakt_z_diablem }
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = "KONTORLUJE_WSCHODNI_BRZEG_WISLY"
+				always = no
+			}
+			has_war_with = WAR
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "SKOK_PRZEZ_WISLE"
+		}
+	}
+	
+	focus = {
+		id = POL_wymuszony_pokoj
+		icon = GFX_focus_POL_wymuszony_pokoj
+		prerequisite = { focus = POL_wawerskie_przedmiescia focus = POL_praska_ofensywa focus = POL_kolej_na_bialoleke }
+		x = 0
+		y = 1
+		relative_position_id = POL_praska_ofensywa
+		
+		mutually_exclusive = { focus = POL_skok_przez_wisle focus = POL_pakt_z_diablem }
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = WAR
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "WYMUSZONY_POKOJ"
+		}
+	}
+	
+	focus = {
+		id = POL_pakt_z_diablem
+		icon = GFX_focus_POL_pakt_z_diablem
+		prerequisite = { focus = POL_wawerskie_przedmiescia focus = POL_praska_ofensywa focus = POL_kolej_na_bialoleke }
+		x = 2
+		y = 1
+		relative_position_id = POL_praska_ofensywa
+		
+		mutually_exclusive = { focus = POL_skok_przez_wisle focus = POL_wymuszony_pokoj }
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = WAR
+			NOT = {
+				has_war_with = PIS
+			}
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "PAKT_Z_DIABLEM"
+		}
+	}
+	
+	focus = {
+		id = POL_obowiazkowa_sluzba
+		icon = GFX_focus_POL_obowiazkowa_sluzba
+		prerequisite = { focus = POL_wawerskie_przedmiescia focus = POL_praska_ofensywa focus = POL_kolej_na_bialoleke }
+		x = 4
+		y = 1
+		relative_position_id = POL_praska_ofensywa
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "OBOWIAZKOWA_SLUZBA"
+		}
+	}
+	
+	focus = {
+		id = POL_zajecie_mostow
+		icon = GFX_focus_POL_zajecie_mostow
+		prerequisite = { focus = POL_skok_przez_wisle }
+		x = -3
+		y = 1
+		relative_position_id = POL_skok_przez_wisle
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "ZAJECIE_MOSTOW"
+		}
+	}
+	
+	focus = {
+		id = POL_zoliborski_plan
+		icon = GFX_focus_POL_zajecie_fotelu_naczelnika
+		prerequisite = { focus = POL_zajecie_mostow }
+		x = -2
+		y = 1
+		relative_position_id = POL_zajecie_mostow
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			controls_state = 1988
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "ZOLIBORSKI_PLAN"
+		}
+	}
+	
+	focus = {
+		id = POL_centrum_wroga
+		icon = GFX_focus_POL_zajecie_fotelu_naczelnika
+		prerequisite = { focus = POL_zajecie_mostow }
+		x = 0
+		y = 1
+		relative_position_id = POL_zajecie_mostow
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			controls_state = 1536
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "CENTRUM_WROGA"
+		}
+	}
+	
+	focus = {
+		id = POL_zdobycie_wilanowa
+		icon = GFX_focus_POL_zajecie_fotelu_naczelnika
+		prerequisite = { focus = POL_zajecie_mostow }
+		x = 2
+		y = 1
+		relative_position_id = POL_zajecie_mostow
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			controls_state = 1981
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "ZDOBYCIE_WILANOWA"
+		}
+	}
+	
+	focus = {
+		id = POL_defilada_na_marszalkowskiej
+		icon = GFX_focus_POL_defilada_na_marszalkowskiej
+		prerequisite = { focus = POL_zoliborski_plan }
+		prerequisite = { focus = POL_centrum_wroga }
+		prerequisite = { focus = POL_zdobycie_wilanowa }
+		x = 0
+		y = 1
+		relative_position_id = POL_centrum_wroga
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = "KONTORLUJE_WARSZAWE"
+				always = no
+			}
+			has_war = no
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "DEFILADA_NA_MARSZALKOWSKIEJ"
+		}
+	}
+	
+	focus = {
+		id = POL_proces_trzaskowskiego
+		icon = GFX_focus_POL_proces_trzaskowskiego
+		prerequisite = { focus = POL_zoliborski_plan }
+		prerequisite = { focus = POL_centrum_wroga }
+		prerequisite = { focus = POL_zdobycie_wilanowa }
+		x = -1
+		y = 1
+		relative_position_id = POL_defilada_na_marszalkowskiej
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = "TRZASKOWSKI_SCHWYTANY"
+				always = no
+			}
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "PROCES_TRZASKOWSKIEGO"
+		}
+	}
+	
+	focus = {
+		id = POL_wybor_lidera
+		icon = GFX_focus_POL_wybor_lidera
+		prerequisite = { focus = POL_zoliborski_plan }
+		prerequisite = { focus = POL_centrum_wroga }
+		prerequisite = { focus = POL_zdobycie_wilanowa }
+		x = 1
+		y = 1
+		relative_position_id = POL_defilada_na_marszalkowskiej
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "WYBOR_LIDERA"
+		}
+	}
+	
+	focus = {
+		id = POL_nowa_warszawa
+		icon = GFX_focus_POL_nowa_warszawa
+		prerequisite = { focus = POL_proces_trzaskowskiego }
+		prerequisite = { focus = POL_defilada_na_marszalkowskiej }
+		prerequisite = { focus = POL_wybor_lidera }
+		x = 0
+		y = 2
+		relative_position_id = POL_defilada_na_marszalkowskiej
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = "KONTORLUJE_WARSZAWE"
+				always = no
+			}
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "NOWA_WARSZAWA"
+			custom_effect_tooltip = "UWAGA_FOCUS_TREE"
+		}
+	}
+	
+	focus = {
+		id = POL_II_zebranie_sztabu_generalnego
+		icon = GFX_focus_POL_II_zebranie_sztabu_generalnego
+		prerequisite = { focus = POL_wymuszony_pokoj }
+		x = 0
+		y = 1
+		relative_position_id = POL_wymuszony_pokoj
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "II_ZEBRANIE_SZTABU_GENERALNEGO"
+		}
+	}
+	
+	focus = {
+		id = POL_nadwislanski_rozejm
+		icon = GFX_focus_POL_nadwislanski_rozejm
+		prerequisite = { focus = POL_II_zebranie_sztabu_generalnego }
+		x = -1
+		y = 1
+		relative_position_id = POL_II_zebranie_sztabu_generalnego
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "NADWISLANSKI_ROZEJM"
+		}
+	}
+	
+	focus = {
+		id = POL_pomaranczowa_linia
+		icon = GFX_focus_POL_pomaranczowa_linia
+		prerequisite = { focus = POL_II_zebranie_sztabu_generalnego }
+		x = 1
+		y = 1
+		relative_position_id = POL_II_zebranie_sztabu_generalnego
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "POMARANCZOWA_LINIA"
+		}
+	}
+	
+	focus = {
+		id = POL_rozpoczecie_stabilizacji
+		icon = GFX_focus_POL_rozpoczecie_stabilizacji
+		prerequisite = { focus = POL_pomaranczowa_linia }
+		prerequisite = { focus = POL_nadwislanski_rozejm }
+		x = 1
+		y = 1
+		relative_position_id = POL_nadwislanski_rozejm
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "ROZPOCZECIE_STABILIZACJI"
+		}
+	}
+	
+	focus = {
+		id = POL_telefon_do_prezesa
+		icon = GFX_focus_POL_telefon_do_prezesa
+		prerequisite = { focus = POL_pakt_z_diablem }
+		x = 3
+		y = 1
+		relative_position_id = POL_pakt_z_diablem
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "TELEFON_DO_PREZESA"
+		}
+	}
+	
+	focus = {
+		id = POL_dolaczenie_do_zjednoczonej_prawicy
+		icon = GFX_focus_POL_dolaczenie_do_zjednoczonej_prawicy
+		prerequisite = { focus = POL_telefon_do_prezesa }
+		x = -1
+		y = 2
+		relative_position_id = POL_telefon_do_prezesa
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = "KACZYNSKI_ZGADZA_SIE"
+				always = no
+			}
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "DOLACZENIE_DO_ZJEDNOCZONEJ_PRAWICY"
+		}
+	}
+	
+	focus = {
+		id = POL_pisiorscy_oficerowie
+		icon = GFX_focus_POL_pisiorscy_oficerowie
+		prerequisite = { focus = POL_telefon_do_prezesa }
+		x = 0
+		y = 1
+		relative_position_id = POL_telefon_do_prezesa
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = "KACZYNSKI_ZGADZA_SIE"
+				always = no
+			}
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "PISIORSCY_OFICEROWIE"
+		}
+	}
+	
+	focus = {
+		id = POL_plan_ofensywy
+		icon = GFX_focus_POL_plan_ofensywy
+		prerequisite = { focus = POL_telefon_do_prezesa }
+		x = 1
+		y = 2
+		relative_position_id = POL_telefon_do_prezesa
+
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = "KACZYNSKI_ZGADZA_SIE"
+				always = no
+			}
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "PLAN_OFENSYWY"
+		}
+	}
+	
+	focus = {
+		id = POL_masakra_pod_palacem_kultury
+		icon = GFX_focus_POL_masakra_pod_palacem_kultury
+		prerequisite = { focus = POL_dolaczenie_do_zjednoczonej_prawicy }
+		prerequisite = { focus = POL_pisiorscy_oficerowie }
+		prerequisite = { focus = POL_plan_ofensywy }
+		x = 0
+		y = 2
+		relative_position_id = POL_pisiorscy_oficerowie
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "MASAKRA_POD_PALACEM_KULTURY"
+		}
+	}
+	
+	focus = {
+		id = POL_cena_zwyciestwa
+		icon = GFX_focus_POL_cena_zwyciestwa
+		prerequisite = { focus = POL_masakra_pod_palacem_kultury }
+		x = 0
+		y = 1
+		relative_position_id = POL_masakra_pod_palacem_kultury
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "CENA_ZWYCIESTWA"
+			custom_effect_tooltip = "UWAGA_FOCUS_TREE"
+			PIS = {
+				puppet = POL
+			}
+		}
+	}
+}

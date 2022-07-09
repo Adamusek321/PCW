@@ -1,0 +1,834 @@
+ideas = {
+
+	budget_taxes = { 
+		law = yes
+		use_list_view = yes
+		
+		budget_taxes_extreme = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_taxes_high = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_taxes_normal = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			default = yes		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	
+		budget_taxes_small = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_taxes_minimal = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	
+	budget_tariffs = { 
+		law = yes
+		use_list_view = yes
+		
+		budget_tariffs_extreme = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_tariffs_high = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_tariffs_normal = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			default = yes		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	
+		budget_tariffs_small = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_tariffs_minimal = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	
+	budget_enterprises = { 
+		law = yes
+		use_list_view = yes
+		
+		budget_enterprises_full_nationalisation = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_enterprises_partial_nationalisation = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_enterprises_balanced = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			default = yes		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	
+		budget_enterprises_partial_privatisation = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_enterprises_full_privatisation = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	
+	budget_international_investments = { 
+		law = yes
+		use_list_view = yes
+		
+		budget_international_investments_extreme = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			cost = -1
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_international_investments_high = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			cost = -1
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_international_investments_normal = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			cost = -1
+			removal_cost = -1
+			default = yes		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	
+		budget_international_investments_small = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			cost = -1
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_international_investments_minimal = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			cost = -1
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	
+	budget_army = { 
+		law = yes
+		use_list_view = yes
+		
+		budget_army_extreme = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_army_high = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_army_normal = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			default = yes		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	
+		budget_army_small = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_army_minimal = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	
+	budget_fleet = { 
+		law = yes
+		use_list_view = yes
+		
+		budget_fleet_extreme = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_fleet_high = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_fleet_normal = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	
+		budget_fleet_small = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_fleet_minimal = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			default = yes		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+
+	budget_aviation = { 
+		law = yes
+		use_list_view = yes
+		
+		budget_aviation_extreme = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_aviation_high = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_aviation_normal = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	
+		budget_aviation_small = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			default = yes		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_aviation_minimal = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+
+	budget_urbanization = { 
+		law = yes
+		use_list_view = yes
+		
+		budget_urbanization_extreme = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_urbanization_high = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_urbanization_normal = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			default = yes		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	
+		budget_urbanization_small = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_urbanization_minimal = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+
+	budget_production = { 
+		law = yes
+		use_list_view = yes
+		
+		budget_production_extreme = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_production_high = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_production_normal = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			default = yes		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		budget_production_small = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_production_minimal = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+
+	budget_healthcare_education = { 
+		law = yes
+		use_list_view = yes
+		
+		budget_healthcare_education_extreme = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_healthcare_education_high = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_healthcare_education_normal = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			default = yes		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	
+		budget_healthcare_education_small = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_healthcare_education_minimal = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+
+	budget_social_benefits = { 
+		law = yes
+		use_list_view = yes
+		
+		budget_social_benefits_extreme = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_social_benefits_high = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_social_benefits_normal = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	
+		budget_social_benefits_small = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			default = yes		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		budget_social_benefits_minimal = {
+			
+			
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+		
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+		
+	
+}

@@ -1,0 +1,26 @@
+scripted_gui = {
+	sphere_diplomacy_view_container = {
+		context_type = selected_country_context
+		parent_window_token = selected_country_view_diplomacy
+		window_name = "sphere_diplomacy_view_container"
+
+		properties = {
+			sphere_icon_diplo = {
+				image = "[From.GetSphereIcon]"
+			}
+		}
+		
+		visible = {
+			THIS = {
+				exists = yes
+			}
+		}
+		
+		effects = {
+		}
+		
+		triggers = {
+		}
+	}
+}
+

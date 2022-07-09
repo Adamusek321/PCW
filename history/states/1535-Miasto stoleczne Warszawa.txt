@@ -1,0 +1,26 @@
+#PRAGA POLNOC#
+
+state={
+	id=1535
+	name="STATE_1535"
+
+	history={
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		owner = POL
+		add_core_of = POL
+		add_claim_by = WAR
+
+	}
+
+	provinces={
+		21133 
+	}
+	manpower=63400
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

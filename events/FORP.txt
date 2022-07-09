@@ -1,0 +1,100 @@
+﻿###########################
+# Eventy Frontu Odnowy RP #
+###########################
+
+add_namespace = forp
+
+##Rajmund Andrzejczak przejmuje wladze
+country_event = {
+	id = forp.1
+	title = forp.1.t
+	desc = forp.1.d
+	picture = GFX_report_event_forp_001
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = forp.1.a
+		hidden_effect = {
+			create_country_leader = {
+				name = "Rajmund Andrzejczak"
+				desc = "POL_RAJMUND_ANDRZEJCZAK_desc"
+				picture = "gfx/leaders/POL/Portrait_Poland_Rajmund_Andrzejczak.dds"
+				expire = "2100.1.1"
+				ideology = nacjonalizm
+				#traits = {
+				#	
+				#}
+			}
+		}
+	}
+}
+
+##Ustanowienie Malej Konstytucji 2021
+country_event = {
+	id = forp.2
+	title = forp.2.t
+	desc = forp.2.d
+	picture = GFX_report_event_forp_002
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = forp.2.a
+	}
+}
+
+##Sformowanie Rady Narodowej
+country_event = {
+	id = forp.3
+	title = forp.3.t
+	desc = forp.3.d
+	picture = GFX_report_event_forp_003
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = forp.3.a
+		add_ideas = { pol_rada_narodowa }
+	}
+}
+
+##Przemówienie do warszawiaków
+country_event = {
+	id = forp.4
+	title = forp.4.t
+	desc = forp.4.d
+	picture = GFX_report_event_forp_004
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = forp.4.a
+		hidden_effect = {
+			load_focus_tree = forp_focus_stab
+		}
+	}
+}
+
+##Plan zagospodarowania przestrzennego
+country_event = {
+	id = forp.5
+	title = forp.5.t
+	desc = forp.5.d
+	picture = GFX_report_event_forp_005
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = forp.5.a
+		add_timed_idea = {
+			idea = pol_panstwowy_fundusz_rozbudowy
+			days = 710
+		}
+	}
+	
+	option = {
+		name = forp.5.b
+		add_offsite_building = { type = industrial_complex level = 2 }
+	}
+}

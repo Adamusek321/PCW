@@ -1,0 +1,29 @@
+ideas = {
+
+	country = {
+		
+		czlonek_ue = {
+			
+			allowed = {
+				always = no
+			}
+
+			picture = GFX_idea_czlonek_ue
+			
+			modifier = {
+			}
+		}
+		
+		czlonek_nato = {
+			
+			allowed = {
+				always = no
+			}
+
+			picture = GFX_idea_czlonek_nato
+			
+			modifier = {
+			}
+		}
+	}
+}

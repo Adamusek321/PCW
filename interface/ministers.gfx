@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_PIS_premier_jaroslaw_kaczynski"
+		texturefile = "gfx/interface/ideas/ministers/idea_PIS_premier_jaroslaw_kaczynski.dds"
+	}
+}

@@ -1,0 +1,196 @@
+spriteTypes = {	
+
+	#### Generic continuous goal icons
+	
+	SpriteType = {
+		name = "GFX_goal_continuous_air_production"
+		texturefile = "gfx/interface/goals/goal_continuous_air_production.dds"			
+	}	
+	
+	SpriteType = {
+		name = "GFX_goal_continuous_non_factory_construct"
+		texturefile = "gfx/interface/goals/goal_continuous_non_factory_construct.dds"			
+	}	
+	
+	SpriteType = {
+		name = "GFX_goal_continuous_reduce_training_time"
+		texturefile = "gfx/interface/goals/goal_continuous_reduce_training_time.dds"			
+	}	
+	
+	SpriteType = {
+		name = "GFX_goal_continuous_boost_freedom"
+		texturefile = "gfx/interface/goals/goal_continuous_boost_freedom.dds"			
+	}	
+	
+	SpriteType = {
+		name = "GFX_goal_continuous_suppression"
+		texturefile = "gfx/interface/goals/goal_continuous_suppression.dds"			
+	}	
+	
+	SpriteType = {
+		name = "GFX_goal_continuous_restrict_freedom"
+		texturefile = "gfx/interface/goals/goal_continuous_restrict_freedom.dds"			
+	}	
+	
+	SpriteType = {
+		name = "GFX_goal_continuous_def_against_influence"
+		texturefile = "gfx/interface/goals/goal_continuous_def_against_influence.dds"			
+	}		
+	
+	SpriteType = {
+		name = "GFX_goal_continuous_research"
+		texturefile = "gfx/interface/goals/goal_continuous_research.dds"			
+	}	
+	
+	SpriteType = {
+		name = "GFX_goal_continuous_increase_nu"
+		texturefile = "gfx/interface/goals/goal_continuous_increase_nu.dds"			
+	}	
+	
+	SpriteType = {
+		name = "GFX_goal_continuous_repairments"
+		texturefile = "gfx/interface/goals/goal_continuous_repairments.dds"			
+	}	
+	
+	SpriteType = {
+		name = "GFX_goal_continuous_naval_production"
+		texturefile = "gfx/interface/goals/goal_continuous_naval_production.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_continuous_armor_production"
+		texturefile = "gfx/interface/goals/goal_continuous_armor_production.dds"			
+	}
+	
+	#Generic fosuses
+	
+	SpriteType = {
+		name = "GFX_goal_unknown"
+		texturefile = "gfx/interface/goals/goal_unknown.dds"
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_generic_allies_build_infantry"
+	texturefile = "gfx/interface/goals/goal_generic_allies_build_infantry.dds"
+	}
+	
+	#Faktyczne focusy z moda
+
+	SpriteType = {
+		name = "GFX_focus_POL_zajecie_fotelu_naczelnika"
+		texturefile = 	"gfx/interface/goals/focus_POL_zajecie_fotelu_naczelnika.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_focus_POL_ustanowienie_malej_konstytucji_forp"
+		texturefile = 	"gfx/interface/goals/focus_POL_ustanowienie_malej_konstytucji_forp.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_sformowanie_rady_narodowej_rp"
+		texturefile = 	"gfx/interface/goals/focus_POL_sformowanie_rady_narodowej_rp.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_przemowienie_do_warszawiakow"
+		texturefile = 	"gfx/interface/goals/focus_POL_przemowienie_do_warszawiakow.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_planowanie_operacji_W"
+		texturefile = 	"gfx/interface/goals/focus_POL_planowanie_operacji_W.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_I_zebranie_sztabu_generalnego"
+		texturefile = 	"gfx/interface/goals/focus_POL_I_zebranie_sztabu_generalnego.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_zebranie_zolnierzy_z_calego_kraju"
+		texturefile = 	"gfx/interface/goals/focus_POL_zebranie_zolnierzy_z_calego_kraju.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_marsz_na_warszawe"
+		texturefile = 	"gfx/interface/goals/focus_POL_marsz_na_warszawe.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_centrum_dowodzenia"
+		texturefile = 	"gfx/interface/goals/focus_POL_centrum_dowodzenia.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_skok_przez_wisle"
+		texturefile = 	"gfx/interface/goals/focus_POL_skok_przez_wisle.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_wymuszony_pokoj"
+		texturefile = 	"gfx/interface/goals/focus_POL_wymuszony_pokoj.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_pakt_z_diablem"
+		texturefile = 	"gfx/interface/goals/focus_POL_pakt_z_diablem.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_obowiazkowa_sluzba"
+		texturefile = 	"gfx/interface/goals/focus_POL_obowiazkowa_sluzba.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_zajecie_mostow"
+		texturefile = 	"gfx/interface/goals/focus_POL_zajecie_mostow.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_defilada_na_marszalkowskiej"
+		texturefile = 	"gfx/interface/goals/focus_POL_defilada_na_marszalkowskiej.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_proces_trzaskowskiego"
+		texturefile = 	"gfx/interface/goals/focus_POL_proces_trzaskowskiego.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_wybor_lidera"
+		texturefile = 	"gfx/interface/goals/focus_POL_wybor_lidera.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_nowa_warszawa"
+		texturefile = 	"gfx/interface/goals/focus_POL_nowa_warszawa.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_II_zebranie_sztabu_generalnego"
+		texturefile = 	"gfx/interface/goals/focus_POL_II_zebranie_sztabu_generalnego.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_nadwislanski_rozejm"
+		texturefile = 	"gfx/interface/goals/focus_POL_nadwislanski_rozejm.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_pomaranczowa_linia"
+		texturefile = 	"gfx/interface/goals/focus_POL_pomaranczowa_linia.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_rozpoczecie_stabilizacji"
+		texturefile = 	"gfx/interface/goals/focus_POL_rozpoczecie_stabilizacji.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_telefon_do_prezesa"
+		texturefile = 	"gfx/interface/goals/focus_POL_telefon_do_prezesa.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_pisiorscy_oficerowie"
+		texturefile = 	"gfx/interface/goals/focus_POL_pisiorscy_oficerowie.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_dolaczenie_do_zjednoczonej_prawicy"
+		texturefile = 	"gfx/interface/goals/focus_POL_dolaczenie_do_zjednoczonej_prawicy.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_plan_ofensywy"
+		texturefile = 	"gfx/interface/goals/focus_POL_plan_ofensywy.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_masakra_pod_palacem_kultury"
+		texturefile = 	"gfx/interface/goals/focus_POL_masakra_pod_palacem_kultury.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_cena_zwyciestwa"
+		texturefile = 	"gfx/interface/goals/focus_POL_cena_zwyciestwa.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy"
+		texturefile = 	"gfx/interface/goals/focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy.dds"
+	}
+}

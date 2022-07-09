@@ -1,0 +1,21 @@
+
+state={
+	id=1974
+	name="STATE_1974"
+	
+	history={
+		buildings = {
+			infrastructure = 2
+
+		}
+		owner = GDA
+		add_core_of = GDA
+
+	}
+	provinces={
+		11859 21131 21132
+	}
+	manpower=6234
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

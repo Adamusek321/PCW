@@ -1,0 +1,43 @@
+capital = 1503
+
+oob = "standard_templates"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = pcw_ideology
+	last_election = "2021.7.3"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	pcw_ideology = 100
+}
+
+create_faction = koalicja_obywatelska_faction
+add_to_faction = POB
+add_to_faction = NOW
+add_to_faction = ZIE
+add_to_faction = IPO
+
+give_guarantee = WAR
+give_guarantee = GDA
+diplomatic_relation = { country = WAR relation = non_aggression_pact }
+diplomatic_relation = { country = GDA relation = non_aggression_pact }
+diplomatic_relation = { country = GDA relation = docking_rights }
+
+create_country_leader = {
+	name = "Donald Tusk"
+	desc = " "
+	picture = "gfx/leaders/POB/Portrait_Platforma_Obywatelska_Donald_Tusk.dds"
+	expire = "2100.1.1"
+	ideology = socjalliberalizm
+	#traits = {
+	#	
+	#}
+}

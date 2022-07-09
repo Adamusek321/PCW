@@ -1,0 +1,33 @@
+defined_text = { #CUSTOM ACHIEVEMENT TITLES
+    name = get_achievement_title
+    
+    text = { 
+        trigger = {
+            check_variable = { v = 1 }
+        }
+        localization_key = Achievement_Burgundian_Inheritance
+    }
+
+}
+
+defined_text = { #CUSTOM ACHIEVEMENT DESCRIPTIONS
+    name = get_achievement_desc
+    
+    text = { 
+        trigger = {
+            check_variable = { v = 1 }
+        }
+        localization_key = Achievement_Burgundian_Inheritance_DESC
+    }
+}
+
+defined_text = { #CUSTOM ACHIEVEMENT IMAGE
+    name = get_achievement_image
+    
+    text = { 
+        trigger = {
+            check_variable = { v = 1 }
+        }
+        localization_key = Achievement_Burgundian_Inheritance_Image
+    }
+}

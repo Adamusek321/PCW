@@ -1,0 +1,36 @@
+debug_category = {		
+	priority = 100
+	icon = GFX_category_icon
+	
+	allowed = {
+		OR = {
+			tag = PIS
+			tag = KOR
+			tag = WAR
+			tag = POL
+			tag = PRP
+			tag = PRZ
+			tag = PL2
+			tag = KWN
+			tag = PSL
+			tag = UED
+			tag = RNR
+			tag = GDA
+			tag = IPO
+			tag = SPL
+			tag = POB
+			tag = K15
+			tag = NOW
+			tag = SLA
+			tag = NLE
+			tag = ZIE
+			tag = LRA
+			tag = PPS
+		}
+	}
+	visible = {
+		is_debug = yes
+	}
+	
+	visible_when_empty = no
+}

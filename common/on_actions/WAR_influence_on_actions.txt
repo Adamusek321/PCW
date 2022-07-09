@@ -1,0 +1,187 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			WAR = {
+				set_country_flag = WAR.po_influence
+				set_variable = {
+					var = WAR.po_influence
+					value = 40
+				}
+			}
+		}
+	}
+	
+	on_weekly_WAR = {
+		effect = {
+			WAR = {
+				if = {
+					limit = {
+						check_variable = { WAR.po_influence > 95 }
+					}
+					POB = {
+						set_autonomy = { target = WAR autonomy_state = autonomy_puppet }
+					}
+					clear_variable = WAR.po_influence
+					clr_country_flag = WAR.po_influence
+					#zmiana drzewka do dodania
+				}
+			}
+			WAR = {
+				if = {
+					limit = {
+						check_variable = { WAR.po_influence > 80 }
+					}
+					#do zrobienia z fabrykami
+				}
+			}
+			WAR = {
+				if = {
+					limit = {
+						check_variable = { WAR.po_influence > 70 }
+					}
+					POB = {
+						add_to_faction = WAR
+					}
+				}
+			}
+			WAR = {
+				if = {
+					limit = {
+						AND = {
+							has_country_flag = GDA.po_influence
+							is_in_faction_with = POB
+							check_variable = { WAR.po_influence < 55 }
+						}
+					}
+					WAR = {
+						leave_faction = yes
+					}	
+				}
+			}
+			WAR = {
+				if = {
+					limit = {
+						check_variable = { WAR.po_influence > 60 }
+					}
+					POB = {
+						diplomatic_relation = {
+						country = WAR
+						relation = military_access
+						active = yes
+						}
+					}
+				}
+			}
+			WAR = {
+				if = {
+					limit = {
+						check_variable = { WAR.po_influence < 60 }
+					}
+					POB = {
+						diplomatic_relation = {
+						country = WAR
+						relation = military_access
+						active = no
+						}
+					}
+				}
+			}
+			WAR = {
+				if = {
+					limit = {
+						check_variable = { WAR.po_influence > 50 }
+						}
+					POB = {
+						diplomatic_relation = {
+						country = WAR
+						relation = docking_rights
+						active = yes
+						}
+					}
+				}
+			}
+			WAR = {
+				if = {
+					limit = {
+						check_variable = { WAR.po_influence < 50 }
+					}
+					POB = {
+						diplomatic_relation = {
+							country = WAR
+							relation = docking_rights
+							active = no
+						}
+					}
+				}
+			}
+			WAR = {
+				if = {
+					limit = {
+						check_variable = { WAR.po_influence > 35 }
+					}
+					POB = {
+						diplomatic_relation = {
+						country = WAR
+						relation = guarantee
+						active = yes
+						}
+					}
+				}
+			}
+			WAR = {
+				if = {
+					limit = {
+						check_variable = { WAR.po_influence < 35 }
+					}
+					POB = {
+						diplomatic_relation = {
+						country = WAR
+						relation = guarantee
+						active = no
+						}
+					}
+				}
+			}
+			WAR = {
+				if = {
+					limit = {
+						check_variable = { WAR.po_influence > 20 }
+					}
+					POB = {
+						diplomatic_relation = {
+							country = WAR
+							relation = non_aggression_pact
+							active = yes
+						}
+					}
+				}
+			}
+			WAR = {
+				if = {
+					limit = {
+						check_variable = { WAR.po_influence < 20 }
+					}
+					POB = {
+						diplomatic_relation = {
+						country = WAR
+						relation = non_aggression_pact
+						active = no
+						}
+					}
+				}
+			}
+			WAR = {
+				if = {
+					limit = {
+						check_variable = { WAR.po_influence < 5 }
+					}
+					clear_variable = WAR.po_influence
+					clr_country_flag = WAR.po_influence
+					#zmiana drzewka do dodania
+				}
+			}
+		}
+	}
+
+}

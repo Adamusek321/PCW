@@ -1,0 +1,1117 @@
+﻿focus_tree = {
+	id = forp_focus_stab
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = POL
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 100 y = 1600 }
+	
+	##Drzewko gospodarcze##
+	
+	focus = {
+		id = POL_wspolna_odbudowa
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		#prerequisite =
+		x = 11
+		y = 0
+		#relative_position_id = 
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_grupa_technikow_budowlanych
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_wspolna_odbudowa }
+		x = -1
+		y = 1
+		relative_position_id = POL_wspolna_odbudowa
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_panstwowe_narzedzia
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_wspolna_odbudowa }
+		x = 1
+		y = 1
+		relative_position_id = POL_wspolna_odbudowa
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_wsparcie_zza_granicy
+		icon = GFX_focus_POL_wsparcie_zza_granicy
+		prerequisite = { focus = POL_grupa_technikow_budowlanych }
+		prerequisite = { focus = POL_panstwowe_narzedzia }
+		x = 10
+		y = 1
+		relative_position_id = POL_grupa_technikow_budowlanych
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_rozplanowanie_budzetu
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_grupa_technikow_budowlanych }
+		prerequisite = { focus = POL_panstwowe_narzedzia }
+		x = -7
+		y = 1
+		relative_position_id = POL_grupa_technikow_budowlanych
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_propaganda_jednosci
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_grupa_technikow_budowlanych }
+		prerequisite = { focus = POL_panstwowe_narzedzia }
+		x = 1
+		y = 1
+		relative_position_id = POL_grupa_technikow_budowlanych
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_redystrybucja_dobr
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_propaganda_jednosci }
+		x = -4
+		y = 1
+		relative_position_id = POL_propaganda_jednosci
+		mutually_exclusive = { focus = POL_zwrocenie_wlasnosci }
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_zwrocenie_wlasnosci
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_propaganda_jednosci }
+		x = -2
+		y = 1
+		relative_position_id = POL_propaganda_jednosci
+		mutually_exclusive = { focus = POL_redystrybucja_dobr }
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_przydzielenie_burmistrzow
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_propaganda_jednosci }
+		x = 2
+		y = 1
+		relative_position_id = POL_propaganda_jednosci
+		mutually_exclusive = { focus = POL_wynagrodzenia_robotnicze }
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_wynagrodzenia_robotnicze
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_propaganda_jednosci }
+		x = 4
+		y = 1
+		relative_position_id = POL_propaganda_jednosci
+		mutually_exclusive = { focus = POL_przydzielenie_burmistrzow }
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_zakonczenie_odbudowy
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_redystrybucja_dobr focus = POL_zwrocenie_wlasnosci }
+		prerequisite = { focus = POL_przydzielenie_burmistrzow focus = POL_wynagrodzenia_robotnicze }
+		x = 0
+		y = 2
+		relative_position_id = POL_propaganda_jednosci
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_wsparcie_usa
+		icon = GFX_focus_POL_wsparcie_usa
+		prerequisite = { focus = POL_wsparcie_zza_granicy }
+		x = 3
+		y = 1
+		relative_position_id = POL_wsparcie_zza_granicy
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_wsparcie_rosji
+		icon = GFX_focus_POL_wsparcie_rosji
+		prerequisite = { focus = POL_wsparcie_zza_granicy }
+		x = -1
+		y = 1
+		relative_position_id = POL_wsparcie_zza_granicy
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_wsparcie_unii
+		icon = GFX_focus_POL_wsparcie_unii
+		prerequisite = { focus = POL_wsparcie_zza_granicy }
+		x = 1
+		y = 1
+		relative_position_id = POL_wsparcie_zza_granicy
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_wsparcie_onz
+		icon = GFX_focus_POL_wsparcie_onz
+		prerequisite = { focus = POL_wsparcie_zza_granicy }
+		x = -3
+		y = 1
+		relative_position_id = POL_wsparcie_zza_granicy
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_totalitarny_general
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_rozplanowanie_budzetu }
+		x = -1
+		y = 1
+		relative_position_id = POL_rozplanowanie_budzetu
+		mutually_exclusive = { focus = POL_bankier_starej_gwardii }
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_bankier_starej_gwardii
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_rozplanowanie_budzetu }
+		x = 1
+		y = 1
+		relative_position_id = POL_rozplanowanie_budzetu
+		mutually_exclusive = { focus = POL_totalitarny_general }
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_kwestia_podatkow
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_totalitarny_general focus = POL_bankier_starej_gwardii }
+		x = -1
+		y = 1
+		relative_position_id = POL_bankier_starej_gwardii
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_akcja_szukania_pracy
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_totalitarny_general }
+		x = -1
+		y = 1
+		relative_position_id = POL_totalitarny_general
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_sektor_prywatny
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_bankier_starej_gwardii }
+		x = 1
+		y = 1
+		relative_position_id = POL_bankier_starej_gwardii
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_wywlaszczenie_bialoleckich_dobr
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_akcja_szukania_pracy focus = POL_sektor_prywatny }
+		prerequisite = { focus = POL_kwestia_podatkow }
+		mutually_exclusive = { focus = POL_otwarcie_handlu_z_warszawa }
+		x = -1
+		y = 1
+		relative_position_id = POL_kwestia_podatkow
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_otwarcie_handlu_z_warszawa
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_akcja_szukania_pracy focus = POL_sektor_prywatny }
+		prerequisite = { focus = POL_kwestia_podatkow }
+		x = 1
+		y = 1
+		relative_position_id = POL_kwestia_podatkow
+		mutually_exclusive = { focus = POL_wywlaszczenie_bialoleckich_dobr }
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_obligacje_skarbowe
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_wywlaszczenie_bialoleckich_dobr focus = POL_otwarcie_handlu_z_warszawa }
+		x = 1
+		y = 1
+		relative_position_id = POL_wywlaszczenie_bialoleckich_dobr
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_otwarcie_podstawowego_handlu
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_akcja_szukania_pracy }
+		x = 0
+		y = 2
+		relative_position_id = POL_akcja_szukania_pracy
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_otwarcie_wzmozonego_handlu
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_sektor_prywatny }
+		x = 0
+		y = 2
+		relative_position_id = POL_sektor_prywatny
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_agencja_przeciwdzialajaca_korupcji
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_otwarcie_podstawowego_handlu }
+		x = 1
+		y = 1
+		relative_position_id = POL_otwarcie_podstawowego_handlu
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_prywatyzacja_sektora_panstwowego
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_otwarcie_wzmozonego_handlu }
+		x = -1
+		y = 1
+		relative_position_id = POL_otwarcie_wzmozonego_handlu
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_rewilitaryzacja_budzetu
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_agencja_przeciwdzialajaca_korupcji focus = POL_prywatyzacja_sektora_panstwowego }
+		prerequisite = { focus = POL_obligacje_skarbowe }
+		x = 1
+		y = 1
+		relative_position_id = POL_agencja_przeciwdzialajaca_korupcji
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_rozpoczecie_reform
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		#prerequisite = { focus = }
+		x = 5
+		y = 1
+		relative_position_id = POL_zakonczenie_odbudowy
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_rozpoczecie_reform }
+		x = -5
+		y = 1
+		relative_position_id = POL_rozpoczecie_reform
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "PLAN_ZAGOSPODAROWANIE_PRZESTRZENNEGO_WARSZAWY"
+			hidden_effect = {
+				country_event = { days = 1 id = forp.5 }
+			}
+		}
+	}
+	
+	focus = {
+		id = POL_polityka_medalowa
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_rozpoczecie_reform }
+		x = -3
+		y = 1
+		relative_position_id = POL_rozpoczecie_reform
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_bezpieczenstwo_gabinetowe
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_rozpoczecie_reform }
+		x = -1
+		y = 1
+		relative_position_id = POL_rozpoczecie_reform
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_krrit
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_rozpoczecie_reform }
+		x = 1
+		y = 1
+		relative_position_id = POL_rozpoczecie_reform
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_uprzywilejowani_wojskowi
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_rozpoczecie_reform }
+		x = 3
+		y = 1
+		relative_position_id = POL_rozpoczecie_reform
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_reforma_placeholder
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_rozpoczecie_reform }
+		x = 5
+		y = 1
+		relative_position_id = POL_rozpoczecie_reform
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = POL_zakonczenie_stabilizacji
+		icon = GFX_focus_POL_nowy_plan_zagospodarowania_przestrzennego_warszawy
+		prerequisite = { focus = POL_nowy_plan_zagospodarowania_przestrzennego_warszawy focus = POL_polityka_medalowa focus = POL_bezpieczenstwo_gabinetowe focus = POL_krrit focus = POL_uprzywilejowani_wojskowi focus = POL_reforma_placeholder }
+		x = 0
+		y = 2
+		relative_position_id = POL_rozpoczecie_reform
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			custom_effect_tooltip = "UWAGA_FOCUS_TREE"
+		}
+	}
+	
+}

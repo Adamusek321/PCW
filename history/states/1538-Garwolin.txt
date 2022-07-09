@@ -1,0 +1,22 @@
+
+state={
+	id=1538
+	name="STATE_1538"
+
+	history={
+		buildings = {
+			infrastructure = 5
+
+		}
+		owner = PIS
+		add_core_of = PIS
+
+	}
+
+	provinces={
+		316 1312 1630 3377 4433 4746 5122 6278 7534 7723 8087 9240 9468 10615 15450 15462 15471 15591 15623 
+	}
+	manpower=175700
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,9 @@
+
+supply_area={
+	id=1535
+	name="SUPPLYAREA_1535"
+	value=5
+	states={
+		1535 1975 1977 1978 1976 1979 1980 
+	}
+}

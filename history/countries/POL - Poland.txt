@@ -1,0 +1,99 @@
+capital = 1535
+
+oob = "POL_2021"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	motorised_infantry = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_logistics_company = 1
+	tech_signal_company = 1
+	basic_medium_tank = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+}
+
+set_stability = 0.25
+set_war_support = 0.4
+set_convoys = 20
+
+load_focus_tree	= forp_focus_start
+
+set_politics = {
+	ruling_party = pcw_ideology
+	last_election = "2018.11.4"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	pcw_ideology = 100
+}
+
+add_ideas = {
+	war_economy
+	service_by_requirement
+	limited_exports
+	pol_niepopularny_rezim
+	pol_gruzy_warszawy
+	pol_budzet_w_ruinie
+	pol_nielojalna_armia
+	pol_skorumpowani_oficerowie
+	pol_wojskowy_terror
+	pol_warszawski_opor
+	pol_elitarne_dowodztwo
+}
+
+unlock_national_focus = POL_I_zebranie_sztabu_generalnego
+unlock_national_focus = POL_planowanie_operacji_W
+unlock_national_focus = POL_zebranie_zolnierzy_z_calego_kraju
+unlock_national_focus = POL_marsz_na_warszawe
+unlock_national_focus = POL_wawerskie_przedmiescia
+unlock_national_focus = POL_praska_ofensywa
+unlock_national_focus = POL_centrum_dowodzenia
+unlock_national_focus = POL_obowiazkowa_sluzba
+unlock_national_focus = POL_wymuszony_pokoj
+unlock_national_focus = POL_II_zebranie_sztabu_generalnego
+unlock_national_focus = POL_nadwislanski_rozejm
+unlock_national_focus = POL_pomaranczowa_linia
+unlock_national_focus = POL_rozpoczecie_stabilizacji
+
+create_country_leader = {
+	name = "Sztab Generalny Wojska Polskiego"
+	desc = "POL_SZTAB_GENERALNY_WOJSKA_POLSKIEGO_desc"
+	picture = "gfx/leaders/POL/Portrait_Poland_sztab_generalny_wojska_polskiego.dds"
+	expire = "2100.1.1"
+	ideology = nacjonalizm
+	#traits = {
+	#	
+	#}
+}
+
+create_field_marshal = {
+	name = "Rajmund Andrzejczak"
+	picture = "Portrait_Poland_Rajmund_Andrzejczak.dds"
+	traits = {  }
+	skill = 6
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+	id = 1
+}
+
+create_field_marshal = {
+	name = "Jarosław Mika"
+	picture = "Portrait_Poland_Jaroslaw_Mika.dds"
+	traits = {  }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	id = 2
+}

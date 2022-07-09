@@ -1,0 +1,11 @@
+﻿l_polish:
+ po_influence_category:0 "Wpływy Platformy Obywatelskiej"
+ po_influence_category_desc:0 "Nasze państwo jest w wielu kwestiach zależne od Platformy Obywatelskiej. Jest to dla nas w dużym stopniu korzystne, ale nie możemy doprowadzić do tego, żeby ich wpływy wzrosły zbyt wysoko. W przeciwnym razie będziemy w praktyce jedynie marionetką Platformy. Nie powinniśmy jednak całkowicie pozbyć się wpływów PO, ze względu na wrogów czychających na każdym kroku. Dzięki gwarancjom Platformy możemy czuć się bezpiecznie. ponad na razie...\n\nJeśli poparcie Platformy będzie wynosić ponad §O95§!, §Rzostaniemy ich państwem marionetkowym§!\nJeśli poparcie Platformy będzie wynosić ponad §O80§!, §Rotrzymają od nas pełny dostęp do dużej części naszych fabryk§!\nJeśli poparcie Platformy będzie wynosić ponad §O70§!, §Ydołaczymy do ich frakcji§! (wyjdziemy z niej jeśli spadnie poniżej §O55§!)\nJeśli poparcie Platformy będzie wynosić ponad §O60§!, §Yotrzymają od nas prawo przemarszu§!\nJeśli poparcie Platformy będzie wynosić ponad §O50§!, §Yotrzymają od nas prawo cumowania§!\nJeśli poparcie Platformy będzie wynosić ponad §O35§!, §Gbędzą gwarantować naszą niepodległość§!\nJeśli poparcie Platformy będzie wynosić ponad §O20§!, §Gwejdą z nami w pakt o nieagresji§!\nJeśli poparcie Platformy spadnie poniżej §O5§!, §Rpermanentnie zerwiemy z nimi stosunki§!\n\n§YObecnie poziom wpływów PO w naszym kraju wynosi §O[?ROOT.po_influence]§!"
+ po_influence_add_1:0 "Dodaj 1 punkt wpływów"
+ po_influence_add_5:0 "Dodaj 5 punktów wpływów"
+ po_influence_add_10:0 "Dodaj 10 punktów wpływów"
+ po_influence_remove_1:0 "Usuń 1 punkt wpływów"
+ po_influence_remove_5:0 "Usuń 5 punktów wpływów"
+ po_influence_remove_10:0 "Usuń 10 punktów wpływów"
+ debug_category:0 "Debugowe decyzje"
+ cory_na_3_rp:0 "Anektuje Polskę i dodaje cory (w granicach 3RP)"

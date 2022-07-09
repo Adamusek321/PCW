@@ -1,0 +1,18 @@
+state={
+	id=45
+	name="STATE_45"
+	provinces={
+		14215 
+	}
+	history={
+		buildings = {
+			infrastructure = 7
+		}
+
+		owner = PL2
+		add_core_of = PL2
+	}
+	manpower=173700
+	buildings_max_level_factor=1.000
+    state_category=large_town
+}

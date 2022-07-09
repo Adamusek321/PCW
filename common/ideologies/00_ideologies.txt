@@ -1,0 +1,57 @@
+ideologies = {
+	pcw_ideology = {
+	
+		types = {
+			ultranacjonalizm = {}
+			nacjonalizm = {}
+			narodowy_konserwatyzm = {}
+			liberalny_konserwatyzm = {}
+			konserwatywny_liberalizm = {}
+			liberalizm = {}
+			socjalliberalizm = {}
+			socjaldemokracja = {}
+			socjalizm_demokratyczny = {}
+			komunizm = {}
+			centryzm = {}
+			monarchizm = {}
+			zielona_polityka = {}
+			anarchizm = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_1"
+			"FACTION_NAME_2"
+			"FACTION_NAME_3"
+			"FACTION_NAME_4"
+			"FACTION_NAME_5"
+			"FACTION_NAME_6"
+		}
+		
+		color = { 0 0 0 }
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 6.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 6.0
+			lend_lease_tension = 0.4
+			send_volunteers_tension = 0.4
+			guarantee_tension = 0.4
+		}
+		
+		faction_modifiers = {
+		}
+		can_be_boosted = no
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		ai_neutral = yes
+	}
+}

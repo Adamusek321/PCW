@@ -1,0 +1,22 @@
+
+state={
+	id=1523
+	name="STATE_1523"
+
+	history={
+		buildings = {
+			infrastructure = 4
+
+		}
+		owner = KWN
+		add_core_of = KWN
+
+	}
+
+	provinces={
+		267 1996 2816 4739 6581 7368 9413 10611 11536 15151 15158 15188 15203 15239 
+	}
+	manpower=75200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

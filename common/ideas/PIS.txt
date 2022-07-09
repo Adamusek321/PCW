@@ -1,0 +1,14 @@
+ideas = {
+	premier = {
+
+		minister_PIS_jaroslaw_kaczynski = {
+
+			picture = PIS_premier_jaroslaw_kaczynski
+			
+			allowed = {
+				original_tag = PIS
+			}
+			
+			#traits = {  }
+		}
+}

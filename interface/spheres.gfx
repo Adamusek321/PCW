@@ -1,0 +1,23 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_sphere_blank"
+		texturefile = "gfx/interface/spheres/unaligned.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sphere_zp_leader"
+		texturefile = "gfx/interface/spheres/zp_leader.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sphere_zp_member"
+		texturefile = "gfx/interface/spheres/zp_member.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sphere_zp_puppet"
+		texturefile = "gfx/interface/spheres/zp_puppet.dds"
+	}
+	
+}

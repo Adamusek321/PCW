@@ -1,0 +1,19 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			PIS = {
+				set_country_flag = zp_leader
+			}
+			PRZ = {
+				set_country_flag = zp_member
+			}
+			PRP = {
+				set_country_flag = zp_member
+			}
+			SPL = {
+				set_country_flag = zp_member
+			}
+		}
+	}
+}

@@ -1,0 +1,149 @@
+# For the Duel Leader Title, Leader Names, and custom portrait!
+
+defined_text = {
+	name = GetFirstTitle
+	text = {
+		trigger = {
+			tag = RNR
+		}
+		localization_key = PREZES_PARTII_TITLE
+	}
+	text = {
+		trigger = {
+			tag = POL
+			has_country_leader = { name = "Sztab Generalny Wojska Polskiego" }
+		}
+		localization_key = SZTAB_GENERALNY_TITLE
+	}
+	text = {
+        trigger = {
+			tag = POL
+			has_country_leader = {
+				name = "Rajmund Andrzejczak"
+				ruling_only = yes
+			}
+        }
+		localization_key = NACZELNIK_TITLE
+	}
+	text = {
+        trigger = {
+			tag = WAR
+			has_country_leader = {
+				name = "Rafał Trzaskowski"
+				ruling_only = yes
+			}
+        }
+		localization_key = PREZYDENT_TITLE
+	}
+	text = {
+		localization_key = DEFAULT_FIRST_TITLE
+	}
+}
+
+defined_text = {
+	name = GetSecondTitle
+	text = {
+		trigger = {
+			tag = RNR
+		}
+		localization_key = PREZYDENT_TITLE
+	}
+	text = {
+		trigger = {
+			tag = WAR
+		}
+		localization_key = WICEPREZYDENT_TITLE
+	}
+	text = {
+		trigger = {
+			tag = POL
+			has_idea = pol_rada_narodowa
+		}
+		localization_key = RADA_NARODOWA_TITLE
+	}
+}
+
+defined_text = {
+	name = GetDualLeaderName
+	text = {
+		trigger = {
+			tag = RNR
+		}
+		localization_key = RNR_KRZYSZTOF_BOSAK
+	}
+	text = {
+		trigger = {
+			tag = WAR
+		}
+		localization_key = WAR_ANDRZEJ_DUDA
+	}
+	text = {
+		trigger = {
+			tag = POL
+			has_idea = pol_rada_narodowa
+		}
+		localization_key = POL_RADA_NARODOWA
+	}
+	text = {
+		localization_key = DEFAULT_TITLE
+	}
+}
+
+defined_text = {
+    name = GetDualLeaderPortrait
+	text = {
+		trigger = {
+			tag = RNR
+		}
+		localization_key = "GFX_RNR_Krzysztof_Bosak"
+	}
+	text = {
+		trigger = {
+			tag = WAR
+		}
+		localization_key = "GFX_WAR_Andrzej_Duda"
+	}
+	text = {
+		trigger = {
+			tag = POL
+			has_idea = pol_rada_narodowa
+		}
+		localization_key = "GFX_POL_Rada_Narodowa_RP"
+	}
+	text = {
+		localization_key = "GFX_portrait_bg_blank"
+	}
+}
+
+defined_text = {
+    name = GetDualLeaderDesc    
+	text = {
+		trigger = {
+			tag = POL
+			has_idea = pol_rada_narodowa
+		}
+        localization_key = POL_RADA_NARODOWA_desc
+	}
+}
+
+defined_text = {
+    name = GetFirstLeaderDesc
+    
+    text = {
+        trigger = {
+			tag = POL
+			has_country_leader = {
+				name = "Rajmund Andrzejczak"
+				ruling_only = yes
+			}
+        }
+        localization_key = POL_RAJMUND_ANDRZEJCZAK_desc
+	}
+	text = {
+		trigger = {
+			tag = POL
+			has_country_leader = { name = "Sztab Generalny Wojska Polskiego" }
+		}
+		localization_key = SZTAB_GENERALNY_desc
+	}
+}

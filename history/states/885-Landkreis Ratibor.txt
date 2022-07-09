@@ -1,0 +1,22 @@
+
+state={
+	id=885
+	name="STATE_885"
+
+	history={
+		buildings = {
+			infrastructure = 5
+
+		}
+		owner = SLA
+		add_core_of = SLA
+
+	}
+
+	provinces={
+		4982 5857 6994 7120 8161 16810 16865 16958 16976 
+	}
+	manpower=78182
+	buildings_max_level_factor=1.000
+	state_category=town
+}

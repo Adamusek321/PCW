@@ -1,0 +1,37 @@
+capital = 1254
+
+oob = "standard_templates"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = pcw_ideology
+	last_election = "2019.5.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	pcw_ideology = 100
+}
+
+add_ideas = {
+	czlonek_ue
+	czlonek_nato
+}
+
+create_country_leader = {
+	name = "Alexander De Croo"
+	desc = " "
+	picture = "gfx/leaders/BEL/Portrait_Belgium_Alexander_De_Croo.dds"
+	expire = "2100.1.1"
+	ideology = liberalizm
+	#traits = {
+	#	
+	#}
+}

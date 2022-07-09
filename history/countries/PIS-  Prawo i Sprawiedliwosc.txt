@@ -1,0 +1,41 @@
+capital = 1613
+
+oob = "standard_templates"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = pcw_ideology
+	last_election = "2021.7.31"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	pcw_ideology = 100
+}
+
+create_faction = zjednoczona_prawica_faction
+add_to_faction = PIS
+add_to_faction = SPL
+add_to_faction = PRP
+add_to_faction = PRZ
+
+add_ideas = {
+	minister_PIS_jaroslaw_kaczynski
+}
+
+create_country_leader = {
+	name = "Jarosław Kaczyński"
+	desc = " "
+	picture = "gfx/leaders/PIS/Portrait_Prawo_i_Sprawiedliwosc_Jaroslaw_Kaczynski.dds"
+	expire = "2100.1.1"
+	ideology = narodowy_konserwatyzm
+	#traits = {
+	#	
+	#}
+}

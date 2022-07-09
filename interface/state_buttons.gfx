@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_stabilize_state"
+		texturefile = "gfx/interface/state_buttons/stabilize_state_button.dds"
+	}
+	
+}

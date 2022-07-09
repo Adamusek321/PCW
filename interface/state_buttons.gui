@@ -1,0 +1,19 @@
+guiTypes = {
+	containerWindowType = {
+		name = "state_buttons"
+		position = { x = 35 y = 290 }
+		
+		containerWindowType = {
+			name = "state_button_icons"
+			position = { x = 0 y = 0 }
+			buttonType = {
+				name = "stabilize_state_button"
+				spriteType = "GFX_stabilize_state"
+				position = { x = 0 y = 10 }
+				pdx_tooltip = "STATE_BUTTON_STABILIZE_TT"
+				pdx_tooltip_delayed = "STATE_BUTTON_STABILIZE_TTL"
+				clicksound = click_close
+			}
+		}		
+	}
+}

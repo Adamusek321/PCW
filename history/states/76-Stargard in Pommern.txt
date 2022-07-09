@@ -1,0 +1,18 @@
+state={
+	id=76
+	name="STATE_76"
+	provinces={
+		12336 
+	}
+	history={
+		buildings = {
+			infrastructure = 5
+		}
+
+		owner = ZIE
+		add_core_of = ZIE
+	}
+	manpower=67500
+	buildings_max_level_factor=1.000
+    state_category=large_town
+}

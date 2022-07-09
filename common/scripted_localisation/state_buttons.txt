@@ -1,0 +1,267 @@
+defined_text = {
+	name = STATE_BUTTON_STABILIZE_COST_REWARDS
+	text = {
+		trigger = {
+			compliance < 20
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COMPILANCE_TOO_LOW
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = pastoral
+				compliance > 60
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_PASTORAL_60
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = pastoral
+				compliance > 40
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_PASTORAL_40
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = pastoral
+				compliance > 20
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_PASTORAL_20
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = rural
+				compliance > 60
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_RURAL_60
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = rural
+				compliance > 40
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_RURAL_40
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = rural
+				compliance > 20
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_RURAL_20
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = town
+				compliance > 60
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_TOWN_60
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = town
+				compliance > 40
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_TOWN_40
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = town
+				compliance > 20
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_TOWN_20
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = large_town
+				compliance > 60
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_LARGE_TOWN_60
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = large_town
+				compliance > 40
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_LARGE_TOWN_40
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = large_town
+				compliance > 20
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_LARGE_TOWN_20
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = city
+				compliance > 60
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_CITY_60
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = city
+				compliance > 40
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_CITY_40
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = city
+				compliance > 20
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_CITY_20
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = large_city
+				compliance > 60
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_LARGE_CITY_60
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = large_city
+				compliance > 40
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_LARGE_CITY_40
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = large_city
+				compliance > 20
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_LARGE_CITY_20
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = metropolis
+				compliance > 60
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_METROPOLIS_60
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = metropolis
+				compliance > 40
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_METROPOLIS_40
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = metropolis
+				compliance > 20
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_METROPOLIS_20
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = metropolis
+				compliance > 60
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_METROPOLIS_60
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = metropolis
+				compliance > 40
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_METROPOLIS_40
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = metropolis
+				compliance > 20
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_METROPOLIS_20
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = megalopolis
+				compliance > 60
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_MEGALOPOLIS_60
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = megalopolis
+				compliance > 40
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_MEGALOPOLIS_40
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_state_category = megalopolis
+				compliance > 20
+			}
+		}
+		localization_key = STATE_BUTTON_STABILIZE_COST_REWARDS_MEGALOPOLIS_20
+	}
+}
+defined_text = {
+	name = STATE_BUTTON_STABILIZE_TEXT
+	text = {
+		trigger = {
+			compliance < 20
+		}
+		localization_key = STATE_BUTTON_STABILIZE_TEXT_NO
+	}
+	text = {
+		trigger = {
+			compliance > 20
+		}
+		localization_key = STATE_BUTTON_STABILIZE_TEXT_YES
+	}
+}

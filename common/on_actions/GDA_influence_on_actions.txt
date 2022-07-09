@@ -1,0 +1,187 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			GDA = {
+				set_country_flag = GDA.po_influence
+				set_variable = {
+					var = GDA.po_influence
+					value = 65
+				}
+			}
+		}
+	}
+	
+	on_weekly_GDA = {
+		effect = {
+			GDA = {
+				if = {
+					limit = {
+						check_variable = { GDA.po_influence > 95 }
+					}
+					POB = {
+						set_autonomy = { target = GDA autonomy_state = autonomy_puppet }
+					}
+					clear_variable = GDA.po_influence
+					clr_country_flag = GDA.po_influence
+					#zmiana drzewka do dodania
+				}
+			}
+			GDA = {
+				if = {
+					limit = {
+						check_variable = { GDA.po_influence > 80 }
+					}
+					#do zrobienia z fabrykami
+				}
+			}
+			GDA = {
+				if = {
+					limit = {
+						check_variable = { GDA.po_influence > 70 }
+					}
+					POB = {
+						add_to_faction = GDA
+					}
+				}
+			}
+			GDA = {
+				if = {
+					limit = {
+						AND = {
+							has_country_flag = GDA.po_influence
+							is_in_faction_with = POB
+							check_variable = { GDA.po_influence < 55 }
+						}
+					}
+					GDA = {
+						leave_faction = yes
+					}					
+				}
+			}
+			GDA = {
+				if = {
+					limit = {
+						check_variable = { GDA.po_influence > 60 }
+					}
+					POB = {
+						diplomatic_relation = {
+						country = GDA
+						relation = military_access
+						active = yes
+						}
+					}
+				}
+			}
+			GDA = {
+				if = {
+					limit = {
+						check_variable = { GDA.po_influence < 60 }
+					}
+					POB = {
+						diplomatic_relation = {
+						country = GDA
+						relation = military_access
+						active = no
+						}
+					}
+				}
+			}
+			GDA = {
+				if = {
+					limit = {
+						check_variable = { GDA.po_influence > 50 }
+						}
+					POB = {
+						diplomatic_relation = {
+						country = GDA
+						relation = docking_rights
+						active = yes
+						}
+					}
+				}
+			}
+			GDA = {
+				if = {
+					limit = {
+						check_variable = { GDA.po_influence < 50 }
+					}
+					POB = {
+						diplomatic_relation = {
+							country = GDA
+							relation = docking_rights
+							active = no
+						}
+					}
+				}
+			}
+			GDA = {
+				if = {
+					limit = {
+						check_variable = { GDA.po_influence > 35 }
+					}
+					POB = {
+						diplomatic_relation = {
+						country = GDA
+						relation = guarantee
+						active = yes
+						}
+					}
+				}
+			}
+			GDA = {
+				if = {
+					limit = {
+						check_variable = { GDA.po_influence < 35 }
+					}
+					POB = {
+						diplomatic_relation = {
+						country = GDA
+						relation = guarantee
+						active = no
+						}
+					}
+				}
+			}
+			GDA = {
+				if = {
+					limit = {
+						check_variable = { GDA.po_influence > 20 }
+					}
+					POB = {
+						diplomatic_relation = {
+							country = GDA
+							relation = non_aggression_pact
+							active = yes
+						}
+					}
+				}
+			}
+			GDA = {
+				if = {
+					limit = {
+						check_variable = { GDA.po_influence < 20 }
+					}
+					POB = {
+						diplomatic_relation = {
+						country = GDA
+						relation = non_aggression_pact
+						active = no
+						}
+					}
+				}
+			}
+			GDA = {
+				if = {
+					limit = {
+						check_variable = { GDA.po_influence < 5 }
+					}
+					clear_variable = GDA.po_influence
+					clr_country_flag = GDA.po_influence
+					#zmiana drzewka do dodania
+				}
+			}
+		}
+	}
+
+}

@@ -1,0 +1,169 @@
+﻿division_template = {
+	name = "Dywizja Patrolu Społecznego"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+
+	priority = 1
+}
+
+division_template = {
+	name = "Dywizja Piechoty"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+
+	support = {
+        engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 483
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 15199
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 11615
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 21136
+		division_template = "Dywizja Patrolu Społecznego"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 10469
+		division_template = "Dywizja Patrolu Społecznego"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 15319
+		division_template = "Dywizja Patrolu Społecznego"
+		start_experience_factor = 0
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 8587
+		division_template = "Dywizja Patrolu Społecznego"
+		start_experience_factor = 0
+		start_equipment_factor = 0.6
+
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11057
+		division_template = "Dywizja Patrolu Społecznego"
+		start_experience_factor = 0
+		start_equipment_factor = 0.6
+
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 21137
+		division_template = "Dywizja Patrolu Społecznego"
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 15209
+		division_template = "Dywizja Patrolu Społecznego"
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 10614
+		division_template = "Dywizja Patrolu Społecznego"
+		start_experience_factor = 0
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 15122
+		division_template = "Dywizja Patrolu Społecznego"
+		start_experience_factor = 0
+		start_equipment_factor = 0.3
+
+	}
+}

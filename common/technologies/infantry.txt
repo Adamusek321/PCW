@@ -1,0 +1,189 @@
+technologies = {
+
+	infantry_weapons = {
+		enable_subunits = {
+			#militia
+			infantry
+			cavalry
+		}
+		enable_equipments = {
+			infantry_equipment_0
+		}
+
+        allow_branch = {
+            always = no
+        }
+		research_cost = 1.0
+		start_year = 2000
+		folder = {
+			name = infantry_folder
+			position = { x = 100 y = 100 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	helmets = {
+		path = {
+			leads_to_tech = helmets2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = helmets_tank
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = helmets_paratroopers
+			research_cost_coeff = 1
+		}
+		
+		category_all_infantry = {
+			defense = 0.125
+			max_strength = 0.25
+		}
+		
+        allow_branch = {
+            always = yes
+        }
+		research_cost = 1.0
+		start_year = 1967
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 0 }
+		}
+		categories = {
+			infantry_tech
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	helmets2 = {
+		path = {
+			leads_to_tech = helmets3
+			research_cost_coeff = 1
+		}
+		
+		category_all_infantry = {
+			defense = 0.125
+			max_strength = 0.25
+		}
+		
+		research_cost = 1.0
+		start_year = 2006
+		folder = {
+			name = infantry_folder
+			position = { x = 1 y = 0 }
+		}
+		categories = {
+			infantry_tech
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	helmets3 = {
+		
+		category_all_infantry = {
+			defense = 0.125
+			max_strength = 0.25
+		}
+
+		research_cost = 1.0
+		start_year = 2023
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 0 }
+		}
+		categories = {
+			infantry_tech
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	helmets_tank = {
+		
+	#dodać boost do czołgów
+
+		research_cost = 1.0
+		start_year = 1998
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = 0 }
+		}
+		categories = {
+			infantry_tech
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	helmets_paratroopers = {
+		
+		#dodać boost do paratroopersów
+		
+		research_cost = 1.0
+		start_year = 2015
+		folder = {
+			name = infantry_folder
+			position = { x = 6 y = 0 }
+		}
+		categories = {
+			infantry_tech
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	 uniforms = {
+		path = {
+			leads_to_tech = uniforms_tank
+			research_cost_coeff = 1
+		}
+		
+        allow_branch = {
+            always = yes
+        }
+		research_cost = 1.0
+		start_year = 2010
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 0 }
+		}
+		categories = {
+			infantry_tech
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	 uniforms_tank = {
+			
+        allow_branch = {
+            always = yes
+        }
+		research_cost = 1.0
+		start_year = 2010
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 0 }
+		}
+		categories = {
+			infantry_tech
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}

@@ -1,0 +1,31 @@
+capital = 1555
+
+oob = "standard_templates"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = pcw_ideology
+	last_election = "2019.11.24"
+	election_frequency = 24
+	elections_allowed = no
+}
+set_popularities = {
+	pcw_ideology = 100
+}
+
+create_country_leader = {
+	name = "Adam Szłapka"
+	desc = " "
+	picture = "gfx/leaders/NOW/Portrait_Nowoczesna_Adam_Szlapka.dds"
+	expire = "2100.1.1"
+	ideology = liberalizm
+	#traits = {
+	#	
+	#}
+}

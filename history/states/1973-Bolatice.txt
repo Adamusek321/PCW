@@ -1,0 +1,22 @@
+state={
+	id=1973
+	name="STATE_1973"
+	
+	
+	history={
+		buildings = {
+			infrastructure = 4
+
+		}
+		owner = CZE
+		add_core_of = CZE
+
+	}
+
+	provinces={
+		12175 12728 16978 17000 17028 17051 
+	}
+	manpower=43253
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

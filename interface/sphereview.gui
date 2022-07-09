@@ -1,0 +1,30 @@
+guiTypes = {
+	containerWindowType = {
+		name = "sphere_politics_view_container"
+		position = { x = 0 y = 0 }
+		
+		iconType ={
+			name ="sphere_icon_politics"
+			spriteType = "GFX_sphere_blank"
+			position = { x = 448 y = 307 }
+
+			pdx_tooltip = sphere_tt
+			pdx_tooltip_delayed = sphere_desc_tt
+		}
+	}
+		
+	containerWindowType = {
+		name = "sphere_diplomacy_view_container"
+		position = { x = 0 y = 0 }
+		
+		iconType ={
+			name ="sphere_icon_diplo"
+			spriteType = "GFX_sphere_blank"
+			position = { x = 289 y = 125 }
+
+			pdx_tooltip = sphere_diplo_tt
+			pdx_tooltip_delayed = sphere_diplo_desc_tt
+		}
+	}
+	
+}

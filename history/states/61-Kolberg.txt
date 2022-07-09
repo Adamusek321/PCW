@@ -1,0 +1,18 @@
+state={
+	id=61
+	name="STATE_61"
+	provinces={
+		14138 
+	}
+	history={
+		buildings = {
+			infrastructure = 6
+		}
+
+		owner = LRA
+		add_core_of = LRA
+	}
+	manpower=46800
+	buildings_max_level_factor=1.000
+    state_category=large_town
+}

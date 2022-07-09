@@ -1,0 +1,18 @@
+state={
+	id=54
+	name="STATE_54"
+	provinces={
+		13 
+	}
+	history={
+		buildings = {
+			infrastructure = 5
+		}
+
+		owner = LRA
+		add_core_of = LRA
+	}
+	manpower=48060
+	buildings_max_level_factor=1.000
+    state_category=town
+}

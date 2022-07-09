@@ -1,0 +1,47 @@
+capital = 1355
+
+oob = "standard_templates"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = pcw_ideology
+	last_election = "2017.4.23"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	pcw_ideology = 100
+}
+
+add_ideas = {
+	czlonek_ue
+	czlonek_nato
+}
+
+create_country_leader = {
+	name = "Emmanuel Macron"
+	desc = " "
+	picture = "gfx/leaders/FRA/Portrait_France_Emmanuel_Macron.dds"
+	expire = "2100.1.1"
+	ideology = centryzm
+	#traits = {
+	#	
+	#}
+}
+
+create_country_leader = {
+	name = "Marine Le Pen"
+	desc = " "
+	picture = "gfx/leaders/FRA/Portrait_France_Marie_Le_Pen.dds"
+	expire = "2100.1.1"
+	ideology = nacjonalizm
+	#traits = {
+	#	
+	#}
+}

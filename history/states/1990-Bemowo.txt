@@ -1,0 +1,23 @@
+state={
+	id=1990
+	name="STATE_1990"
+	
+	history={
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 1
+
+		}
+		owner = WAR
+		add_core_of = WAR
+
+	}
+	
+	provinces={
+		15209 
+	}
+	
+	manpower=125119
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

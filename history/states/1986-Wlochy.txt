@@ -1,0 +1,23 @@
+state={
+	id=1986
+	name="STATE_1986"
+	
+	history={
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 1
+
+		}
+		owner = WAR
+		add_core_of = WAR
+
+	}
+	
+	provinces={
+		8587 
+	}
+	
+	manpower=43613
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

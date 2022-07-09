@@ -1,0 +1,24 @@
+state={
+	id=1979
+	name="STATE_1979"
+	
+	history={
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+
+		}
+		owner = POL
+		add_claim_by = WAR
+		add_core_of = POL
+
+	}
+	
+	provinces={
+		21135 
+	}
+	
+	manpower=25798
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

@@ -1,0 +1,24 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_Achievement_Burgundian_Inheritance_Image"
+		texturefile = "gfx/custom_achievements/Achievement_Burgundian_Inheritance_Image.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Achievement_Completed"
+		texturefile = "gfx/custom_achievements/Achievement_Completed_Checkmark.dds"
+		legacy_lazy_load = no
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_window_thin_border"
+		size= { x=192 y=192 }
+		textureFile = "gfx//interface//tiles//tiled_window_thin_border.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		}
+	}
+}

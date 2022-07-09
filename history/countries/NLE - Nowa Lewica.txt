@@ -1,0 +1,35 @@
+capital = 843
+
+oob = "standard_templates"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = pcw_ideology
+	last_election = "2021.5.2"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	pcw_ideology = 100
+}
+
+create_faction = lewica_faction
+add_to_faction = NLE
+add_to_faction = LRA
+
+create_country_leader = {
+	name = "Włodzimierz Czarzasty"
+	desc = " "
+	picture = "gfx/leaders/NLE/Portrait_Nowa_Lewica_Wlodzimierz_Czarzasty.dds"
+	expire = "2100.1.1"
+	ideology = socjaldemokracja
+	#traits = {
+	#	
+	#}
+}

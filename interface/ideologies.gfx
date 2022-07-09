@@ -1,0 +1,60 @@
+spriteTypes = {
+	spriteType = {
+	name = "GFX_ideology_ultranacjonalizm_group"
+	texturefile = "gfx/interface/ideologies/ultranacjonalizm_group.dds"
+	}
+	spriteType = {
+	name = "GFX_ideology_nacjonalizm_group"
+	texturefile = "gfx/interface/ideologies/nacjonalizm_group.dds"
+	}
+	spriteType = {
+	name = "GFX_ideology_narodowy_konserwatyzm_group"
+	texturefile = "gfx/interface/ideologies/narodowy_konserwatyzm_group.dds"
+	}
+	spriteType = {
+	name = "GFX_ideology_liberalny_konserwatyzm_group"
+	texturefile = "gfx/interface/ideologies/liberalny_konserwatyzm_group.dds"
+	}
+	spriteType = {
+	name = "GFX_ideology_konserwatywny_liberalizm_group"
+	texturefile = "gfx/interface/ideologies/konserwatywny_liberalizm_group.dds"
+	}
+	spriteType = {
+	name = "GFX_ideology_liberalizm_group"
+	texturefile = "gfx/interface/ideologies/liberalizm_group.dds"
+	}
+	spriteType = {
+	name = "GFX_ideology_socjalliberalizm_group"
+	texturefile = "gfx/interface/ideologies/socjalliberalizm_group.dds"
+	}
+	spriteType = {
+	name = "GFX_ideology_socjaldemokracja_group"
+	texturefile = "gfx/interface/ideologies/socjaldemokracja_group.dds"
+	}
+	spriteType = {
+	name = "GFX_ideology_socjalizm_demokratyczny_group"
+	texturefile = "gfx/interface/ideologies/socjalizm_demokratyczny_group.dds"
+	}
+	spriteType = {
+	name = "GFX_ideology_komunizm_group"
+	texturefile = "gfx/interface/ideologies/komunizm_group.dds"
+	}
+	spriteType = {
+	name = "GFX_ideology_centryzm_group"
+	texturefile = "gfx/interface/ideologies/centryzm_group.dds"
+	}
+	spriteType = {
+	name = "GFX_ideology_monarchizm_group"
+	texturefile = "gfx/interface/ideologies/monarchizm_group.dds"
+	}
+	spriteType = {
+	name = "GFX_ideology_zielona_polityka_group"
+	texturefile = "gfx/interface/ideologies/zielona_polityka_group.dds"
+	}
+	
+	spriteType = {
+	name = "GFX_ideology_anarchizm_group"
+	texturefile = "gfx/interface/ideologies/anarchizm_group.dds"
+	}
+
+}

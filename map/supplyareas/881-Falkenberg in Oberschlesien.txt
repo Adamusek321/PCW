@@ -1,0 +1,8 @@
+supply_area={
+	id=881
+	name="SUPPLYAREA_881"
+	value=5
+	states={
+		881
+	}
+}

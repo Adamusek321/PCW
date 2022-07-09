@@ -1,0 +1,23 @@
+state={
+	id=1985
+	name="STATE_1985"
+	
+	history={
+		buildings = {
+			infrastructure = 9
+			arms_factory = 1
+
+		}
+		owner = WAR
+		add_core_of = WAR
+
+	}
+	
+	provinces={
+		11057 
+	}
+	
+	manpower=82484
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

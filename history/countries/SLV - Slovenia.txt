@@ -1,0 +1,36 @@
+capital = 1917
+
+oob = "standard_templates"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = pcw_ideology
+	last_election = "2017.11.12"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	pcw_ideology = 100
+}
+
+add_ideas = {
+	czlonek_ue
+	czlonek_nato
+}
+
+create_country_leader = {
+	name = "Borut Pahor"
+	desc = " "
+	picture = "gfx/leaders/SLV/Portrait_Slovenia_Borut_Pahor.dds"
+	expire = "2100.1.1"
+	ideology = socjaldemokracja
+	#traits = {
+	#	
+	#}
+}

@@ -1,0 +1,20 @@
+state={
+	id=1555
+	name="STATE_1555"
+	provinces={
+		1287 11644 
+	}
+	history={
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 3
+			arms_factory = 2
+		}
+
+		owner = NOW
+		add_core_of = NOW
+	}
+	manpower=696708
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

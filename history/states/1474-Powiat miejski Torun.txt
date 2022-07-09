@@ -1,0 +1,18 @@
+state={
+	id=1474
+	name="STATE_1474"
+	provinces={
+		9954 
+	}
+	history={
+		buildings = {
+			infrastructure = 7
+		}
+
+		owner = RNR
+		add_core_of = RNR
+	}
+	manpower=199400
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

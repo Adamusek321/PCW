@@ -1,0 +1,11 @@
+﻿l_polish:
+
+  Custom_Achievements_Window_Enabler_tt:0 "§YOsiągnięcia§!"
+  custom_achievements_title:0 "OSIĄGNIĘCIA"
+  
+  get_achievement_title:0 "[get_achievement_title]"
+  get_achievement_desc:0 "[get_achievement_desc]"
+
+  Achievement_Burgundian_Inheritance:0 "§YThe Burgundian Inheritance§!"
+  Achievement_Burgundian_Inheritance_DESC:0 "As §YFlanders, Wallonia, Belgium or the Netherlands§!, form the Kingdom of Burgundy"
+  Achievement_Burgundian_Inheritance_Image:0 "GFX_Achievement_Burgundian_Inheritance_Image"

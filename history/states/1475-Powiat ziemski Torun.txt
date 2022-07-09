@@ -1,0 +1,22 @@
+
+state={
+	id=1475
+	name="STATE_1475"
+
+	history={
+		buildings = {
+			infrastructure = 4
+
+		}
+		owner = RNR
+		add_core_of = RNR
+
+	}
+
+	provinces={
+		3818 4074 5164 5976 7358 8210 11790 12535 13448 14691 14724 14763 
+	}
+	manpower=52300
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
