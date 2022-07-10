@@ -1,0 +1,15 @@
+characters = {
+	AUS_alexander_van_der_bellen = {
+		name = AUS_ALEXANDER_VAN_DER_BELLEN_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_aus_alexander_van_der_bellen"
+			}
+		}
+		country_leader = {
+			ideology = zielona_polityka
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

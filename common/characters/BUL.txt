@@ -1,0 +1,15 @@
+characters = {
+	BUL_rumen_radew = {
+		name = BUL_RUMEN_RADEW_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_bul_rumen_radew"
+			}
+		}
+		country_leader = {
+			ideology = socjaldemokracja
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

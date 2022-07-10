@@ -7,6 +7,8 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+recruit_character = AUS_alexander_van_der_bellen
+
 set_convoys = 20
 
 set_politics = {
@@ -22,15 +24,4 @@ set_popularities = {
 
 add_ideas = {
 	czlonek_ue
-}
-
-create_country_leader = {
-	name = "Alexander Van der Bellen"
-	desc = " "
-	picture = "gfx/leaders/AUS/Portrait_Austria_Alexander_Van_der_Bellen.dds"
-	expire = "2100.1.1"
-	ideology = zielona_polityka
-	#traits = {
-	#	
-	#}
 }

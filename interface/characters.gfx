@@ -1,0 +1,214 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_potrait_pol_sztab_generalny"
+		texturefile = "gfx/leaders/POL/Portrait_Poland_sztab_generalny_wojska_polskiego.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_aus_alexander_van_der_bellen"
+		texturefile = "gfx/leaders/AUS/Portrait_Austria_Alexander_Van_der_Bellen.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_bel_alexander_de_croo"
+		texturefile = "gfx/leaders/BEL/Portrait_Belgium_Alexander_De_Croo.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_blr_aleksandr_lukashenko"
+		texturefile = "gfx/leaders/BLR/Portrait_Belarus_Alaksandr_Lukaszenka.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_bos_sefik_dzaferovic"
+		texturefile = "gfx/leaders/BOS/Portrait_Bosnia_Sefik_Dzaferovic.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_bul_rumen_radew"
+		texturefile = "gfx/leaders/BUL/Portrait_Bulgaria_Rumen_Radew.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_cro_zoran_milanovic"
+		texturefile = "gfx/leaders/CRO/Portrait_Croatia_Zoran_Milanovic.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_cze_milos_zeman"
+		texturefile = "gfx/leaders/CZE/Portrait_Czechia_Milos_Zeman.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_den_mette_fredriksen"
+		texturefile = "gfx/leaders/DEN/Portrait_Denmark_Mette_Frederiksen.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_fra_emmanuel_macron"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Emmanuel_Macron.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_fra_marie_le_pen"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Marie_Le_Pen.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_gda_aleksandra_dulkiewicz"
+		texturefile = "gfx/leaders/GDA/Portrait_Gdansk_Aleksandra_Dulkiewicz.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_ger_frank_walter_steinmeier"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Frank_Walter_Steinmeier.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_hol_mark_rutte"
+		texturefile = "gfx/leaders/HOL/Portrait_Netherlands_Mark_Rutte.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_hun_janos_ader"
+		texturefile = "gfx/leaders/HUN/Portrait_Hungary_Janos_Ader.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_ipo_barbara_nowacka"
+		texturefile = "gfx/leaders/IPO/Portrait_Inicjatywa_Polska_Barbara_Nowacka.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_ita_sergio_mattarella"
+		texturefile = "gfx/leaders/ITA/Portrait_Italy_Sergio_Mattarella.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_k15_pawel_kukiz"
+		texturefile = "gfx/leaders/K15/Portrait_Kukiz15_Pawel_Kukiz.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_kor_grzegorz_braun"
+		texturefile = "gfx/leaders/KOR/Portrait_Korona_RP_Grzegorz_Braun.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_kwn_janusz_korwin_mikke"
+		texturefile = "gfx/leaders/KWN/Portrait_Korwin_Janusz_Korwin_Mikke.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_lie_daniel_risch"
+		texturefile = "gfx/leaders/LIE/Portrait_Liechtenstein_Daniel_Risch.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_lit_gitanas_nauseda"
+		texturefile = "gfx/leaders/LIT/Portrait_Lithuania_Gitanas_Nauseda.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_lra_adrian_zandberg"
+		texturefile = "gfx/leaders/LRA/Portrait_Lewica_Razem_Adrian_Zandberg.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_lux_xavier_bettel"
+		texturefile = "gfx/leaders/LUX/Portrait_Luxembourg_Xavier_Bettel.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_mol_maia_sandu"
+		texturefile = "gfx/leaders/MOL/Portrait_Moldova_Maia_Sandu.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_nle_wlodzimierz_czarzasty"
+		texturefile = "gfx/leaders/NLE/Portrait_Nowa_Lewica_Wlodzimierz_Czarzasty.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_now_adamsz_szlapka"
+		texturefile = "gfx/leaders/NOW/Portrait_Nowoczesna_Adam_Szlapka.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_pis_jaroslaw_kaczynski"
+		texturefile = "gfx/leaders/PIS/Portrait_Prawo_i_Sprawiedliwosc_Jaroslaw_Kaczynski.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_pl2_szymon_holownia"
+		texturefile = "gfx/leaders/PL2/Portrait_Polska2050_Szymon_Holownia.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_pob_donald_tusk"
+		texturefile = "gfx/leaders/POB/Portrait_Platforma_Obywatelska_Donald_Tusk.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_pol_jaroslaw_mikka"
+		texturefile = "gfx/leaders/POL/Portrait_Poland_Jaroslaw_Mika.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_pol_rada_narodowa_rp"
+		texturefile = "gfx/leaders/POL/Portrait_Poland_Rada_Narodowa_RP.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_pol_rajmund_andrzejczak"
+		texturefile = "gfx/leaders/POL/Portrait_Poland_Rajmund_Andrzejczak.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_pps_wojciech_konieczny"
+		texturefile = "gfx/leaders/PPS/Portrait_Polska_Partia_Socjalistyczna_Wojciech_Konieczny.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_prp_adam_bielan"
+		texturefile = "gfx/leaders/PRP/Portrait_Partia_Republikanska_Adam_Bielan.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_prz_jaroslaw_gowin"
+		texturefile = "gfx/leaders/PRZ/Portrait_Porozumienie_Jaroslaw_Gowin.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_psl_wladyslaw_kosiniak_kamysz"
+		texturefile = "gfx/leaders/PSL/Portrait_Polskie_Stronnictwo_Ludowe_Wladyslaw_Kosiniak_Kamysz.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_rnr_krzysztof_bosak"
+		texturefile = "gfx/leaders/RNR/Portrait_Ruch_Narodowy_Krzysztof_Bosak.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_rnr_robert_winnicki"
+		texturefile = "gfx/leaders/RNR/Portrait_Ruch_Narodowy_Robert_Winnicki.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_rom_klaus_iohannis"
+		texturefile = "gfx/leaders/ROM/Portrait_Romania_Klaus_Iohannis.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_rus_vladimir_putin"
+		texturefile = "gfx/leaders/RUS/Portrait_Russia_Vladimir_Putin.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_ser_aleksandar_vucic"
+		texturefile = "gfx/leaders/SER/Portrait_Serbia_Aleksandar_Vucic.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_sla_federal_council"
+		texturefile = "gfx/leaders/SLA/Portrait_Slask_Federal_council.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_slo_zuzanna_caputova"
+		texturefile = "gfx/leaders/SLO/Portrait_Slovakia_Zuzana_Caputova.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_slv_borut_pahor"
+		texturefile = "gfx/leaders/SLV/Portrait_Slovenia_Borut_Pahor.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_spl_zbigniew_ziobro"
+		texturefile = "gfx/leaders/SPL/Portrait_Solidarna_Polska_Zbigniew_Ziobro.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_swe_stefan_lofven"
+		texturefile = "gfx/leaders/SWE/Portrait_Sweden_Stefan_Lofven.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_swi_federal_council"
+		texturefile = "gfx/leaders/SWI/Portrait_Switzerland_Federal_council.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_ued_elzbieta_binczynska"
+		texturefile = "gfx/leaders/UED/Portrait_Unia_Europejskich_Demokratow_Elzbieta_Binczycka.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_ukr_wolodymyr_zelenski"
+		texturefile = "gfx/leaders/UKR/Portrait_Ukraine_Wolodymyr_Zelenski.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_war_rafal_trzaskowski"
+		texturefile = "gfx/leaders/WAR/Portrait_Warsaw_Rafal_Trzaskowski.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_war_andrzej_duda"
+		texturefile = "gfx/leaders/WAR/Portrait_Warszawa_Andrzej_Duda.dds"
+	}
+	spriteType = {
+		name = "GFX_potrait_zie_malgorzata_tracz"
+		texturefile = "gfx/leaders/ZIE/Portrait_Zieloni_Malgorzata_Tracz.dds"
+	}
+}

@@ -7,6 +7,8 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+recruit_character = DEN_mette_federiksen
+
 set_convoys = 20
 
 set_politics = {
@@ -22,15 +24,4 @@ set_popularities = {
 add_ideas = {
 	czlonek_ue
 	czlonek_nato
-}
-
-create_country_leader = {
-	name = "Mette Frederiksen"
-	desc = " "
-	picture = "gfx/leaders/DEN/Portrait_Denmark_Mette_Frederiksen.dds"
-	expire = "2100.1.1"
-	ideology = socjaldemokracja
-	#traits = {
-	#	
-	#}
 }

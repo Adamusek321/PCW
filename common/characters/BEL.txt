@@ -1,0 +1,15 @@
+characters = {
+	BEL_alexander_de_croo = {
+		name = BEL_ALEXANDER_DE_CROO_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_bel_alexander_de_croo"
+			}
+		}
+		country_leader = {
+			ideology = liberalizm
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

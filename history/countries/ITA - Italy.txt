@@ -7,6 +7,8 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+recruit_character = ITA_sergio_mattarella
+
 set_convoys = 20
 
 
@@ -24,15 +26,4 @@ set_popularities = {
 add_ideas = {
 	czlonek_ue
 	czlonek_nato
-}
-
-create_country_leader = {
-	name = "Alexander De Croo"
-	desc = " "
-	picture = "gfx/leaders/ITA/Portrait_Italy_Sergio_Mattarella.dds"
-	expire = "2100.1.1"
-	ideology = socjaldemokracja
-	#traits = {
-	#	
-	#}
 }

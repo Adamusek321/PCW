@@ -1,0 +1,15 @@
+characters = {
+	BOS_sefik_dzaferovic = {
+		name = BOS_SEFIK_DZAFEROVIC_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_bos_sefik_dzaferovic"
+			}
+		}
+		country_leader = {
+			ideology = nacjonalizm
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,15 @@
+characters = {
+	DEN_mette_federiksen = {
+		name = DEN_METTE_FREDERIKSEN_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_den_mette_fredriksen"
+			}
+		}
+		country_leader = {
+			ideology = socjaldemokracja
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

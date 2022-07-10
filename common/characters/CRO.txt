@@ -1,0 +1,15 @@
+characters = {
+	CRO_zoran_milanovic = {
+		name = CRO_ZORAN_MILANOVIC_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_cro_zoran_milanovic"
+			}
+		}
+		country_leader = {
+			ideology = socjaldemokracja
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

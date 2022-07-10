@@ -1,0 +1,15 @@
+characters = {
+	BLR_aleksandr_lukashenko = {
+		name = BLR_ALEKSANDR_LUKASHENKO_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_blr_aleksandr_lukashenko"
+			}
+		}
+		country_leader = {
+			ideology = nacjonalizm
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

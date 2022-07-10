@@ -1,0 +1,15 @@
+characters = {
+	GER_frank_walter_steinmeier = {
+		name = GER_FRANK_WALTER_STEINMEIER_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_ger_frank_walter_steinmeier"
+			}
+		}
+		country_leader = {
+			ideology = konserwatywny_liberalizm
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

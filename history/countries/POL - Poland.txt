@@ -18,6 +18,8 @@ set_technology = {
 	improved_light_tank = 1
 }
 
+recruit_character = POL_sztab_generalny
+
 set_stability = 0.25
 set_war_support = 0.4
 set_convoys = 20
@@ -63,24 +65,13 @@ unlock_national_focus = POL_nadwislanski_rozejm
 unlock_national_focus = POL_pomaranczowa_linia
 unlock_national_focus = POL_rozpoczecie_stabilizacji
 
-create_country_leader = {
-	name = "Sztab Generalny Wojska Polskiego"
-	desc = "POL_SZTAB_GENERALNY_WOJSKA_POLSKIEGO_desc"
-	picture = "gfx/leaders/POL/Portrait_Poland_sztab_generalny_wojska_polskiego.dds"
-	expire = "2100.1.1"
-	ideology = nacjonalizm
-	#traits = {
-	#	
-	#}
-}
-
 create_field_marshal = {
 	name = "Rajmund Andrzejczak"
 	picture = "Portrait_Poland_Rajmund_Andrzejczak.dds"
 	traits = {  }
-	skill = 6
+	skill = 7
 	attack_skill = 2
-	defense_skill = 2
+	defense_skill = 3
 	planning_skill = 4
 	logistics_skill = 2
 	id = 1

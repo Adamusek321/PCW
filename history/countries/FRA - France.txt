@@ -7,6 +7,8 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+recruit_character = FRA_emmanuel_macron
+
 set_convoys = 20
 
 set_politics = {
@@ -22,26 +24,4 @@ set_popularities = {
 add_ideas = {
 	czlonek_ue
 	czlonek_nato
-}
-
-create_country_leader = {
-	name = "Emmanuel Macron"
-	desc = " "
-	picture = "gfx/leaders/FRA/Portrait_France_Emmanuel_Macron.dds"
-	expire = "2100.1.1"
-	ideology = centryzm
-	#traits = {
-	#	
-	#}
-}
-
-create_country_leader = {
-	name = "Marine Le Pen"
-	desc = " "
-	picture = "gfx/leaders/FRA/Portrait_France_Marie_Le_Pen.dds"
-	expire = "2100.1.1"
-	ideology = nacjonalizm
-	#traits = {
-	#	
-	#}
 }

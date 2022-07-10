@@ -7,6 +7,8 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+recruit_character = CZE_milos_zeman
+
 set_convoys = 20
 
 set_politics = {
@@ -23,15 +25,4 @@ set_popularities = {
 add_ideas = {
 	czlonek_ue
 	czlonek_nato
-}
-
-create_country_leader = {
-	name = "Miloš Zeman"
-	desc = " "
-	picture = "gfx/leaders/CZE/Portrait_Czechia_Milos_Zeman.dds"
-	expire = "2100.1.1"
-	ideology = socjaldemokracja
-	#traits = {
-	#	
-	#}
 }

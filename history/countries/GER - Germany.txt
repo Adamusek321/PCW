@@ -7,6 +7,8 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+recruit_character = GER_frank_walter_steinmeier
+
 set_convoys = 20
 
 set_politics = {
@@ -22,15 +24,4 @@ set_popularities = {
 add_ideas = {
 	czlonek_ue
 	czlonek_nato
-}
-
-create_country_leader = {
-	name = "Frank-Walter Steinmeier"
-	desc = " "
-	picture = "gfx/leaders/GER/Portrait_Germany_Frank_Walter_Steinmeier.dds"
-	expire = "2100.1.1"
-	ideology = konserwatywny_liberalizm
-	#traits = {
-	#	
-	#}
 }

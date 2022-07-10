@@ -1,0 +1,15 @@
+characters = {
+	IPO_barbara_nowacka = {
+		name = IPO_BARBARA_NOWACKA_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_ipo_barbara_nowacka"
+			}
+		}
+		country_leader = {
+			ideology = socjalliberalizm
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

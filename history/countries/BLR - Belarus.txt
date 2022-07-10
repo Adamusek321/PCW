@@ -7,6 +7,8 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+recruit_character = BLR_aleksandr_lukashenko
+
 set_convoys = 20
 
 set_politics = {
@@ -17,15 +19,4 @@ set_politics = {
 }
 set_popularities = {
 	pcw_ideology = 100
-}
-
-create_country_leader = {
-	name = "Alaksandr Łukaszenka"
-	desc = " "
-	picture = "gfx/leaders/BLR/Portrait_Belarus_Alaksandr_Lukaszenka.dds"
-	expire = "2100.1.2"
-	ideology = nacjonalizm
-	#traits = {
-	#	
-	#}
 }

@@ -1,0 +1,15 @@
+characters = {
+	GDA_aleksandra_dulkiewicz = {
+		name = GDA_ALEKSANDRA_DULKIEWICZ_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_gda_aleksandra_dulkiewicz"
+			}
+		}
+		country_leader = {
+			ideology = socjalliberalizm
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}
