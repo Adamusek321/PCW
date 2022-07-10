@@ -16,6 +16,7 @@ ideologies = {
 			monarchizm = {}
 			zielona_polityka = {}
 			anarchizm = {}
+			reakcjonizm = {}
 		}
 		
 		dynamic_faction_names = {
