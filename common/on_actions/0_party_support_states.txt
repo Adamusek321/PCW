@@ -1,0 +1,40 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_state = {
+				if = {
+					limit = {
+						OR = {
+							THIS = {is_core_of = PIS}
+							THIS = {is_core_of = KOR}
+							THIS = {is_core_of = WAR}
+							THIS = {is_core_of = POL}
+							THIS = {is_core_of = PRP}
+							THIS = {is_core_of = PRZ}
+							THIS = {is_core_of = PL2}
+							THIS = {is_core_of = KWN}
+							THIS = {is_core_of = PSL}
+							THIS = {is_core_of = UED}
+							THIS = {is_core_of = RNR}
+							THIS = {is_core_of = GDA}
+							THIS = {is_core_of = IPO}
+							THIS = {is_core_of = SPL}
+							THIS = {is_core_of = POB}
+							THIS = {is_core_of = K15}
+							THIS = {is_core_of = NOW}
+							THIS = {is_core_of = SLA}
+							THIS = {is_core_of = NLE}
+							THIS = {is_core_of = ZIE}
+							THIS = {is_core_of = LRA}
+							THIS = {is_core_of = PPS}
+						}
+					}
+					set_variable = {
+						var = state_support_none_@PREV
+						value = 100
+					}
+				}
+			}
+		}
+	}
+}
