@@ -1,0 +1,15 @@
+characters = {
+	PRZ_jaroslaw_gowin = {
+		name = PRZ_JAROSLAW_GOWIN_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_prz_jaroslaw_gowin"
+			}
+		}
+		country_leader = {
+			ideology = konserwatywny_liberalizm
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

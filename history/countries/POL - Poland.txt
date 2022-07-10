@@ -19,6 +19,8 @@ set_technology = {
 }
 
 recruit_character = POL_sztab_generalny
+recruit_character = POL_rajmund_andrzejczak
+recruit_character = POL_jaroslaw_mika
 
 set_stability = 0.25
 set_war_support = 0.4
@@ -64,27 +66,3 @@ unlock_national_focus = POL_II_zebranie_sztabu_generalnego
 unlock_national_focus = POL_nadwislanski_rozejm
 unlock_national_focus = POL_pomaranczowa_linia
 unlock_national_focus = POL_rozpoczecie_stabilizacji
-
-create_field_marshal = {
-	name = "Rajmund Andrzejczak"
-	picture = "Portrait_Poland_Rajmund_Andrzejczak.dds"
-	traits = {  }
-	skill = 7
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 4
-	logistics_skill = 2
-	id = 1
-}
-
-create_field_marshal = {
-	name = "Jarosław Mika"
-	picture = "Portrait_Poland_Jaroslaw_Mika.dds"
-	traits = {  }
-	skill = 6
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
-	id = 2
-}

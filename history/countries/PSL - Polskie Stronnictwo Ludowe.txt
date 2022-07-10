@@ -7,6 +7,8 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+recruit_character = PSL_wladyslaw_kosiniak_kamysz
+
 set_convoys = 20
 
 set_politics = {
@@ -22,14 +24,3 @@ set_popularities = {
 create_faction = koalicja_polska_faction
 add_to_faction = PSL
 add_to_faction = UED
-
-create_country_leader = {
-	name = "Władysław Kosiniak-Kamysz"
-	desc = " "
-	picture = "gfx/leaders/PSL/Portrait_Polskie_Stronnictwo_Ludowe_Wladyslaw_Kosiniak_Kamysz.dds"
-	expire = "2100.1.1"
-	ideology = centryzm
-	#traits = {
-	#	
-	#}
-}

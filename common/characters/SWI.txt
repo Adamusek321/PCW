@@ -1,0 +1,15 @@
+characters = {
+	SWI_federal_council = {
+		name = SWI_FEDERAL_COUNCIL_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_swi_federal_council"
+			}
+		}
+		country_leader = {
+			ideology = narodowy_konserwatyzm
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,15 @@
+characters = {
+	SER_aleksandar_vucic = {
+		name = SER_ALEKSANDAR_VUCIC_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_ser_aleksandar_vucic"
+			}
+		}
+		country_leader = {
+			ideology = centryzm
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

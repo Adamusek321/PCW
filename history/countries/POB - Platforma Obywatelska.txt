@@ -7,6 +7,8 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+recruit_character = POB_donald_tusk
+
 set_convoys = 20
 
 set_politics = {
@@ -30,14 +32,3 @@ give_guarantee = GDA
 diplomatic_relation = { country = WAR relation = non_aggression_pact }
 diplomatic_relation = { country = GDA relation = non_aggression_pact }
 diplomatic_relation = { country = GDA relation = docking_rights }
-
-create_country_leader = {
-	name = "Donald Tusk"
-	desc = " "
-	picture = "gfx/leaders/POB/Portrait_Platforma_Obywatelska_Donald_Tusk.dds"
-	expire = "2100.1.1"
-	ideology = socjalliberalizm
-	#traits = {
-	#	
-	#}
-}

@@ -1,0 +1,15 @@
+characters = {
+	PIS_jaroslaw_kaczynski = {
+		name = PIS_JAROSLAW_KACZYNSKI_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_pis_jaroslaw_kaczynski"
+			}
+		}
+		country_leader = {
+			ideology = narodowy_konserwatyzm
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

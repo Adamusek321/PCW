@@ -1,0 +1,15 @@
+characters = {
+	LIT_gitanas_nauseda = {
+		name = LIT_GITANAS_NAUSEDA_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_lit_gitanas_nauseda"
+			}
+		}
+		country_leader = {
+			ideology = liberalny_konserwatyzm
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

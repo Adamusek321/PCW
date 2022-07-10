@@ -1,0 +1,15 @@
+characters = {
+	PPS_wojciech_konieczny = {
+		name = PPS_WOJCIECH_KONIECZNY_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_pps_wojciech_konieczny"
+			}
+		}
+		country_leader = {
+			ideology = socjalizm_demokratyczny
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,15 @@
+characters = {
+	SLO_zuzana_caputova = {
+		name = SLO_ZUZANA_CAPUTOVA_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_slo_zuzanna_caputova"
+			}
+		}
+		country_leader = {
+			ideology = socjalliberalizm
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

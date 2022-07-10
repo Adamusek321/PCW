@@ -1,0 +1,15 @@
+characters = {
+	NOW_adam_szlapka = {
+		name = NOW_ADAM_SZLAPKA_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_now_adamsz_szlapka"
+			}
+		}
+		country_leader = {
+			ideology = liberalizm
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

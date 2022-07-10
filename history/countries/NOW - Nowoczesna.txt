@@ -7,6 +7,8 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+recruit_character = NOW_adam_szlapka
+
 set_convoys = 20
 
 set_politics = {
@@ -17,15 +19,4 @@ set_politics = {
 }
 set_popularities = {
 	pcw_ideology = 100
-}
-
-create_country_leader = {
-	name = "Adam Szłapka"
-	desc = " "
-	picture = "gfx/leaders/NOW/Portrait_Nowoczesna_Adam_Szlapka.dds"
-	expire = "2100.1.1"
-	ideology = liberalizm
-	#traits = {
-	#	
-	#}
 }

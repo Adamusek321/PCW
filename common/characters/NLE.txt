@@ -1,0 +1,15 @@
+characters = {
+	NLE_wlodzimierz_czarzasty = {
+		name = NLE_WLODZIMIERZ_CZARZASTY_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_nle_wlodzimierz_czarzasty"
+			}
+		}
+		country_leader = {
+			ideology = socjaldemokracja
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

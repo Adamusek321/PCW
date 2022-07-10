@@ -17,15 +17,9 @@ country_event = {
 		name = forp.1.a
 		custom_effect_tooltip = "ANDRZEJCZAK_FIRST_LIDER"
 		hidden_effect = {
-			create_country_leader = {
-				name = "Rajmund Andrzejczak"
-				desc = "POL_RAJMUND_ANDRZEJCZAK_desc"
-				picture = "gfx/leaders/POL/Portrait_Poland_Rajmund_Andrzejczak.dds"
-				expire = "2100.1.1"
-				ideology = nacjonalizm
-				#traits = {
-				#	
-				#}
+			POL_rajmund_andrzejczak = {
+				promote_character = yes
+				promote_character = nacjonalizm
 			}
 		}
 	}

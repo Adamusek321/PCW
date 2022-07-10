@@ -13,4 +13,63 @@ characters = {
 			desc = "POL_SZTAB_GENERALNY_WOJSKA_POLSKIEGO_desc"
 		}
 	}
+	
+	POL_jaroslaw_mika = {
+		name = POL_JAROSLAW_MIKKA_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_pol_jaroslaw_mikka"
+			}
+			army = {
+				large = "GFX_potrait_pol_jaroslaw_mikka"
+			}
+		}
+		field_marshal = {
+			skill = 6
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	
+	POL_rada_narodowa = {
+		name = POL_RADA_NARODOWA_RP_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_pol_rada_narodowa_rp"
+			}
+		}
+		country_leader = {
+			ideology = nacjonalizm
+			expire = "2100.1.1.1"
+			id = -1
+			desc = "POL_RADA_NARODOWA_desc"
+		}
+	}
+	
+	POL_rajmund_andrzejczak = {
+		name = POL_RAJMUND_ANDRZEJCZAK_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_pol_rajmund_andrzejczak"
+			}
+			army = {
+				large = "GFX_potrait_pol_rajmund_andrzejczak"
+			}
+		}
+		country_leader = {
+			ideology = nacjonalizm
+			expire = "2100.1.1.1"
+			id = -1
+			desc = "POL_RAJMUND_ANDRZEJCZAK_desc"
+		}
+		field_marshal = {
+			skill = 7
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
 }

@@ -1,0 +1,15 @@
+characters = {
+	SWE_stefan_lofven = {
+		name = SWE_STEFAN_LOFVEN_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_swe_stefan_lofven"
+			}
+		}
+		country_leader = {
+			ideology = socjaldemokracja
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

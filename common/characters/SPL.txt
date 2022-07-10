@@ -1,0 +1,15 @@
+characters = {
+	SPL_zbigniew_ziobro = {
+		name = SPL_ZBIGNIEW_ZIOBRO_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_spl_zbigniew_ziobro"
+			}
+		}
+		country_leader = {
+			ideology = narodowy_konserwatyzm
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

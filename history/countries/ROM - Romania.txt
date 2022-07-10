@@ -7,6 +7,8 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+recruit_character = ROM_klaus_iohannis
+
 set_convoys = 20
 
 set_politics = {
@@ -23,15 +25,4 @@ set_popularities = {
 add_ideas = {
 	czlonek_ue
 	czlonek_nato
-}
-
-create_country_leader = {
-	name = "Klaus Iohannis"
-	desc = " "
-	picture = "gfx/leaders/ROM/Portrait_Romania_Klaus_Iohannis.dds"
-	expire = "2100.1.1"
-	ideology = konserwatywny_liberalizm
-	#traits = {
-	#	
-	#}
 }

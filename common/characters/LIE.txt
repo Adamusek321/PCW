@@ -1,0 +1,15 @@
+characters = {
+	LIE_daniel_risch = {
+		name = LIE_DANIEL_RISCH_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_lie_daniel_risch"
+			}
+		}
+		country_leader = {
+			ideology = liberalny_konserwatyzm
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

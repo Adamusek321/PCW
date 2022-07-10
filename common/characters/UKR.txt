@@ -1,0 +1,15 @@
+characters = {
+	UKR_wolodymyr_zelenski = {
+		name = UKR_WOLODYMYR_ZELENSKI_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_ukr_wolodymyr_zelenski"
+			}
+		}
+		country_leader = {
+			ideology = centryzm
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

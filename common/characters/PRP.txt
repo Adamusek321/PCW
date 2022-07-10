@@ -1,0 +1,15 @@
+characters = {
+	PRP_adam_bielan = {
+		name = PRP_ADAM_BIELAN_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_prp_adam_bielan"
+			}
+		}
+		country_leader = {
+			ideology = liberalny_konserwatyzm
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

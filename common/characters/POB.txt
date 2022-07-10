@@ -1,0 +1,15 @@
+characters = {
+	POB_donald_tusk = {
+		name = POB_DONALD_TUSK_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_pob_donald_tusk"
+			}
+		}
+		country_leader = {
+			ideology = socjalliberalizm
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

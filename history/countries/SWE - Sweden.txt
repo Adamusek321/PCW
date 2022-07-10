@@ -7,6 +7,8 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+recruit_character = SWE_stefan_lofven
+
 set_convoys = 20
 
 set_politics = {
@@ -21,15 +23,4 @@ set_popularities = {
 
 add_ideas = {
 	czlonek_ue
-}
-
-create_country_leader = {
-	name = "Stefan Löfven"
-	desc = " "
-	picture = "gfx/leaders/SWE/Portrait_Sweden_Stefan_Lofven.dds"
-	expire = "2100.1.1"
-	ideology = socjaldemokracja
-	#traits = {
-	#	
-	#}
 }

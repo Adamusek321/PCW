@@ -1,0 +1,15 @@
+characters = {
+	ZIE_malgorzata_tracz = {
+		name = ZIE_MALGORZATA_TRACZ_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_zie_malgorzata_tracz"
+			}
+		}
+		country_leader = {
+			ideology = zielona_polityka
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

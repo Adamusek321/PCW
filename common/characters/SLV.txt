@@ -1,0 +1,15 @@
+characters = {
+	SLV_borut_pahor = {
+		name = SLV_BORUT_PAHOR_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_slv_borut_pahor"
+			}
+		}
+		country_leader = {
+			ideology = socjaldemokracja
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

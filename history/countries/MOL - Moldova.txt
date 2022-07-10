@@ -7,6 +7,8 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+recruit_character = MOL_maia_sandu
+
 set_convoys = 20
 
 set_politics = {
@@ -17,15 +19,4 @@ set_politics = {
 }
 set_popularities = {
 	pcw_ideology = 100
-}
-
-create_country_leader = {
-	name = "Maia Sandu"
-	desc = " "
-	picture = "gfx/leaders/MOL/Portrait_Moldova_Maia_Sandu.dds"
-	expire = "2100.1.1"
-	ideology = liberalizm
-	#traits = {
-	#	
-	#}
 }

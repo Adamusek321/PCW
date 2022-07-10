@@ -1,0 +1,15 @@
+characters = {
+	MOL_maia_sandu = {
+		name = MOL_MAIA_SANDU_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_mol_maia_sandu"
+			}
+		}
+		country_leader = {
+			ideology = liberalizm
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

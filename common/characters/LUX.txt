@@ -1,0 +1,15 @@
+characters = {
+	LUX_xavier_bettel = {
+		name = LUX_XAVIER_BETTEL_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_lux_xavier_bettel"
+			}
+		}
+		country_leader = {
+			ideology = liberalizm
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

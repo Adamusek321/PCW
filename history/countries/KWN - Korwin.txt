@@ -7,6 +7,8 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+recruit_character = KWN_janusz_korwin_mikke
+
 set_convoys = 20
 
 set_politics = {
@@ -23,14 +25,3 @@ create_faction = konfederacja_faction
 add_to_faction = KWN
 add_to_faction = RNR
 add_to_faction = KOR
-
-create_country_leader = {
-	name = "Janusz Korwin-Mikke"
-	desc = " "
-	picture = "gfx/leaders/KWN/Portrait_Korwin_Janusz_Korwin_Mikke.dds"
-	expire = "2100.1.1"
-	ideology = konserwatywny_liberalizm
-	#traits = {
-	#	
-	#}
-}

@@ -1,0 +1,15 @@
+characters = {
+	KWN_janusz_korwin_mikke = {
+		name = KWN_JANUSZ_KORWIN_MIKKE_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_kwn_janusz_korwin_mikke"
+			}
+		}
+		country_leader = {
+			ideology = konserwatywny_liberalizm
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}

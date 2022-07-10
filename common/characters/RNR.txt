@@ -1,0 +1,29 @@
+characters = {
+	RNR_robert_winnicki = {
+		name = RNR_ROBERT_WINNICKI_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_rnr_robert_winnicki"
+			}
+		}
+		country_leader = {
+			ideology = nacjonalizm
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+	
+	RNR_krzysztof_bosak = {
+		name = RNR_KRZYSZTOF_BOSAK_loc
+		portraits = {
+			civilian = {
+				large = "GFX_potrait_rnr_krzysztof_bosak"
+			}
+		}
+		country_leader = {
+			ideology = nacjonalizm
+			expire = "2100.1.1.1"
+			id = -1
+		}
+	}
+}
