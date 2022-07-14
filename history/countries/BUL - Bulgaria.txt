@@ -12,14 +12,25 @@ recruit_character = BUL_rumen_radew
 set_convoys = 20
 
 set_politics = {
-    ruling_party = pcw_ideology
+    ruling_party = socjaldemokracja
     last_election = "2016.11.13"
     election_frequency = 60
-    elections_allowed = no
+    elections_allowed = yes
 }
 
 set_popularities = {
-	pcw_ideology = 100
+    nacjonalizm = 10
+    narodowy_konserwatyzm = 30
+    liberalny_konserwatyzm = 1
+    konserwatywny_liberalizm = 1
+    liberalizm = 13
+    socjalliberalizm = 1
+    socjaldemokracja = 19
+    socjalizm_demokratyczny = 1
+    komunizm = 1
+    centryzm = 21
+    monarchizm = 1
+    zielona_polityka = 1
 }
 
 add_ideas = {

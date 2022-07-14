@@ -12,11 +12,23 @@ recruit_character = IPO_barbara_nowacka
 set_convoys = 20
 
 set_politics = {
-	ruling_party = pcw_ideology
+	ruling_party = socjalliberalizm
 	last_election = "2021.2.20"
 	election_frequency = 60
-	elections_allowed = no
+	elections_allowed = yes
 }
+
 set_popularities = {
-	pcw_ideology = 100
+    nacjonalizm = 0
+    narodowy_konserwatyzm = 0
+    liberalny_konserwatyzm = 0
+    konserwatywny_liberalizm = 0
+    liberalizm = 0
+    socjalliberalizm = 61
+    socjaldemokracja = 39
+    socjalizm_demokratyczny = 0
+    komunizm = 0
+    centryzm = 0
+    monarchizm = 0
+    zielona_polityka = 0
 }

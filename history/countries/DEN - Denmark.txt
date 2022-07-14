@@ -12,13 +12,25 @@ recruit_character = DEN_mette_federiksen
 set_convoys = 20
 
 set_politics = {
-	ruling_party = pcw_ideology
+	ruling_party = socjaldemokracja
 	last_election = "2019.6.5"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
+
 set_popularities = {
-	pcw_ideology = 100
+    konserwatywny_liberalizm = 15
+    zielona_polityka = 2
+    socjaldemokracja = 32
+    liberalizm = 4
+    narodowy_konserwatyzm = 21
+    socjalizm_demokratyczny = 18
+    nacjonalizm = 0
+    liberalny_konserwatyzm = 0
+    socjalliberalizm = 8
+    komunizm = 0
+    centryzm = 0
+    monarchizm = 0
 }
 
 add_ideas = {

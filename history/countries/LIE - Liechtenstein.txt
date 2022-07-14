@@ -12,11 +12,23 @@ recruit_character = LIE_daniel_risch
 set_convoys = 20
 
 set_politics = {
-	ruling_party = pcw_ideology
+	ruling_party = liberalny_konserwatyzm
 	last_election = "2021.2.7"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
+
 set_popularities = {
-	pcw_ideology = 100
+	konserwatywny_liberalizm = 0
+    zielona_polityka = 12
+    socjaldemokracja = 0
+    liberalizm = 0
+    narodowy_konserwatyzm = 40
+    socjalizm_demokratyczny = 0
+    nacjonalizm = 8
+    liberalny_konserwatyzm = 40
+    socjalliberalizm = 0
+    komunizm = 0
+    centryzm = 0
+    monarchizm = 0
 }

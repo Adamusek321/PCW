@@ -12,14 +12,27 @@ recruit_character = PSL_wladyslaw_kosiniak_kamysz
 set_convoys = 20
 
 set_politics = {
-	ruling_party = pcw_ideology
+	ruling_party = centryzm
 	last_election = "2021.6.23"
 	election_frequency = 60
-	elections_allowed = no
+	elections_allowed = yes
 }
+
 set_popularities = {
-	pcw_ideology = 100
+    nacjonalizm = 0
+    narodowy_konserwatyzm = 0
+    liberalny_konserwatyzm = 0
+    konserwatywny_liberalizm = 33
+    liberalizm = 0
+    socjalliberalizm = 0
+    socjaldemokracja = 0
+    socjalizm_demokratyczny = 0
+    komunizm = 0
+    centryzm = 67
+    monarchizm = 0
+    zielona_polityka = 0
 }
+
 
 create_faction = koalicja_polska_faction
 add_to_faction = PSL

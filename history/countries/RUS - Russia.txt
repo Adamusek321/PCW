@@ -12,11 +12,23 @@ recruit_character = RUS_vladimir_putin
 set_convoys = 20
 
 set_politics = {
-	ruling_party = pcw_ideology
+	ruling_party = centryzm
 	last_election = "2018.3.18"
 	election_frequency = 72
-	elections_allowed = no
+	elections_allowed = yes
 }
+
 set_popularities = {
-	pcw_ideology = 100
+    nacjonalizm = 20
+    narodowy_konserwatyzm = 0
+    liberalny_konserwatyzm = 0
+    konserwatywny_liberalizm = 0
+    liberalizm = 0
+    socjalliberalizm = 0
+    socjaldemokracja = 17
+    socjalizm_demokratyczny = 2
+    komunizm = 21
+    centryzm = 40
+    monarchizm = 0
+    zielona_polityka = 0
 }

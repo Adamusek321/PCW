@@ -12,13 +12,25 @@ recruit_character = POB_donald_tusk
 set_convoys = 20
 
 set_politics = {
-	ruling_party = pcw_ideology
+	ruling_party = socjalliberalizm
 	last_election = "2021.7.3"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
+
 set_popularities = {
-	pcw_ideology = 100
+    nacjonalizm = 0
+    narodowy_konserwatyzm = 0
+    liberalny_konserwatyzm = 22
+    konserwatywny_liberalizm = 0
+    liberalizm = 13
+    socjalliberalizm = 65
+    socjaldemokracja = 0
+    socjalizm_demokratyczny = 0
+    komunizm = 0
+    centryzm = 0
+    monarchizm = 0
+    zielona_polityka = 0
 }
 
 create_faction = koalicja_obywatelska_faction

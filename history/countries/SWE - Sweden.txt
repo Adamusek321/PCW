@@ -12,13 +12,25 @@ recruit_character = SWE_stefan_lofven
 set_convoys = 20
 
 set_politics = {
-	ruling_party = pcw_ideology
+	ruling_party = socjaldemokracja
 	last_election = "2018.9.9"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
+
 set_popularities = {
-	pcw_ideology = 100
+    konserwatywny_liberalizm = 22
+    zielona_polityka = 3
+    socjaldemokracja = 25
+    liberalizm = 3
+    narodowy_konserwatyzm = 24
+    socjalizm_demokratyczny = 10
+    nacjonalizm = 1
+    liberalny_konserwatyzm = 1
+    socjalliberalizm = 9
+    komunizm = 0
+    centryzm = 1
+    monarchizm = 1
 }
 
 add_ideas = {

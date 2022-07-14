@@ -12,14 +12,27 @@ recruit_character = SLV_borut_pahor
 set_convoys = 20
 
 set_politics = {
-	ruling_party = pcw_ideology
+	ruling_party = socjaldemokracja
 	last_election = "2017.11.12"
 	election_frequency = 60
-	elections_allowed = no
+	elections_allowed = yes
 }
+
 set_popularities = {
-	pcw_ideology = 100
+    nacjonalizm = 5
+    narodowy_konserwatyzm = 14
+    liberalny_konserwatyzm = 1
+    konserwatywny_liberalizm = 26
+    liberalizm = 1
+    socjalliberalizm = 27
+    socjaldemokracja = 1
+    socjalizm_demokratyczny = 11
+    komunizm = 1
+    centryzm = 6
+    monarchizm = 1
+    zielona_polityka = 6
 }
+
 
 add_ideas = {
 	czlonek_ue

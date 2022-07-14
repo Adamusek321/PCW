@@ -12,14 +12,25 @@ recruit_character = AUS_alexander_van_der_bellen
 set_convoys = 20
 
 set_politics = {
-	ruling_party = pcw_ideology
+	ruling_party = zielona_polityka
 	last_election = "2016.12.4"
 	election_frequency = 72
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	pcw_ideology = 100
+    nacjonalizm = 18
+    narodowy_konserwatyzm = 0
+    liberalny_konserwatyzm = 0
+    konserwatywny_liberalizm = 0
+    liberalizm = 12
+    socjalliberalizm = 35
+    socjaldemokracja = 22
+    socjalizm_demokratyczny = 0
+    komunizm = 0
+    centryzm = 1
+    monarchizm = 0
+    zielona_polityka = 12
 }
 
 add_ideas = {

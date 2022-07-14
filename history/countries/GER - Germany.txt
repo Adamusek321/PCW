@@ -12,13 +12,25 @@ recruit_character = GER_frank_walter_steinmeier
 set_convoys = 20
 
 set_politics = {
-	ruling_party = pcw_ideology
+	ruling_party = konserwatywny_liberalizm
 	last_election = "2017.9.24"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
+
 set_popularities = {
-	pcw_ideology = 100
+	konserwatywny_liberalizm = 28
+	zielona_polityka = 20
+	socjaldemokracja = 16
+	liberalizm = 12
+	narodowy_konserwatyzm = 11
+	socjalizm_demokratyczny = 7
+	nacjonalizm = 1
+	liberalny_konserwatyzm = 1
+	socjalliberalizm = 1
+	komunizm = 1
+	centryzm = 2
+	monarchizm = 0
 }
 
 add_ideas = {

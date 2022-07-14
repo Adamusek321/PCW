@@ -12,13 +12,25 @@ recruit_character = SLO_zuzana_caputova
 set_convoys = 20
 
 set_politics = {
-	ruling_party = pcw_ideology
+	ruling_party = socjalliberalizm
 	last_election = "2019.3.30"
 	election_frequency = 60
-	elections_allowed = no
+	elections_allowed = yes
 }
+
 set_popularities = {
-	pcw_ideology = 100
+    konserwatywny_liberalizm = 18
+    zielona_polityka = 0
+    socjaldemokracja = 34
+    liberalizm = 11
+    narodowy_konserwatyzm = 12
+    socjalizm_demokratyczny = 0
+    nacjonalizm = 12
+    liberalny_konserwatyzm = 1
+    socjalliberalizm = 10
+    komunizm = 0
+    centryzm = 1
+    monarchizm = 1
 }
 
 add_ideas = {

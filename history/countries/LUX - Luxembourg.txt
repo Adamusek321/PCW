@@ -12,13 +12,24 @@ recruit_character = LUX_xavier_bettel
 set_convoys = 20
 
 set_politics = {
-	ruling_party = pcw_ideology
+	ruling_party = liberalizm
 	last_election = "2018.9.14"
 	election_frequency = 60
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	pcw_ideology = 100
+    nacjonalizm = 0
+    narodowy_konserwatyzm = 10
+    liberalny_konserwatyzm = 26
+    konserwatywny_liberalizm = 0
+    liberalizm = 20
+    socjalliberalizm = 0
+    socjaldemokracja = 20
+    socjalizm_demokratyczny = 6
+    komunizm = 0
+    centryzm = 6
+    monarchizm = 0
+    zielona_polityka = 12
 }
 
 add_ideas = {

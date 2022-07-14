@@ -12,13 +12,25 @@ recruit_character = HUN_janos_ader
 set_convoys = 20
 
 set_politics = {
-	ruling_party = pcw_ideology
+	ruling_party = narodowy_konserwatyzm
 	last_election = "2017.3.13"
 	election_frequency = 60
-	elections_allowed = no
+	elections_allowed = yes
 }
+
 set_popularities = {
-	pcw_ideology = 100
+    nacjonalizm = 16
+    narodowy_konserwatyzm = 46
+    liberalny_konserwatyzm = 1
+    konserwatywny_liberalizm = 1
+    liberalizm = 9
+    socjalliberalizm = 16
+    socjaldemokracja = 7
+    socjalizm_demokratyczny = 1
+    komunizm = 0
+    centryzm = 1
+    monarchizm = 0
+    zielona_polityka = 2
 }
 
 add_ideas = {

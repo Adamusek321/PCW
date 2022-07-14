@@ -1,34 +1,21 @@
 ideologies = {
-	pcw_ideology = {
+
+	ultranacjonalizm = {
 	
 		types = {
-			ultranacjonalizm = {}
-			nacjonalizm = {}
-			narodowy_konserwatyzm = {}
-			liberalny_konserwatyzm = {}
-			konserwatywny_liberalizm = {}
-			liberalizm = {}
-			socjalliberalizm = {}
-			socjaldemokracja = {}
-			socjalizm_demokratyczny = {}
-			komunizm = {}
-			centryzm = {}
-			monarchizm = {}
-			zielona_polityka = {}
-			anarchizm = {}
-			reakcjonizm = {}
+			ultranacjonalizm1 = {}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_1"
-			"FACTION_NAME_2"
-			"FACTION_NAME_3"
-			"FACTION_NAME_4"
-			"FACTION_NAME_5"
-			"FACTION_NAME_6"
+			"FACTION_NAME_socjaldemokracja_1"
+			"FACTION_NAME_socjaldemokracja_2"
+			"FACTION_NAME_socjaldemokracja_3"
+			"FACTION_NAME_socjaldemokracja_4"
+			"FACTION_NAME_socjaldemokracja_5"
+			"FACTION_NAME_socjaldemokracja_6"
 		}
 		
-		color = { 0 0 0 }
+		color = { 84 40 0 }
 		
 		rules = {
 			can_force_government = yes
@@ -55,4 +42,564 @@ ideologies = {
 		can_collaborate = yes
 		ai_neutral = yes
 	}
-}
+
+	nacjonalizm = {
+	
+		types = {
+			nacjonalizm1 = {}
+			nacjonalizm2 = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_socjaldemokracja_1"
+			"FACTION_NAME_socjaldemokracja_2"
+			"FACTION_NAME_socjaldemokracja_3"
+			"FACTION_NAME_socjaldemokracja_4"
+			"FACTION_NAME_socjaldemokracja_5"
+			"FACTION_NAME_socjaldemokracja_6"
+		}
+		
+		color = { 65 65 65 }
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 6.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 6.0
+			lend_lease_tension = 0.4
+			send_volunteers_tension = 0.4
+			guarantee_tension = 0.4
+		}
+		
+		faction_modifiers = {
+		}
+		can_be_boosted = no
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		ai_neutral = yes
+	}
+
+	narodowy_konserwatyzm = {
+	
+		types = {
+			narodowy_konserwatyzm1 = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_socjaldemokracja_1"
+			"FACTION_NAME_socjaldemokracja_2"
+			"FACTION_NAME_socjaldemokracja_3"
+			"FACTION_NAME_socjaldemokracja_4"
+			"FACTION_NAME_socjaldemokracja_5"
+			"FACTION_NAME_socjaldemokracja_6"
+		}
+		
+		color = { 0 0 255 }
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 6.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 6.0
+			lend_lease_tension = 0.4
+			send_volunteers_tension = 0.4
+			guarantee_tension = 0.4
+		}
+		
+		faction_modifiers = {
+		}
+		can_be_boosted = no
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		ai_neutral = yes
+	}
+	
+	
+	liberalny_konserwatyzm = {
+	
+		types = {
+			liberalny_konserwatyzm1 = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_socjaldemokracja_1"
+			"FACTION_NAME_socjaldemokracja_2"
+			"FACTION_NAME_socjaldemokracja_3"
+			"FACTION_NAME_socjaldemokracja_4"
+			"FACTION_NAME_socjaldemokracja_5"
+			"FACTION_NAME_socjaldemokracja_6"
+		}
+		
+		color = { 25 70 255 }
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 6.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 6.0
+			lend_lease_tension = 0.4
+			send_volunteers_tension = 0.4
+			guarantee_tension = 0.4
+		}
+		
+		faction_modifiers = {
+		}
+		can_be_boosted = no
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		ai_neutral = yes
+	}
+	
+	konserwatywny_liberalizm = {
+	
+		types = {
+			konserwatywny_liberalizm1 = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_socjaldemokracja_1"
+			"FACTION_NAME_socjaldemokracja_2"
+			"FACTION_NAME_socjaldemokracja_3"
+			"FACTION_NAME_socjaldemokracja_4"
+			"FACTION_NAME_socjaldemokracja_5"
+			"FACTION_NAME_socjaldemokracja_6"
+		}
+		
+		color = { 50 140 255 }
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 6.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 6.0
+			lend_lease_tension = 0.4
+			send_volunteers_tension = 0.4
+			guarantee_tension = 0.4
+		}
+		
+		faction_modifiers = {
+		}
+		can_be_boosted = no
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		ai_neutral = yes
+	}
+
+	liberalizm = {
+	
+		types = {
+			liberalizm1 = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_socjaldemokracja_1"
+			"FACTION_NAME_socjaldemokracja_2"
+			"FACTION_NAME_socjaldemokracja_3"
+			"FACTION_NAME_socjaldemokracja_4"
+			"FACTION_NAME_socjaldemokracja_5"
+			"FACTION_NAME_socjaldemokracja_6"
+		}
+		
+		color = { 255 216 0 }
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 6.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 6.0
+			lend_lease_tension = 0.4
+			send_volunteers_tension = 0.4
+			guarantee_tension = 0.4
+		}
+		
+		faction_modifiers = {
+		}
+		can_be_boosted = no
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		ai_neutral = yes
+	}
+	
+	socjalliberalizm = {
+	
+		types = {
+			socjalliberalizm1 = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_socjaldemokracja_1"
+			"FACTION_NAME_socjaldemokracja_2"
+			"FACTION_NAME_socjaldemokracja_3"
+			"FACTION_NAME_socjaldemokracja_4"
+			"FACTION_NAME_socjaldemokracja_5"
+			"FACTION_NAME_socjaldemokracja_6"
+		}
+		
+		color = { 255 170 0 }
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 6.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 6.0
+			lend_lease_tension = 0.4
+			send_volunteers_tension = 0.4
+			guarantee_tension = 0.4
+		}
+		
+		faction_modifiers = {
+		}
+		can_be_boosted = no
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		ai_neutral = yes
+	}
+	
+	socjaldemokracja = {
+	
+		types = {
+			socjaldemokracja1 = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_socjaldemokracja_1"
+			"FACTION_NAME_socjaldemokracja_2"
+			"FACTION_NAME_socjaldemokracja_3"
+			"FACTION_NAME_socjaldemokracja_4"
+			"FACTION_NAME_socjaldemokracja_5"
+			"FACTION_NAME_socjaldemokracja_6"
+		}
+		
+		color = { 230 20 135 }
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 6.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 6.0
+			lend_lease_tension = 0.4
+			send_volunteers_tension = 0.4
+			guarantee_tension = 0.4
+		}
+		
+		faction_modifiers = {
+		}
+		can_be_boosted = no
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		ai_neutral = yes
+	}
+
+	socjalizm_demokratyczny = {
+	
+		types = {
+			socjalizm_demokratyczny1 = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_socjaldemokracja_1"
+			"FACTION_NAME_socjaldemokracja_2"
+			"FACTION_NAME_socjaldemokracja_3"
+			"FACTION_NAME_socjaldemokracja_4"
+			"FACTION_NAME_socjaldemokracja_5"
+			"FACTION_NAME_socjaldemokracja_6"
+		}
+		
+		color = { 195 0 0 }
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 6.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 6.0
+			lend_lease_tension = 0.4
+			send_volunteers_tension = 0.4
+			guarantee_tension = 0.4
+		}
+		
+		faction_modifiers = {
+		}
+		can_be_boosted = no
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		ai_neutral = yes
+	}
+		
+	komunizm = {
+	
+		types = {
+			komunizm1 = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_socjaldemokracja_1"
+			"FACTION_NAME_socjaldemokracja_2"
+			"FACTION_NAME_socjaldemokracja_3"
+			"FACTION_NAME_socjaldemokracja_4"
+			"FACTION_NAME_socjaldemokracja_5"
+			"FACTION_NAME_socjaldemokracja_6"
+		}
+		
+		color = { 135 0 0 }
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 6.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 6.0
+			lend_lease_tension = 0.4
+			send_volunteers_tension = 0.4
+			guarantee_tension = 0.4
+		}
+		
+		faction_modifiers = {
+		}
+		can_be_boosted = no
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		ai_neutral = yes
+	}
+	
+	centryzm = {
+	
+		types = {
+			centryzm1 = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_socjaldemokracja_1"
+			"FACTION_NAME_socjaldemokracja_2"
+			"FACTION_NAME_socjaldemokracja_3"
+			"FACTION_NAME_socjaldemokracja_4"
+			"FACTION_NAME_socjaldemokracja_5"
+			"FACTION_NAME_socjaldemokracja_6"
+		}
+		
+		color = { 240 240 240 }
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 6.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 6.0
+			lend_lease_tension = 0.4
+			send_volunteers_tension = 0.4
+			guarantee_tension = 0.4
+		}
+		
+		faction_modifiers = {
+		}
+		can_be_boosted = no
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		ai_neutral = yes
+	}
+	
+	monarchizm = {
+	
+		types = {
+			monarchizm1 = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_socjaldemokracja_1"
+			"FACTION_NAME_socjaldemokracja_2"
+			"FACTION_NAME_socjaldemokracja_3"
+			"FACTION_NAME_socjaldemokracja_4"
+			"FACTION_NAME_socjaldemokracja_5"
+			"FACTION_NAME_socjaldemokracja_6"
+		}
+		
+		color = { 127 0 110 }
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 6.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 6.0
+			lend_lease_tension = 0.4
+			send_volunteers_tension = 0.4
+			guarantee_tension = 0.4
+		}
+		
+		faction_modifiers = {
+		}
+		can_be_boosted = no
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		ai_neutral = yes
+	}
+	
+	zielona_polityka = {
+	
+		types = {
+			zielona_polityka1 = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_socjaldemokracja_1"
+			"FACTION_NAME_socjaldemokracja_2"
+			"FACTION_NAME_socjaldemokracja_3"
+			"FACTION_NAME_socjaldemokracja_4"
+			"FACTION_NAME_socjaldemokracja_5"
+			"FACTION_NAME_socjaldemokracja_6"
+		}
+		
+		color = { 0 127 14 }
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 6.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 6.0
+			lend_lease_tension = 0.4
+			send_volunteers_tension = 0.4
+			guarantee_tension = 0.4
+		}
+		
+		faction_modifiers = {
+		}
+		can_be_boosted = no
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		ai_neutral = yes
+	}
+	
+	anarchizm = {
+	
+		types = {
+			anarchizm1 = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_socjaldemokracja_1"
+			"FACTION_NAME_socjaldemokracja_2"
+			"FACTION_NAME_socjaldemokracja_3"
+			"FACTION_NAME_socjaldemokracja_4"
+			"FACTION_NAME_socjaldemokracja_5"
+			"FACTION_NAME_socjaldemokracja_6"
+		}
+		
+		color = { 50 0 0 }
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 6.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 6.0
+			lend_lease_tension = 0.4
+			send_volunteers_tension = 0.4
+			guarantee_tension = 0.4
+		}
+		
+		faction_modifiers = {
+		}
+		can_be_boosted = no
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		ai_neutral = yes
+	}

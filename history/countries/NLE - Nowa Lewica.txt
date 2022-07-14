@@ -12,13 +12,25 @@ recruit_character = NLE_wlodzimierz_czarzasty
 set_convoys = 20
 
 set_politics = {
-	ruling_party = pcw_ideology
+	ruling_party = socjaldemokracja
 	last_election = "2021.5.2"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
+
 set_popularities = {
-	pcw_ideology = 100
+    nacjonalizm = 0
+    narodowy_konserwatyzm = 0
+    liberalny_konserwatyzm = 0
+    konserwatywny_liberalizm = 0
+    liberalizm = 0
+    socjalliberalizm = 0
+    socjaldemokracja = 72
+    socjalizm_demokratyczny = 9
+    komunizm = 0
+    centryzm = 3
+    monarchizm = 0
+    zielona_polityka = 16
 }
 
 create_faction = lewica_faction

@@ -12,11 +12,23 @@ recruit_character = LRA_adrian_zandberg
 set_convoys = 20
 
 set_politics = {
-	ruling_party = pcw_ideology
+	ruling_party = socjaldemokracja
 	last_election = "2021.5.11"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
+
 set_popularities = {
-	pcw_ideology = 100
+    nacjonalizm = 0
+    narodowy_konserwatyzm = 0
+    liberalny_konserwatyzm = 0
+    konserwatywny_liberalizm = 0
+    liberalizm = 0
+    socjalliberalizm = 0
+    socjaldemokracja = 57
+    socjalizm_demokratyczny = 43
+    komunizm = 0
+    centryzm = 0
+    monarchizm = 0
+    zielona_polityka = 0
 }

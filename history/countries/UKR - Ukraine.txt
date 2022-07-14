@@ -12,11 +12,23 @@ recruit_character = UKR_wolodymyr_zelenski
 set_convoys = 20
 
 set_politics = {
-	ruling_party = pcw_ideology
+	ruling_party = centryzm
 	last_election = "2019.4.21"
 	election_frequency = 60
-	elections_allowed = no
+	elections_allowed = yes
 }
+
 set_popularities = {
-	pcw_ideology = 100
+    nacjonalizm = 0
+    narodowy_konserwatyzm = 6
+    liberalny_konserwatyzm = 8
+    konserwatywny_liberalizm = 7
+    liberalizm = 5
+    socjalliberalizm = 11
+    socjaldemokracja = 0
+    socjalizm_demokratyczny = 0
+    komunizm = 0
+    centryzm = 63
+    monarchizm = 0
+    zielona_polityka = 0
 }

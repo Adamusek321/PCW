@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = socjalliberalizm
+			ideology = socjalliberalizm1
 			expire = "2100.1.1.1"
 			id = -1
 		}
@@ -21,7 +21,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = narodowy_konserwatyzm
+			ideology = narodowy_konserwatyzm1
 			expire = "2100.1.1.1"
 			id = -1
 		}

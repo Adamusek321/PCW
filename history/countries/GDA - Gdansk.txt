@@ -12,13 +12,25 @@ recruit_character = GDA_aleksandra_dulkiewicz
 set_convoys = 20
 
 set_politics = {
-	ruling_party = pcw_ideology
+	ruling_party = socjalliberalizm
 	last_election = "2019.1.21"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
+
 set_popularities = {
-	pcw_ideology = 100
+    nacjonalizm = 0
+    narodowy_konserwatyzm = 0
+    liberalny_konserwatyzm = 0
+    konserwatywny_liberalizm = 6
+    liberalizm = 0
+    socjalliberalizm = 82
+    socjaldemokracja = 0
+    socjalizm_demokratyczny = 0
+    komunizm = 0
+    centryzm = 0
+    monarchizm = 12
+    zielona_polityka = 0
 }
 
 give_military_access = POB

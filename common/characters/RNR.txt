@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = nacjonalizm
+			ideology = nacjonalizm1
 			expire = "2100.1.1.1"
 			id = -1
 		}
@@ -21,7 +21,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = nacjonalizm
+			ideology = nacjonalizm1
 			expire = "2100.1.1.1"
 			id = -1
 		}

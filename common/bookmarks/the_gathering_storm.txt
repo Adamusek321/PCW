@@ -181,7 +181,7 @@ bookmarks = {
 			"---" = { history = "OTHER_GATHERING_STORM_DESC" }
 			"WAR"={
 				history = ""
-				ideology = pcw_ideology
+				ideology = socjalliberalizm
 				ideas = {
 				}
 				focuses = {
@@ -190,7 +190,7 @@ bookmarks = {
 			}
 			"POL"={
 				history = "POL_GATHERING_STORM_DESC"
-				ideology = pcw_ideology
+				ideology = nacjonalizm
 				ideas = {
 					pol_niepopularny_rezim
 					pol_gruzy_warszawy

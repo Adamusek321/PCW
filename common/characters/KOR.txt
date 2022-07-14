@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = monarchizm
+			ideology = monarchizm1
 			expire = "2100.1.1.1"
 			id = -1
 		}

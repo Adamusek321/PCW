@@ -12,13 +12,25 @@ recruit_character = FRA_emmanuel_macron
 set_convoys = 20
 
 set_politics = {
-	ruling_party = pcw_ideology
+	ruling_party = centryzm
 	last_election = "2017.4.23"
 	election_frequency = 60
-	elections_allowed = no
+	elections_allowed = yes
 }
+
 set_popularities = {
-	pcw_ideology = 100
+    konserwatywny_liberalizm = 14
+    zielona_polityka = 8
+    socjaldemokracja = 7
+    liberalizm = 1
+    narodowy_konserwatyzm = 6
+    socjalizm_demokratyczny = 11
+    nacjonalizm = 25
+    liberalny_konserwatyzm = 0
+    socjalliberalizm = 1
+    komunizm = 0
+    centryzm = 26
+    monarchizm = 1
 }
 
 add_ideas = {
