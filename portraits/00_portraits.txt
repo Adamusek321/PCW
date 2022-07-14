@@ -62,6 +62,11 @@ continent = {
 					"gfx/leaders/Europe/portrait_europe_generic_6.dds"
 			}
 		}
+		reakcjonizm = {
+				male = { 
+					"gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+			}
+		}
 		narodowy_konserwatyzm = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds" 

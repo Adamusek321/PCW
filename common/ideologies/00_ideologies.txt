@@ -1,9 +1,9 @@
 ideologies = {
-
-	ultranacjonalizm = {
+	
+	centryzm = {
 	
 		types = {
-			ultranacjonalizm1 = {}
+			centryzm1 = {}
 		}
 		
 		dynamic_faction_names = {
@@ -15,7 +15,7 @@ ideologies = {
 			"FACTION_NAME_socjaldemokracja_6"
 		}
 		
-		color = { 84 40 0 }
+		color = { 240 240 240 }
 		
 		rules = {
 			can_force_government = yes
@@ -42,7 +42,50 @@ ideologies = {
 		can_collaborate = yes
 		ai_neutral = yes
 	}
-
+	
+	reakcjonizm = {
+	
+		types = {
+			reakcjonizm1 = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_socjaldemokracja_1"
+			"FACTION_NAME_socjaldemokracja_2"
+			"FACTION_NAME_socjaldemokracja_3"
+			"FACTION_NAME_socjaldemokracja_4"
+			"FACTION_NAME_socjaldemokracja_5"
+			"FACTION_NAME_socjaldemokracja_6"
+		}
+		
+		color = { 150 150 150 }
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 6.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 6.0
+			lend_lease_tension = 0.4
+			send_volunteers_tension = 0.4
+			guarantee_tension = 0.4
+		}
+		
+		faction_modifiers = {
+		}
+		can_be_boosted = no
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		ai_neutral = yes
+	}
+	
 	nacjonalizm = {
 	
 		types = {
@@ -190,6 +233,49 @@ ideologies = {
 		}
 		
 		color = { 50 140 255 }
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_join_factions = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 6.0
+			navy_intel_to_others = 15.0
+			airforce_intel_to_others = 6.0
+			lend_lease_tension = 0.4
+			send_volunteers_tension = 0.4
+			guarantee_tension = 0.4
+		}
+		
+		faction_modifiers = {
+		}
+		can_be_boosted = no
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		ai_neutral = yes
+	}
+	
+	zielona_polityka = {
+	
+		types = {
+			zielona_polityka1 = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_socjaldemokracja_1"
+			"FACTION_NAME_socjaldemokracja_2"
+			"FACTION_NAME_socjaldemokracja_3"
+			"FACTION_NAME_socjaldemokracja_4"
+			"FACTION_NAME_socjaldemokracja_5"
+			"FACTION_NAME_socjaldemokracja_6"
+		}
+		
+		color = { 80 170 0 }
 		
 		rules = {
 			can_force_government = yes
@@ -432,49 +518,6 @@ ideologies = {
 		ai_neutral = yes
 	}
 	
-	centryzm = {
-	
-		types = {
-			centryzm1 = {}
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_socjaldemokracja_1"
-			"FACTION_NAME_socjaldemokracja_2"
-			"FACTION_NAME_socjaldemokracja_3"
-			"FACTION_NAME_socjaldemokracja_4"
-			"FACTION_NAME_socjaldemokracja_5"
-			"FACTION_NAME_socjaldemokracja_6"
-		}
-		
-		color = { 240 240 240 }
-		
-		rules = {
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_puppet = yes
-			can_join_factions = yes
-		}
-		
-		modifiers = {
-			generate_wargoal_tension = 0.5
-			civilian_intel_to_others = 15.0
-			army_intel_to_others = 6.0
-			navy_intel_to_others = 15.0
-			airforce_intel_to_others = 6.0
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
-		}
-		
-		faction_modifiers = {
-		}
-		can_be_boosted = no
-		can_host_government_in_exile = yes
-		can_collaborate = yes
-		ai_neutral = yes
-	}
-	
 	monarchizm = {
 	
 		types = {
@@ -518,10 +561,10 @@ ideologies = {
 		ai_neutral = yes
 	}
 	
-	zielona_polityka = {
+	ultranacjonalizm = {
 	
 		types = {
-			zielona_polityka1 = {}
+			ultranacjonalizm1 = {}
 		}
 		
 		dynamic_faction_names = {
@@ -533,7 +576,7 @@ ideologies = {
 			"FACTION_NAME_socjaldemokracja_6"
 		}
 		
-		color = { 0 127 14 }
+		color = { 84 40 0 }
 		
 		rules = {
 			can_force_government = yes

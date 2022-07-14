@@ -50,21 +50,23 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			frame = 1
 		}
-
+		
 		containerWindowType = {
 			name = "chart_explanation"
-			position = { x = 18 y = 116 }
-			size = { width = 330 height = 70 }
-			clipping = no
-			
-#			background = {
-#				name = "Background"		
-#				spriteType ="GFX_pol_piechart_bg"
-#			}
-			
+			position = { x = 522 y = 297 } 
+			size = { width = 196 height = 115 } 
+			clipping = yes 
+			verticalScrollbar = "right_vertical_slider" 
+			margin = { top = 6 left = 0 bottom = 5 right = 0}
+
+			background = {
+				name = "Background"        
+				quadTextureSprite ="GFX_tiled_bg_1_scrollbar"
+			}
+        
 			gridBoxType = {
 				name = "parties_grid"
-				position = { x = 442 y = 184 }
+				position = { x = -55 y = 0 }
 				size = { width = 100%% height = 100%% }
 				slotsize = { width = 230 height = 16 }
 				format = "UPPER_LEFT"
@@ -451,7 +453,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ideas"
-			position = { x = 0 y = 510 }
+			position = { x = 0 y = 415 }
 			size = { width=100%% height=100%% }
 			verticalScrollbar = "right_vertical_slider"
 			margin = { top = 12 bottom = 12}
@@ -951,19 +953,19 @@ guiTypes = {
 
 		iconType = {
 			name = "leading_pol_party_bg"
-			position = { x = 9999 y = 9999 }
+			position = { x = 60 y = 5 }
 			spriteType = "GFX_leading_pol_party_bg"
 		}		
 		
 		iconType = {
 			name = "color_block_bg"
-			position = { x = 9999 y = 9999 }
+			position = { x = 65 y = 2 }
 			spriteType = "GFX_pol_party_colour_bg"
 		}
 		
 		iconType = {
 			name = "color_block"
-			position = { x = 9999 y = 9999 }
+			position = { x = 69 y = 6 }
 			spriteType = "GFX_pol_party_colour"
 		}
 		
@@ -978,11 +980,11 @@ guiTypes = {
 			
 		instantTextboxType = {
 			name = "name"
-			position = { x = 9999 y = 9999 }
+			position = { x = 86 y = 4 }
 			font = "hoi_16mbs"
 			text = "party name"
 			fixedsize = yes
-			maxWidth = 170
+			maxWidth = 150
 			maxHeight = 18
 		}
 	}

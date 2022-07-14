@@ -23,8 +23,8 @@ set_politics = {
 
 set_popularities = {
     nacjonalizm = 4
-    narodowy_konserwatyzm = 29
-    liberalny_konserwatyzm = 0
+    narodowy_konserwatyzm = 2
+    liberalny_konserwatyzm = 27
     konserwatywny_liberalizm = 3
     liberalizm = 0
     socjalliberalizm = 57
