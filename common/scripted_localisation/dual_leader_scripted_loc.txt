@@ -10,6 +10,12 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			tag = GER
+		}
+		localization_key = KANCLERZ_TITLE
+	}
+	text = {
+		trigger = {
 			tag = POL
 			has_country_leader = { name = "Sztab Generalny Wojska Polskiego" }
 		}
@@ -56,8 +62,17 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			tag = GER
+		}
+		localization_key = PREZYDENT_TITLE
+	}
+	text = {
+		trigger = {
 			tag = POL
-			has_idea = pol_rada_narodowa
+			check_variable = {
+				var = dual_leader_id
+				value = 1
+			}
 		}
 		localization_key = RADA_NARODOWA_TITLE
 	}
@@ -73,6 +88,12 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			tag = GER
+		}
+		localization_key = GER_FRANK_WALTER_STEINMEIER
+	}
+	text = {
+		trigger = {
 			tag = WAR
 		}
 		localization_key = WAR_ANDRZEJ_DUDA
@@ -80,7 +101,10 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = POL
-			has_idea = pol_rada_narodowa
+			check_variable = {
+				var = dual_leader_id
+				value = 1
+			}
 		}
 		localization_key = POL_RADA_NARODOWA
 	}
@@ -105,8 +129,17 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			tag = GER
+		}
+		localization_key = "GFX_GER_Frank_Walter_Steinmeier"
+	}
+	text = {
+		trigger = {
 			tag = POL
-			has_idea = pol_rada_narodowa
+			check_variable = {
+				var = dual_leader_id
+				value = 1
+			}
 		}
 		localization_key = "GFX_POL_Rada_Narodowa_RP"
 	}
@@ -120,7 +153,10 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = POL
-			has_idea = pol_rada_narodowa
+			check_variable = {
+				var = dual_leader_id
+				value = 1
+			}
 		}
         localization_key = POL_RADA_NARODOWA_desc
 	}

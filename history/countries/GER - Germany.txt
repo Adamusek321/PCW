@@ -7,7 +7,7 @@ set_technology = {
 	infantry_weapons = 1
 }
 
-recruit_character = GER_frank_walter_steinmeier
+recruit_character = GER_angela_merkel
 
 set_convoys = 20
 

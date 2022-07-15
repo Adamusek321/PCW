@@ -53,6 +53,7 @@ country_event = {
 		custom_effect_tooltip = "RADA_NARODOWA_DUAL_LIDER"
 		hidden_effect = {
 			add_ideas = { pol_rada_narodowa }
+			set_variable = { dual_leader_id = 1 }
 		}
 	}
 }

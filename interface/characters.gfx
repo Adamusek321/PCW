@@ -211,4 +211,8 @@ spriteTypes = {
 		name = "GFX_potrait_zie_malgorzata_tracz"
 		texturefile = "gfx/leaders/ZIE/Portrait_Zieloni_Malgorzata_Tracz.dds"
 	}
+	spriteType = {
+		name = "GFX_potrait_ger_angela_merkel"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Angela_Merkel.dds"
+	}
 }

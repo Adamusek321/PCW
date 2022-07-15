@@ -20,9 +20,14 @@
  RADA_NARODOWA_TITLE:0 "Rada Narodowa"
  SZTAB_GENERALNY_TITLE:0 "Sztab Generalny"
  NACZELNIK_TITLE:0 "Naczelnik"
+ KANCLERZ_TITLE:0 "Kanclerz"
+ 
+ #NAME#
  RNR_KRZYSZTOF_BOSAK:0 "Krzysztof Bosak"
  WAR_ANDRZEJ_DUDA:0 "Andrzej Duda"
  POL_RADA_NARODOWA:0 "Rada Narodowa RP"
+ GER_FRANK_WALTER_STEINMEIER:0 "Frank-Walter Steinmeier" 
+ 
  #DESC#
  POL_RADA_NARODOWA_desc:0 "Rada została ustanowiona dekretem Prezydenta RP Władysława Raczkiewicza z 9 grudnia 1939 r. we Francji.\n\nCzłonkowie Rady zostali powołani przez prezydenta 21 grudnia 1939 r. Byli to - Ignacy Jan Paderewski, Tadeusz Bielecki, Jan Brandys, Arka Bożek, Tytus Filipowicz, Józef Gawlina, Jan Jaworski, Stanisław Jóźwiak, Herman Lieberman, Stanisław Mackiewicz, Stanisław Mikołajczyk, Zygmunt Nowakowski, Ignacy Schwarzbart, Tadeusz Tomaszewski, Zofia Zaleska i Lucjan Żeligowski.\n\nPo niekorzystnych dla Polski ustaleniach mocarstw na konferencji jałtańskiej w lutym 1945 roku, co wywołało przewlekły kryzys w pracach rady, prezydent zmuszony był ją rozwiązać 21 marca.\n\nW 1949 roku trzecią radę powołał Prezydent RP na uchodźstwie August Zaleski. Jej kolejnymi przewodniczącymi byli - Tytus Filipowicz, Zygmunt Podhorski i Franciszek Wilk. Z dniem 15 grudnia 1953 zmieniona została nazwa na Rada Rzeczypospolitej Polskiej.\n\n21 czerwca 1979 Prezydent RP Edward Raczyński utworzył Oddział Rady Narodowej RP na obszarze Republiki Federalnej Niemiec. 18 października 1982 utworzył Oddział Rady Narodowej RP na obszarze Kanady. 30 listopada 1983 zwołał Radę Narodową RP na dzień 17 grudnia 1983, na pierwsze posiedzenie w nowej kadencji. 3 grudnia 1988 Kazimierz Sabbat rozwiązał z dniem 17 grudnia 1988 Radę Narodową RP wobec upływu kadencji.\n\n22 maja 1989 Prezydent RP Kazimierz Sabbat zwołał Radę Narodową RP na dzień 10 czerwca 1989 na pierwsze posiedzenie w nowej kadencji. Ostatecznie Rada rozwiązała się w 1991 roku, w obliczu przeprowadzenia w Polsce pierwszych po wojnie całkowicie wolnych wyborów do Sejmu i Senatu.\n\nPo rozpocząciu Polskiej Wojny Domowej rada została przywrócona ponownie jako organ legislacyjny składający się z członków Sztabu Generalnego. Jest to twór o dość ograniczonej władzy, aczkolwiek obecny układ satysfakcjonuje wojskowych."
  

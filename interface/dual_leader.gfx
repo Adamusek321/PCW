@@ -51,4 +51,8 @@ spriteTypes = {
 		name = "GFX_WAR_Andrzej_Duda"
 		texturefile = "gfx/leaders/WAR/Portrait_Warszawa_Andrzej_Duda.dds"
 	}
+	spriteType = {
+		name = "GFX_GER_Frank_Walter_Steinmeier"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Frank_Walter_Steinmeier.dds"
+	}
 }
