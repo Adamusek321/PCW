@@ -1,0 +1,28 @@
+scripted_gui = {
+	
+	Coalition_Popularity_Window = {
+		window_name = "Coalition_Popularity_Window"
+		context_type = selected_country_context
+		parent_window_token = politics_tab
+		
+		visible = {
+		}
+		
+		effects = {
+		}
+		
+		triggers = {
+		}
+		
+#		properties = {
+#			pop_value = {
+#				ROOT = {
+#					set_variable = {
+#						var = ruling_party_pop
+#						value = party_popularity@ruling_party
+#					}
+#				}
+#			}
+#		}
+	}
+}

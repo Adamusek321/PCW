@@ -42,6 +42,7 @@ guiTypes = {
 			position = { x= 0 y = 44 }
 			Orientation = "UPPER_LEFT"
 		}	
+		
 
 		iconType ={
 			name ="pol_faction_icon"
@@ -89,6 +90,33 @@ guiTypes = {
 				name ="pol_view_bg"
 				spriteType = "GFX_pol_piechart_overlay_63x63"
 				position = { x= -2 y = 1s }
+			}
+		}
+		
+		containerWindowType = {
+			name = "coalition_party_pop"
+            position = { x= 440 y = 374 }
+			size = { width=90 height=40 }
+			clipping = no
+			
+			iconType ={
+				name = "coalition_bg"
+				spriteType = "GFX_coalition_background"
+				position = { x= 0 y = 0 }
+			}
+			
+			iconType = {
+				name = "stab_icon"
+				spriteType = "GFX_coalition_stability_icon"
+				position = { x = 6 y = 4 }
+			}
+			
+			instantTextboxType = {
+				name = "pop_percentage"
+				position = { x = -130 y = 6 }
+				font = "hoi_18mbs"
+				text = "101%"
+				format = right
 			}
 		}
 

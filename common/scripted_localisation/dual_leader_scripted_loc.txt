@@ -180,6 +180,6 @@ defined_text = {
 			tag = POL
 			has_country_leader = { name = "Sztab Generalny Wojska Polskiego" }
 		}
-		localization_key = SZTAB_GENERALNY_desc
+		localization_key = POL_SZTAB_GENERALNY_WOJSKA_POLSKIEGO_desc
 	}
 }
