@@ -778,6 +778,10 @@ technologies = {
 				tag = USA
 			}
 			modifier = {
+				tag = SOV
+				factor = 4
+			}
+			modifier = {
 				ai_land_doctrine_tier_1_trigger = yes
 				factor = 2
 			}
@@ -799,6 +803,7 @@ technologies = {
 		
 		# EFFECT ########
 		air_cas_efficiency = 0.20
+		ground_attack_factor = 0.10
 		###########
 		
 		path = {
@@ -1682,8 +1687,8 @@ technologies = {
 		
 		categories = {
 			air_doctrine
-			battlefield_support_tree
-			cat_battlefield_support
+			operational_integrity_tree
+			cat_operational_integrity
 		}
 		
 		folder = {

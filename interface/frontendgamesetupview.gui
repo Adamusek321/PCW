@@ -1186,6 +1186,18 @@ guiTypes = {
 	}
 	
 	containerWindowType = {
+		name = "gamesetup_pick_random_country_window"
+		position = { x = -250 y = -200 }
+		show_position = { x = -150 y = -300 }
+		hide_position = { x = -150 y = 10 }
+		size = { width = 500 height = 400 }
+		Orientation = center
+		moveable = yes
+		fade_time = 500
+		fade_type = linear
+		clipping = no
+
+	containerWindowType = {
 		name = "gamesetup_custom_gameplay_settings_window"
 		position = { x = -339 y = -360 }
 		show_position = { x = -150 y = -300 }
@@ -1796,24 +1808,28 @@ guiTypes = {
 	
 	containerWindowType = {
 		name ="frontendgamesetupview"
-		position = { x=0 y =0}	
+		position = { x=0 y =0}
 		size = { width=100% height =100%}
 		clipping = no
-		
+
 		containerWindowType = {
 			name ="top"
 			position = { x=0 y = -80}
 			show_position = { x=0 y =-30}
 			animation_type = decelerated
 			animation_time = 1000
-			size = { width=102% height =128}
+			size = { width=100% height =128}
 			clipping = no
-		
-			Background =
-			{
-				name ="top_bg"
-				spriteType = "GFX_tiled_frontend_upper_bar"
-				position = { x=-10 y=0 }
+
+            containerWindowType = {
+                name = background
+                size = { width=102% height=100% }
+                Background =
+                {
+                    name ="top_bg"
+                    spriteType = "GFX_tiled_frontend_upper_bar"
+                    position = { x=-10 y=0 }
+                }
 			}
 
 			containerWindowType = {
@@ -1829,86 +1845,90 @@ guiTypes = {
 					name ="menu_top_date_bg"
 					spriteType = "GFX_menu_top_bg_bg"
 					position = { x= -196 y = 54 }
-				}	
-				
+				}
+
 				instantTextBoxType = {
 					name = "date"
-					position = { x = -170 y = 65 }
+					position = { x = -184 y = 65 }
 					font = "hoi_24header"
 					borderSize = {x = 4 y = 4}
-					text = "Pikku Saippuakauppias Itkee!!"	
-					maxWidth = 340
-					maxHeight = 30	
+					text = "Pikku Saippuakauppias Itkee!!"
+					maxWidth = 360
+					maxHeight = 32
 					format = centre
 				}
-				
+
 				instantTextBoxType = {
 					name = "name"
 					position = { x = -184 y = 85 }
 					font = "hoi_24header"
 					borderSize = {x = 4 y = 4}
-					text = "Pikku Saippuakauppias Itkee!!"	
+					text = "Pikku Saippuakauppias Itkee!!"
 					maxWidth = 360
-					maxHeight = 23	
+					maxHeight = 32
 					format = centre
 					fixedsize = yes
 				}
-				
+
 				ButtonType = {
 					name = "scenario_button"
-					position = { x = -136 y = 115 }
-					quadTextureSprite ="GFX_button_261x34"	
+					position = { x = -135 y = 115 }
+					quadTextureSprite ="GFX_button_261x34"
 					buttonText = "FE_CHANGE_SCENARIO"
 					buttonFont = "hoi_20b"
 					clicksound = click_ok
 					shortcut = "c"
 				}
-				
+
 				# 1st BUTTON (BIG)
 				buttonType = {
 					name = "mapmode_button_1"
-					position = { x=-50 y=160 }	
+					position = { x=-40 y=185 }
 					quadTextureSprite ="GFX_lobby_country_mapmode_strip"
 					clicksound = land_mapmode
 					shortcut = "F1"
 					pdx_tooltip = "MAPMODE_DEFAULT"
 					pdx_tooltip_delayed = "MAPMODE_DEFAULT_DESCRIPTION"
 					frame = 1
+					centerPosition = yes
 				}
 				buttonType = {
 					name = "mapmode_button_1_s"
-					position = { x=-50 y=160 }	
+					position = { x=-40 y=185 }
 					quadTextureSprite ="GFX_lobby_country_mapmode_strip_selected"
 					shortcut = "F1"
 					pdx_tooltip = "MAPMODE_DEFAULT"
 					pdx_tooltip_delayed = "MAPMODE_DEFAULT_DESCRIPTION"
-					frame = 1					
+					frame = 1
+					centerPosition = yes
 				}
-				
+
 				# 2st BUTTON (BIG)
 				buttonType = {
 					name = "mapmode_button_2"
-					position = { x=20 y=160 }	
+					position = { x=30 y=185 }
 					quadTextureSprite ="GFX_lobby_country_mapmode_strip"
 					clicksound = land_mapmode
 					shortcut = "F2"
 					pdx_tooltip = "MAPMODE_PLAYERS"
-					frame = 2					
+					frame = 2
+					centerPosition = yes
 				}
 				buttonType = {
 					name = "mapmode_button_2_s"
-					position = { x=20 y=160 }	
+					position = { x=30 y=185 }
 					quadTextureSprite ="GFX_lobby_country_mapmode_strip_selected"
 					shortcut = "F2"
 					pdx_tooltip = "MAPMODE_PLAYERS"
-					frame = 2						
+					frame = 2
+					centerPosition = yes
 				}
 			}
 
-			
+
 			ButtonType = {
 				name = "interesting_countries_button"
-				position = { x = 40 y = 58 }
+				position = { x = 40 y = 40 }
 				quadTextureSprite ="GFX_button_261x34"
 				buttonText = "FE_INTERESTING_COUNTRIES"
 				buttonFont = "hoi_20b"
@@ -1919,6 +1939,18 @@ guiTypes = {
 			}
 
 			ButtonType = {
+				name = "randomize_country_button"
+				position = { x = 40 y = 75 }
+				quadTextureSprite ="GFX_button_261x34"
+				buttonText = "FE_RANDOMIZE_COUNTRY"
+				buttonFont = "hoi_20b"
+				Orientation = "UPPER_LEFT"
+				clicksound = click_default
+				oversound = ui_menu_over
+				shortcut = "r"
+			}
+
+			ButtonType = {
 				name = "observer_button"
 				position = { x = 320 y = 49 }
 				quadTextureSprite ="GFX_observer_button"
@@ -1926,8 +1958,8 @@ guiTypes = {
 				clicksound = click_default
 				oversound = ui_menu_over
 				scale = 0.8
-			}	
-			
+			}
+
 			iconType ={
 				name ="observer_button_overlay"
 				spriteType = "GFX_observer_button_overlay"
@@ -1936,70 +1968,74 @@ guiTypes = {
 				scale = 0.8
 				alwaystransparent = yes
 			}
-			
+
 			ButtonType = {
-				position = { x= -487 y = 47 }
-				name = "player_shield"	
+				position = { x= -449 y = 48 }
+				name = "player_shield"
 				quadTextureSprite ="GFX_player_flag"
 				Orientation = "UPPER_RIGHT"
 			}
-			
+
 			iconType ={
 				name ="large_flag_frame"
 				spriteType = "GFX_large_flag_frame"
-				position = { x= -492 y = 45 }
+				position = { x= -454 y = 45 }
 				Orientation = "UPPER_RIGHT"
 			}
 
 			iconType ={
 				name ="selected_nation_label_bg"
 				spriteType = "GFX_generic_bg"
-				position = { x= -380 y = 46 }
+				position = { x= -342 y = 46 }
 				Orientation = "UPPER_RIGHT"
-			}			
-			
+			}
+
 			instantTextBoxType = {
 				name = "selected_nation_label"
-				position = { x = -365 y = 55 }
+				position = { x = -337 y = 55 }
 				textureFile = ""
 				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				text = "FE_NO_COUNTRY_SELECTED"
-				maxWidth = 240
+				maxWidth = 258
 				maxHeight = 40
 				fixedsize = yes
 				format = centre
 				Orientation = "UPPER_RIGHT"
 			}
-			
+
 			ButtonType = {
-				position = { x= -97 y = 45 }
-				name = "extended_country_button"	
+				position = { x= -59 y = 45 }
+				name = "extended_country_button"
 				quadTextureSprite ="GFX_extended_country_button"
 				Orientation = "UPPER_RIGHT"
-			}			
-			
+			}
+
 		}
-			
+
 		containerWindowType = {
 			name ="bottom"
 			position = { x=0 y =0}
 			show_position = { x=0 y =-100 }
 			animation_type = decelerated
-			animation_time = 1000				
-			size = { width=102% height =128}
-			Orientation = lower_left	
-			
-			Background ={
-				name ="bottom_win"
-				spriteType = "GFX_tiled_frontend_lower_bar"
-				position = { x=-10 y =0}				
+			animation_time = 1000
+			size = { width=100% height =128}
+			Orientation = lower_left
+
+            containerWindowType = {
+                name = background
+                size = { width=102% height=100% }
+                Background ={
+                    name ="bottom_win"
+                    spriteType = "GFX_tiled_frontend_lower_bar"
+                    position = { x=-10 y =0}
+                }
 			}
-			
+
 			ButtonType = {
 				name = "back_button"
 				position = { x = 20 y = 40 }
-				quadTextureSprite ="GFX_button_148x34"	
+				quadTextureSprite ="GFX_button_148x34"
 				buttonText = "MAIN_MENU_BACK"
 				buttonFont = "hoi_20b"
 				Orientation = "UPPER_LEFT"
@@ -2007,11 +2043,11 @@ guiTypes = {
 				oversound = ui_menu_over
 				shortcut = "ESCAPE"
 			}
-			
+
 			ButtonType = {
 				name = "load_button"
 				position = { x = 180 y = 40 }
-				quadTextureSprite ="GFX_button_148x34"	
+				quadTextureSprite ="GFX_button_148x34"
 				buttonText = "MENU_BAR_LOAD"
 				buttonFont = "hoi_20b"
 				Orientation = "UPPER_LEFT"
@@ -2019,11 +2055,11 @@ guiTypes = {
 				oversound = ui_menu_over
 				shortcut = "l"
 			}
-			
+
 			ButtonType = {
 				name = "options_button"
 				position = { x = 340 y = 40 }
-				quadTextureSprite ="GFX_button_148x34"	
+				quadTextureSprite ="GFX_button_148x34"
 				buttonText = "OPTIONS"
 				buttonFont = "hoi_20b"
 				Orientation = "UPPER_LEFT"
@@ -2034,43 +2070,43 @@ guiTypes = {
 
 			iconType = {
 				name = "enabled_achievement_icons"
-				position = { x = -382 y = -115 }
+				position = { x = -344 y = -115 }
 				quadTextureSprite ="GFX_enabled_achievement_icons"
 				Orientation = "LOWER_RIGHT"
 			}
-			
+
 			ButtonType = {
 				name = "play_button"
-				position = { x = -300 y = -100 }
+				position = { x = -262 y = -100 }
 				quadTextureSprite ="GFX_play_button"
 				buttonText = "FE_START"
 				buttonFont = "hoi_30header"
 				Orientation = "LOWER_RIGHT"
-				#clicksound = start_game_01 # Don't add this here. I intentionally removed it because otherwise the sound is played when the client clicks on Ready/Unready button. The sound should only play when the host starts the game (or when it's SP) which is done in the code.  
+				#clicksound = start_game_01 # Don't add this here. I intentionally removed it because otherwise the sound is played when the client clicks on Ready/Unready button. The sound should only play when the host starts the game (or when it's SP) which is done in the code.
 				shortcut = "RETURN"
 #				frame = 1
 			}
-			
+
 			ButtonType = {
 				name = "play_button_ready"
-				position = { x = -300 y = -100 }
+				position = { x = -262 y = -100 }
 				spriteType ="GFX_play_button_ready"
 				buttonText = "READY"
 				buttonFont = "hoi_30header"
 				Orientation = "LOWER_RIGHT"
-				#clicksound = start_game_01 # Don't add this here. I intentionally removed it because otherwise the sound is played when the client clicks on Ready/Unready button. The sound should only play when the host starts the game (or when it's SP) which is done in the code.  
+				#clicksound = start_game_01 # Don't add this here. I intentionally removed it because otherwise the sound is played when the client clicks on Ready/Unready button. The sound should only play when the host starts the game (or when it's SP) which is done in the code.
 				shortcut = "RETURN"
 				frame = 1
-			}	
+			}
 
 			iconType = {
 				name = "play_button_checkbox"
-				position = { x = -112 y = -85 }
+				position = { x = -74 y = -85 }
 				quadTextureSprite ="GFX_generic_checkbox2"
 				Orientation = "LOWER_RIGHT"
 				alwaystransparent = yes
-			}			
-			
+			}
+
 		}
 	}
 }

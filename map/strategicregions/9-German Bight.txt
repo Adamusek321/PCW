@@ -6,5 +6,18 @@ strategic_region={
 		19589 19595 19615 19731 19750 19772 19782 19792 19795 19808 19819 19827 19839 19867 19894 19912 19915 19939 19946 19956 19968 19993 20068 
 	}
 	weather={
+period={
+between={ 0.0 30.11 }
+temperature={ 9.0 24.0 }
+no_phenomenon=0.500
+rain_light=1.000
+rain_heavy=0.150
+snow=0.000
+blizzard=0.000
+arctic_water=0.000
+mud=0.300
+sandstorm=0.000
+min_snow_level=0.000
+
 	}
 }
