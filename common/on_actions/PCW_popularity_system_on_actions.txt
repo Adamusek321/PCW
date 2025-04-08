@@ -1,0 +1,10 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            WAR = {
+				set_variable = { popularity_po = 165 }
+				set_variable = { popularity_pis = 35 }
+            }
+        }
+    }
+}

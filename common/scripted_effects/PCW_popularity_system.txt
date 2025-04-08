@@ -1,0 +1,38 @@
+#	Example:
+# 
+#	example_effect = {
+#		add_political_power = 66
+#		add_popularity = {
+#			ideology = 
+#			popularity = 0.33
+#		}
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		example_effect = yes
+#	}
+#
+
+PCW_refresh_popularity = {	
+	set_variable = { ROOT.popularity_sum = 0 }
+	
+	add_to_variable = { ROOT.popularity_sum = ROOT.popularity_po }
+	add_to_variable = { ROOT.popularity_sum = ROOT.popularity_pis }
+	
+	set_variable = { ROOT.popularity_po_percentage = 0 }
+	set_variable = { ROOT.popularity_pis_percentage = 0 }
+	
+	if = {
+		limit = { check_variable = { ROOT.popularity_po > 0 } }
+		set_variable = { ROOT.popularity_po_percentage = ROOT.popularity_po }
+		divide_variable = { ROOT.popularity_po_percentage = ROOT.popularity_sum }
+	}
+	if = {
+		limit = { check_variable = { ROOT.popularity_pis > 0 } }
+		set_variable = { ROOT.popularity_pis_percentage = ROOT.popularity_pis }
+		divide_variable = { ROOT.popularity_pis_percentage = ROOT.popularity_sum }
+	}
+}
