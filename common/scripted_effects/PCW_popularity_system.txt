@@ -1,29 +1,22 @@
-#	Example:
-# 
-#	example_effect = {
-#		add_political_power = 66
-#		add_popularity = {
-#			ideology = 
-#			popularity = 0.33
-#		}
-#	}
-#
-#
-#	In a script file:
-#
-#	effect = {
-#		example_effect = yes
-#	}
-#
+# Scripted GUI Pie Chart example by Yard1
 
 PCW_refresh_popularity = {	
 	set_variable = { ROOT.popularity_sum = 0 }
 	
 	add_to_variable = { ROOT.popularity_sum = ROOT.popularity_po }
 	add_to_variable = { ROOT.popularity_sum = ROOT.popularity_pis }
+	add_to_variable = { ROOT.popularity_sum = ROOT.popularity_lewica }
+	add_to_variable = { ROOT.popularity_sum = ROOT.popularity_konfederacja }
+	add_to_variable = { ROOT.popularity_sum = ROOT.popularity_td }
+#New Here
+	
 	
 	set_variable = { ROOT.popularity_po_percentage = 0 }
 	set_variable = { ROOT.popularity_pis_percentage = 0 }
+	set_variable = { ROOT.popularity_lewica_percentage = 0 }
+	set_variable = { ROOT.popularity_konfederacja_percentage = 0 }
+	set_variable = { ROOT.popularity_td_percentage = 0 }
+#New Here
 	
 	if = {
 		limit = { check_variable = { ROOT.popularity_po > 0 } }
@@ -35,4 +28,67 @@ PCW_refresh_popularity = {
 		set_variable = { ROOT.popularity_pis_percentage = ROOT.popularity_pis }
 		divide_variable = { ROOT.popularity_pis_percentage = ROOT.popularity_sum }
 	}
+	if = {
+		limit = { check_variable = { ROOT.popularity_lewica > 0 } }
+		set_variable = { ROOT.popularity_lewica_percentage = ROOT.popularity_lewica }
+		divide_variable = { ROOT.popularity_lewica_percentage = ROOT.popularity_sum }
+	}
+	if = {
+		limit = { check_variable = { ROOT.popularity_konfederacja > 0 } }
+		set_variable = { ROOT.popularity_konfederacja_percentage = ROOT.popularity_konfederacja }
+		divide_variable = { ROOT.popularity_konfederacja_percentage = ROOT.popularity_sum }
+	}
+	if = {
+		limit = { check_variable = { ROOT.popularity_td > 0 } }
+		set_variable = { ROOT.popularity_td_percentage = ROOT.popularity_td }
+		divide_variable = { ROOT.popularity_td_percentage = ROOT.popularity_sum }
+	}
+#New Here
+	
+	clear_array = ROOT.pie_chart
+	resize_array = {
+		array = ROOT.pie_chart
+		value = 1
+		size = 100 # 100 pieces, each percent is one piece
+	}
+	set_temp_variable = { po_pop = var:ROOT.popularity_po_percentage }
+	multiply_temp_variable = { po_pop = 100 }
+	round_temp_variable = po_pop
+
+	set_temp_variable = { pis_pop = var:ROOT.popularity_pis_percentage }
+	multiply_temp_variable = { pis_pop = 100 }
+	round_temp_variable = pis_pop 
+	set_variable = { ROOT.last_idx = po_pop }
+	add_to_temp_variable = { pis_pop = ROOT.last_idx }
+	for_loop_effect = {
+		start = var:ROOT.last_idx
+		end = temp_var:pis_pop
+		set_variable = { ROOT.pie_chart^v = 2 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+
+	set_temp_variable = { lewica_pop = var:ROOT.popularity_lewica_percentage }
+	multiply_temp_variable = { lewica_pop = 100 }
+	round_temp_variable = lewica_pop
+	add_to_temp_variable = { lewica_pop = ROOT.last_idx }
+	for_loop_effect = {
+		start = var:ROOT.last_idx
+		end = temp_var:lewica_pop
+		set_variable = { ROOT.pie_chart^v = 3 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+
+	set_temp_variable = { konfederacja_pop = var:ROOT.popularity_konfederacja_percentage }
+	multiply_temp_variable = { konfederacja_pop = 100 }
+	round_temp_variable = konfederacja_pop 
+	add_to_temp_variable = { konfederacja_pop = ROOT.last_idx }
+	for_loop_effect = {
+		start = var:ROOT.last_idx
+		end = temp_var:konfederacja_pop
+		set_variable = { ROOT.pie_chart^v = 4 }
+	}
+#New Here
+	
+	clear_variable = ROOT.last_idx
+	add_to_variable = { ROOT.pie_chart_dirty = 1 }
 }

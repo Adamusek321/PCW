@@ -428,6 +428,7 @@ guiTypes = {
             position = { x = 0 y = 50}    
 
 		}
+		
 		containerWindowType = {
 			name = "tabbed_panels_container"
 			position = { x = 0 y = 0 }

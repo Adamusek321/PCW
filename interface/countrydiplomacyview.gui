@@ -44,17 +44,17 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 
-#			iconType ={
-#				name = "ideology_icon"
-#				spriteType = "GFX_ideology_unknown"
-#				position = { x = 158 y = 0 }
-#				Orientation = "UPPER_LEFT"
-#				frame = 1
-#			}
+			iconType ={
+				name = "ideology_icon"
+				spriteType = "GFX_ideology_unknown"
+				position = { x = -1000 y = 0 }
+				Orientation = "UPPER_LEFT"
+				frame = 1
+			}
 
 			instantTextboxType = {
 				name = "country_name"
-				position = { x = 245 y = 3 }
+				position = { x = 230 y = 3 }
 				font = "hoi_18mbs"
 				text = "Germanian"
 				maxWidth = 195
@@ -65,7 +65,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "faction"
-				position = { x = 245 y = 23}
+				position = { x = 230 y = 23}
 				size = { width = 175 height = 20 }
 				clipping = no
 
@@ -83,7 +83,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "leader_name"
-				position = { x = 245 y = 43 }
+				position = { x = 230 y = 43 }
 				font = "hoi_16mbs"
 				text = "Rudolf Kittler"
 				maxWidth = 173
@@ -245,20 +245,20 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "political_pie_chart"
-					position = { x = 141 y = 9 }
+					position = { x = 134 y = -111 }
 					size = { width=330 height=30 }
 					clipping = no
 
 					iconType = {
 						name = "chart"
-						spriteType = "GFX_political_chart_big"
+						spriteType = "GFX_political_chart"
 						position = { x = 51 y = 5 }
 					}
 
 					iconType ={
 						name ="pol_view_bg"
-						spriteType = "GFX_pol_piechart_overlay"
-						position = { x= 16 y = 0 }
+						spriteType = "GFX_pol_piechart_overlay_63x63"
+						position = { x= 21 y = 1 }
 					}
 				}
 
